@@ -1,0 +1,684 @@
+/*o‧°●o‧°●o‧°●o‧°●o‧°●o‧°●o‧°●o‧°●‧°o‧° o‧°●
+‧°o‧°‧°o‧°.‧°o‧°‧°o‧°‧°● ‧°o‧°‧°o‧°‧°
+‧°o‧°●‧°o‧°‧°o‧°‧°○ ‧°o‧‧‧°o‧° o‧°
+
+┴┬┴┬／￣＼＿／￣＼   
+┬┴┬┴▏　　▏▔▔▔▔＼   
+┴┬┴／＼　／　　　　　　﹨   
+┬┴∕　　　　　　　／　　　）   
+┴┬▏　　　　　　　　●　　▏   
+┬┴▏　　　　　　　　　　　▔█　   
+┴◢██◣　　　　　＼＿＿＿／   
+┬█████◣　　　　　　　／　　   
+┴█████████████◣   
+◢██████████████▆▄   
+█◤◢██◣◥█████████◤＼   
+◥◢████　████████◤　　 ＼   
+┴█████　██████◤　　　　　 ﹨   
+┬│　　　│█████◤　　　　　　　　▏   
+┴│　　　│　　　　　　　　　　　　　　▏   
+┬ ∕　　　 ∕　　　　／▔▔▔＼　　　　 ∕   
+┴/＿＿＿／﹨　　　∕　　　　　﹨　　／＼   
+┬┴┬┴┬┴＼ 　　 ＼ 　　　　　﹨／　　 ﹨   
+┴┬┴┬┴┬┴ ＼＿＿＿＼　　　　 ﹨／▔＼﹨ ▔＼   
+▲△▲▲╓╥╥╥╥╥╥╥╥＼　　 ∕　 ／▔﹨／▔﹨   
+　  ＊＊╠╬╬╬╬╬╬╬╬＊﹨　　／　　／／*/
+
+
+
+/*全局通用特定样式，含有用来覆盖【所引用框架的某些属性】，让生效值留在此自定的框架内，请勿增删添改！
+	============================================================================ */
+  ::-moz-placeholder{color: #bdbdbd;}
+  ::-webkit-input-placeholder{color: #bdbdbd;}
+	:-ms-input-placeholder{color: #bdbdbd;}  
+*{   
+	  margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+/*html，含有用来覆盖【所引用框架的某些属性】，让生效值留在此自定的框架内，请勿增删添改！
+	============================================================================ */
+html {
+    font-family: "Arial","Microsoft YaHei","SimHei","SimSun";
+    font-size: 20px;
+    line-height: 1;
+}
+/*body，含有用来覆盖【所引用框架的某些属性】，让生效值留在此自定的框架内，请勿增删添改！
+	============================================================================ */
+body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Arial","Microsoft YaHei","SimHei","SimSun";
+        font-size: 20px;
+        line-height: 1;
+        color: #333333;
+        text-align: center;
+        background-color:#f7f7f7 !important;
+}
+/*app，含有用来覆盖【所引用框架的某些属性】，让生效值留在此自定的框架内，请勿增删添改！
+	============================================================================ */
+#app{margin: 0;
+        padding: 0;
+        box-sizing:border-box;
+	    display: flex;
+	    height: 0 !important;
+}
+/*   外部引用的字体图标 
+ * ============================================================================= */
+@font-face {
+  font-family: FontAwesome;
+  src: url(../fonts/font-awesome/fontawesome-webfont.eot?v=4.5.0);
+  src: url(../fonts/font-awesome/fontawesome-webfont.eot?v=4.5.0#iefix) format('embedded-opentype'), url(../fonts/font-awesome/fontawesome-webfont.woff2?v=4.5.0) format('woff2'), url(../fonts/font-awesome/fontawesome-webfont.woff?v=4.5.0) format('woff'), url(../fonts/font-awesome/fontawesome-webfont.ttf?v=4.5.0) format('truetype'), url(../fonts/font-awesome/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular) format('svg');
+  font-weight: 400;
+  font-style: normal
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+}
+.fa-sitemap:before {
+  content: "\f0e8"
+}	
+.fa-laptop:before {
+  content: "\f109"
+}
+.fa-pie-chart:before {
+  content: "\f200"
+}
+.fa-cog:before, .fa-gear:before {
+  content: "\f013"
+}
+.fa-repeat:before, .fa-rotate-right:before {
+  content: "\f01e"
+}.fa-power-off:before {
+  content: "\f011"
+}
+.fa-check-circle-o:before {
+  content: "\f05d"
+}
+.fa-chevron-up:before {
+	content: "\f077"
+}
+.fa-chevron-down:before {
+	content: "\f078"
+}
+.fa-mail-reply-all:before,
+.fa-reply-all:before {
+  content: "\f122";
+}
+.fa-qq:before {
+  content: "\f1d6";
+}
+.fa-wechat:before,
+.fa-weixin:before {
+  content: "\f1d7";
+}
+/*main-left,#main-right，主内容区左右两边的间距占位块
+	============================================================================ */
+#main-left,#main-right{
+	width: 3.8%;
+	min-width: 30px;
+	max-width: 72px;
+}
+
+
+
+/*  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★
+    【宽大于1440，最佳体验宽为1920】的断点
+     ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓*/
+@media only screen and (min-width: 1441px) {
+	
+/*left-panel，左侧边栏本身
+	============================================================================ */
+#left-panel {
+  box-sizing: content-box;
+  width: 15.77%;
+  min-width: 225px;
+  max-width: 300px;
+  background-color: #FFFFFF;
+  border-right: 3px solid #F0F0F0;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+}
+/*logo span，LOGO
+	============================================================================ */
+#logo span {
+	  width: 70px;
+	  height: 33px;
+	  background: url(../img/logo_icon.png) no-repeat;
+	  background-size: 100% 100%;
+	  display: inline-block;
+	  margin-top: 54px;
+	}
+/*user-icon，用户头像
+	============================================================================ */	
+#user-icon div{
+	  width: 114px;
+	  height: 114px;
+	  background: #F7F7F7;
+	  white-space: nowrap;
+	  line-height: 126px;
+	  border-radius: 50%;
+	  margin-top: 60px;
+	  display: inline-block;}
+#user-icon img{width: 32px; height: 32px;}
+
+#user-icon .icon-user {
+	  font-size: 33px;
+	  color: #dbdbdb;
+	  font-family:"iconfont" ;
+	  font-style:normal;
+	}
+#username {
+		font-family: "Arial","Microsoft YaHei","SimHei","SimSun";
+	  font-size: 18px;
+	  letter-spacing: 6px;
+	  color: #333;
+	  display: inline-block;
+	  margin: 30px 0px 75px 0px;
+	}
+/*左侧栏的分类菜单
+	============================================================================ */	
+
+
+/* -----------------------  全部列表  和  全部中的第一个列表 的共用样式  ----------------------- */
+body.smart-style-7 nav ul li a,body.smart-style-7 nav ul li a:first-child{
+      display: block;
+	  font-size: 16px;
+	  color: #CCCCCC;
+	  letter-spacing: 4px;
+      text-align: left;
+	  line-height: 75px;
+	  text-transform: uppercase;
+	  padding-left: 36px;
+      border-bottom: 1px solid #F0F0F0;
+	  border-left: 6px solid rgba(0,0,0,0);
+}
+/* -----------------------  第一个列表单独补个顶描边  ----------------------- */
+body.smart-style-7 nav ul li:first-child{
+      border-top: 1px solid #F0F0F0;
+}
+/* -----------------------  当前已选中的列表的样式  ----------------------- */
+body.smart-style-7 nav ul li.active > a {
+	  color: #f5c987 ;
+	  border-left: 6px solid #f5c987;
+}
+/* -----------------------  鼠标悬浮样式  ----------------------- */
+body.smart-style-7 nav ul li a:hover{
+	  color: #f5c987;
+}
+/*  nav-system  侧边栏的切换账号重新登录
+	============================================================================ */
+#nav-system{padding-top:36px;}
+.nav-system li a {
+	    font-size: 16px;
+		padding: 36px 0px 0px 42px;
+		text-align: left;
+		line-height: 16px;
+		color: #ccc;
+		display: block;
+	    letter-spacing: 4px;
+}
+.nav-system li a:hover {
+  color: #f5c987 ;
+}
+/*navigation-out，左侧边栏底部 虚拟占位块
+	============================================================================ */
+#navigation-out{
+    box-sizing: content-box;
+    width: 15.77%;
+    min-width: 225px;
+    max-width: 300px;
+    border-right: 3px solid #F0F0F0;
+}	
+
+/*右侧内容区
+	============================================================================ */
+#main {
+    width: 76.63%;
+    min-width: 777px;
+    max-width: 1455px;
+}
+/* ribbon 内容区顶部菜单
+	============================================================================ */
+	#ribbon {
+	width: 76.63%;
+    min-width: 777px;
+    max-width: 1455px;
+    position: fixed;
+    z-index: 998;
+    height: 111px;
+    padding: 54px 0  24px 0;
+    background: rgba(247,247,247,0.96);
+} 
+/* breadcrumbNav 面包屑导航
+	============================================================================ */
+	.breadcrumbNav li {
+			float: left;
+			margin-right: 6px;
+			line-height: 33px;
+			font-size: 18px;
+			letter-spacing: 4px;
+	}
+	.breadcrumbNav li a {
+	 		 color: #f5c987;
+	}	
+	.breadcrumbNav > li + li {
+		padding-left: 21px;
+		background: url(../../../static/img/point.png) left center no-repeat;
+	    background-size:9px 18px;
+	}
+/* pull-right 顶部右侧功能菜单
+	============================================================================ */
+    .pull-right {
+          float: right;
+}
+    .pull-right a{
+        font-size: 16px;
+        letter-spacing: 4px;
+    	color: #999999;
+    	background-color: #E9E9E9;
+    	line-height: 33px;
+    	padding: 0px 21px ;
+        border-radius: 16.5px; 
+        margin-left: 45px;
+        text-decoration: none;
+        text-align: center;
+        display: inline-block;
+        cursor: pointer;
+    	transition: all 0.2s cubic-bezier(.25,.46,.45,.94) 0s;
+    }
+    .pull-right a:hover{
+    	color: #FFFFFF;
+    	background-color: #f5c987;
+    	box-shadow: 0px 6px 30px 0px rgba(245,201,135,0.75);
+    }
+/* content 滑动区域
+	============================================================================ */
+	#content {
+		position: absolute;
+       width: 76.63%;
+       max-width: 1455px;
+       min-width: 777px;
+       top: 147px;
+	   padding-bottom: 60px;
+	}
+}
+
+
+
+/*  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★
+    【宽大于1024，小于等于1440，最佳体验宽为1440】的断点
+     ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓*/
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+	
+/*left-panel，左侧边栏本身
+	============================================================================ */
+#left-panel {
+  box-sizing: content-box;
+  width: 15.77%;
+  min-width: 159px;
+  max-width: 225px;
+  background-color: #FFFFFF;
+  border-right: 3px solid #F0F0F0;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+}
+/*logo span，LOGO
+	============================================================================ */
+#logo span {
+	  width: 53px;
+	  height: 25px;
+	  background: url(../img/logo_icon.png) no-repeat;
+	  background-size: 100% 100%;
+	  display: inline-block;
+	  margin-top: 40px;
+	}
+/*user-icon，用户头像
+	============================================================================ */	
+#user-icon div{
+	  width: 87px;
+	  height: 87px;
+	  background: #F7F7F7;
+	  white-space: nowrap;
+	  line-height: 96px;
+	  border-radius: 50%;
+	  margin-top: 45px;
+	  display: inline-block;}
+#user-icon img{width: 24px; height: 24px;}
+ 
+#user-icon .icon-user {
+	  font-size: 24px;
+	  color: #dbdbdb;
+	  font-family:"iconfont" ;
+	  font-style:normal;
+	}
+#username {
+	  font-family: "Arial","Microsoft YaHei","SimHei","SimSun";
+	  font-size: 14px;
+	  letter-spacing: 4px;
+	  color: #333;
+	  display: inline-block;
+	  margin: 23px 0px 56px 0px;
+	}
+
+/*左侧栏的分类菜单
+	============================================================================ */	
+
+/* -----------------------  全部列表  和  全部中的第一个列表 的共用样式  ----------------------- */
+body.smart-style-7 nav ul li a,body.smart-style-7 nav ul li a:first-child{
+      display: block;
+	  font-size: 14px;
+	  color: #CCCCCC;
+	  letter-spacing: 3px;
+      text-align: left;
+	  line-height: 56px;
+	  text-transform: uppercase;
+	  padding-left: 27px;
+      border-bottom: 1px solid #F0F0F0;
+	  border-left: 6px solid rgba(0,0,0,0);
+}
+/* -----------------------  第一个列表单独补个顶描边  ----------------------- */
+body.smart-style-7 nav ul li:first-child{
+      border-top: 1px solid #F0F0F0;
+}
+/* -----------------------  当前已选中的列表的样式  ----------------------- */
+body.smart-style-7 nav ul li.active > a {
+	  color: #f5c987 ;
+	  border-left: 6px solid #f5c987;
+}
+/* -----------------------  鼠标悬浮样式  ----------------------- */
+body.smart-style-7 nav ul li a:hover{
+	  color: #f5c987;
+}
+/*  nav-system  侧边栏的切换账号重新登录
+	============================================================================ */
+#nav-system{padding-top:27px;}
+.nav-system li a {
+	    font-size: 14px;
+		padding: 27px 0px 0px 30px;
+		text-align: left;
+		line-height: 14px;
+		color: #ccc;
+		display: block;
+	  letter-spacing: 3px;
+}
+.nav-system li a:hover {
+  color: #f5c987 ;
+}
+		
+/*navigation-out，左侧边栏底部 虚拟占位块
+	============================================================================ */
+#navigation-out{
+    box-sizing: content-box;
+    width: 15.77%;
+    min-width: 159px;
+    max-width: 225px;
+    border-right: 3px solid #F0F0F0;
+}	
+/*右侧内容区
+	============================================================================ */
+#main {
+    width: 76.63%;
+    min-width: 777px;
+    max-width: 1455px;
+}
+/* ribbon 内容区顶部菜单
+	============================================================================ */
+    #ribbon {width: 76.63%;
+				min-width: 777px;
+				max-width: 1455px;
+				position: fixed;
+				z-index: 998;
+				height: 84px;
+				padding: 40px 0 18px 0;
+				background: rgba(247,247,247,0.96);
+	}
+/* breadcrumbNav 面包屑导航
+	============================================================================ */
+	.breadcrumbNav li {
+			float: left;
+			margin-right: 5px;
+			line-height: 26px;
+			font-size: 16px;
+			letter-spacing: 3px;
+	}
+	.breadcrumbNav li a {
+	 		 color: #f5c987;
+	}	
+	.breadcrumbNav > li + li {
+		padding-left: 16px;
+		background: url(../../../static/img/point.png) left center no-repeat;
+	    background-size:7px 14px;
+	}	
+/* pull-right 顶部右侧功能菜单
+	============================================================================ */
+	.pull-right {
+          float: right;
+}
+    .pull-right a{
+        font-size: 12px;
+        letter-spacing: 3px;
+    	color: #999999;
+    	background-color: #E9E9E9;
+    	line-height: 26px;
+    	padding: 0px 16px ;
+        border-radius: 13px; 
+        margin-left: 30px;
+        text-decoration: none;
+        text-align: center;
+        display: inline-block;
+        cursor: pointer;
+    	transition: all 0.2s cubic-bezier(.25,.46,.45,.94) 0s;
+    }
+    .pull-right a:hover{
+    	color: #FFFFFF;
+    	background-color: #f5c987;
+    	box-shadow: 0px 6px 30px 0px rgba(245,201,135,0.75);
+    }
+	/* content 滑动区域
+	============================================================================ */
+	#content {
+		position: absolute;
+       width: 76.63%;
+       max-width: 1455px;
+       min-width: 777px;
+       top: 110px;
+	   padding-bottom: 45px;
+	}
+}
+
+
+
+/*  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★  ★
+    【宽小于等于1024，最佳体验宽为1024】的断点
+     ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓  ↓*/
+@media only screen  and (max-width: 1024px) {
+	
+ /*left-panel，左侧边栏本身
+	============================================================================ */
+#left-panel {
+  box-sizing: content-box;
+  width: 15.77%;
+  min-width: 159px;
+  max-width: 159px;
+  background-color: #FFFFFF;
+  border-right: 3px solid #F0F0F0;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+}
+/*logo span，LOGO
+	============================================================================ */
+#logo span {
+	  width: 37px;
+	  height: 17px;
+	  background: url(../img/logo_icon.png) no-repeat;
+	  background-size: 100% 100%;
+	  display: inline-block;
+	  margin-top: 29px;
+	}
+/*user-icon，用户头像
+	============================================================================ */	
+#user-icon div{
+	  width: 63px;
+	  height: 63px;
+	  background: #F7F7F7;
+	  white-space: nowrap;
+	  line-height: 66px;
+	  border-radius: 50%;
+	  margin-top: 30px;
+	  display: inline-block;}
+#user-icon img{width: 18px; height: 18px;}
+
+#user-icon .icon-user {
+	  font-size: 18px;
+	  color: #dbdbdb;
+	  font-family:"iconfont" ;
+	  font-style:normal;
+	}	
+#username {
+		font-family: "Arial","Microsoft YaHei","SimHei","SimSun";
+	  font-size: 9px;
+	  letter-spacing: 2px;
+	  color: #333;
+	  display: inline-block;
+	  margin: 16px 0px 40px 0px;
+	}	
+	
+/*左侧栏的分类菜单
+	============================================================================ */	
+
+/* -----------------------  全部列表  和  全部中的第一个列表 的共用样式  ----------------------- */
+body.smart-style-7 nav ul li a,body.smart-style-7 nav ul li a:first-child{
+      display: block;
+	  font-size: 9px;
+	  color: #CCCCCC;
+	  letter-spacing: 2px;
+      text-align: left;
+	  line-height: 39px;
+	  text-transform: uppercase;
+	  padding-left: 19px;
+      border-bottom: 1px solid #F0F0F0;
+	  border-left: 6px solid rgba(0,0,0,0);
+}
+/* -----------------------  第一个列表单独补个顶描边  ----------------------- */
+body.smart-style-7 nav ul li:first-child{
+      border-top: 1px solid #F0F0F0;
+}
+/* -----------------------  当前已选中的列表的样式  ----------------------- */
+body.smart-style-7 nav ul li.active > a {
+	  color: #f5c987 ;
+	  border-left: 6px solid #f5c987;
+}
+/* -----------------------  鼠标悬浮样式  ----------------------- */
+body.smart-style-7 nav ul li a:hover{
+	  color: #f5c987;
+}
+/*  nav-system  侧边栏的切换账号重新登录
+	============================================================================ */
+#nav-system{padding-top:19px;}
+.nav-system li a {
+	    font-size: 9px;
+		padding: 19px 0px 0px 25px;
+		text-align: left;
+		line-height: 9px;
+		color: #ccc;
+		display: block;
+	  letter-spacing: 2px;
+}
+.nav-system li a:hover {
+  color: #f5c987 ;
+}
+					
+/*navigation-out，左侧边栏底部 虚拟占位块
+	============================================================================ */
+#navigation-out{
+    box-sizing: content-box;
+    width: 15.77%;
+    min-width: 159px;
+    max-width: 300px;
+    border-right: 3px solid #F0F0F0;
+}	
+ /*右侧内容区
+	============================================================================ */
+#main {
+    width: 76.63%;
+    min-width: 777px;
+    max-width: 1455px;
+}
+	
+/* ribbon 内容区顶部菜单
+	============================================================================ */
+    #ribbon {width: 76.63%;
+				min-width: 777px;
+				max-width: 1455px;
+				position: fixed;
+				z-index: 998;
+				height: 59px;
+				padding: 28px 0 12px 0;
+				background: rgba(247,247,247,0.96);
+	}
+/* breadcrumbNav 面包屑导航
+	============================================================================ */
+    .breadcrumbNav li {
+			float: left;
+			margin-right: 4px;
+			line-height: 19px;
+			font-size: 9px;
+			letter-spacing: 2px;
+	}
+	.breadcrumbNav li a {
+	 		 color: #f5c987;
+	}
+	.breadcrumbNav > li + li {
+		padding-left: 11px;
+		background: url(../../../static/img/point.png) left center no-repeat;
+	    background-size:6px 10px;
+	}
+/* pull-right 顶部右侧功能菜单
+	============================================================================ */
+	.pull-right {
+          float: right;
+}
+    .pull-right a{
+        font-size: 9px;
+        letter-spacing: 2px;
+    	color: #999999;
+    	background-color: #E9E9E9;
+    	line-height: 19px;
+    	padding: 0px 12px ;
+        border-radius: 9.5px; 
+        margin-left: 22px;
+        text-decoration: none;
+        text-align: center;
+        display: inline-block;
+        cursor: pointer;
+    	transition: all 0.2s cubic-bezier(.25,.46,.45,.94) 0s;
+    }
+    .pull-right a:hover{
+    	color: #FFFFFF;
+    	background-color: #f5c987;
+    	box-shadow: 0px 6px 30px 0px rgba(245,201,135,0.75);
+    }
+	/* content 滑动区域
+	============================================================================ */
+	#content {
+		position: absolute;
+       width: 76.63%;
+       max-width: 1455px;
+       min-width: 777px;
+       top: 78px;
+	   padding-bottom: 33px;
+	}
+}

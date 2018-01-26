@@ -1,0 +1,408 @@
+@charset "utf-8";
+
+
+@media only screen and (min-width: 1441px){
+	/*========登录页整体框架========*/
+	.accountTemplate-body{
+					background: url(../../../../static/switchAccount/img/backgroundImage.jpg) no-repeat;
+					background-size: 100% 100%;
+					position: absolute;
+				  top: -147px ;
+					z-index: 1001;
+					min-width: 1441px;
+				  max-width: 1920px;
+	}
+ /*========登录页整体框架内容区========*/
+.accountTemplate-content{
+				 width: 93.7%; 
+			   margin: 3.15%;
+				 display: inline-block;
+				 box-sizing: border-box;
+}
+	/*========登录框上面的部分========*/
+    .accountTemplate-top{
+	    height: 156px;
+    }
+    /*========左边装饰线和版本号部分========*/
+	.accountTemplate-top-l{
+		    float: left;
+	}
+    /*========装饰线上的版本文本========*/
+	.accountTemplate-top-l p{
+		display: inline-block;
+		font-size: 16px;
+		line-height: 16px;
+	  color: #FFFFFF;
+		margin-left: -11px;
+		margin-bottom: 15px;
+	}
+    /*========装饰线 ========*/
+	.accountTemplate-top-l span{
+		display: block;
+		width: 1px;
+		height: 420px;
+		background-color: #FFFFFF;
+	}
+	/*========欢迎文本部分========*/
+	.accountTemplate-top-c{
+		margin-left: 60px;
+		display: inline-block;
+		float: left;
+	}
+	/*========返回上一级========*/
+	.accountTemplate-top-c button{
+		display: block;
+		border: none;
+		font-size: 18px;
+		letter-spacing: 5px;
+		line-height: 36px;
+		margin-top: 36px;
+		color: #FFFFFF;
+		background-color: rgba(255,255,255,0.2);
+		padding: 0 27px 0 33px;
+		cursor: pointer;
+	}
+	.accountTemplate-top-c button:hover{
+		background-color: rgba(255,255,255,0.3);
+    transition: all 0.2s cubic-bezier(.25,.46,.45,.94) 0s;
+	}
+	
+	/*======== 欢迎来到与非云设备管理平台 ========*/
+	.accountTemplate-top-c1{
+		height: 84px;
+	}
+	/*======== 左边线 ========*/
+	.accountTemplate-top-c1 span{
+			display: block;
+			float: left;
+	    width: 5px;
+	    height: 87px;
+	    background-color: #FFFFFF;
+	}
+	/*======== 欢迎来到与非云设备管理平台-文本 ========*/
+	.accountTemplate-top-c1 ul{
+		display: inline-block;
+		float: left;
+		color: #FFFFFF;
+		text-align: left;
+		font-weight: bolder;
+		letter-spacing: 0px;
+		margin-left: 15px;
+	}
+	/*======== 文本通用样式 ========*/
+	.accountTemplate-top-c1 ul li .hh{
+		font-size: 16px;
+		line-height: 16px;
+		margin-bottom: 9px;
+		text-shadow: 0px 20px 40px rgba(0,0,0,0.1);
+	} 
+	/*======== 文本字号区别 ========*/
+	.accountTemplate-top-c1 ul li:nth-of-type(2) p,
+	.accountTemplate-top-c1 ul li:nth-of-type(3) p{
+		font-size: 27px;
+		line-height: 27px;
+	} 
+	/*======== 右侧公司LOGO========*/
+	.accountTemplate-top-r{
+			float: right;
+			width: 133px;
+			height: 50px;
+			margin-right: 34px;
+			background: url(../../../../static/switchAccount/img/logo.png) no-repeat;
+	    background-size: cover;
+	}
+    /*======== 下部公司页脚========*/
+	.accountTemplate-bottom{
+		margin-top: 132px;
+		margin-bottom: 60px;
+	}
+	/*========西/安/山/脉/科/技/发/展/有/限/公/司========*/
+	.accountTemplate-bottom i{
+		font-size: 16px;
+		color: #FFFFFF;
+		letter-spacing: 57px;
+		padding-left: 57px;
+		line-height: 33px;
+	}
+	/*========西安山脉科技发展有限公司========*/
+	.accountTemplate-bottom span{
+		display: block;
+	  font-size: 27px;
+	  color: #FFFFFF;
+		letter-spacing: 7px;
+		font-weight: bolder;
+		margin-top: 72px;
+	}
+}
+
+
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px){
+	/*========登录页整体框架========*/
+	.accountTemplate-body{
+					background: url(../../../../static/switchAccount/img/backgroundImage.jpg) no-repeat;
+					background-size: 100% 100%;
+					position: absolute;
+				  top: -110px ;
+					z-index: 1001;
+					min-width: 1025px;
+				  max-width: 1440px;
+	}
+ /*========登录页整体框架内容区========*/
+.accountTemplate-content{
+				 width: 93.7%; 
+			   margin: 3.15%;
+				 display: inline-block;
+				 box-sizing: border-box;
+}
+	/*========登录框上面的部分========*/
+    .accountTemplate-top{
+	    height: 150px;
+    }
+    /*========左边装饰线和版本号部分========*/
+	.accountTemplate-top-l{
+		    float: left;
+	}
+    /*========装饰线上的版本文本========*/
+	.accountTemplate-top-l p{
+		display: inline-block;
+		font-size: 14px;
+		line-height: 14px;
+	  color: #FFFFFF;
+		margin-left: -9px;
+		margin-bottom: 9px;
+	}
+    /*========装饰线 ========*/
+	.accountTemplate-top-l span{
+		display: block;
+		width: 1px;
+		height: 315px;
+		background-color: #FFFFFF;
+	}
+	/*========欢迎文本部分========*/
+	.accountTemplate-top-c{
+		margin-left: 45px;
+		display: inline-block;
+		float: left;
+	}
+	/*========返回上一级========*/
+	.accountTemplate-top-c button{
+		display: block;
+		border: none;
+		font-size: 16px;
+		letter-spacing: 4px;
+		line-height: 32px;
+		margin-top: 32px;
+		color: #FFFFFF;
+		background-color: rgba(255,255,255,0.2);
+		padding: 0 20px 0 24px;
+		cursor: pointer;
+	}
+	.accountTemplate-top-c button:hover{
+		background-color: rgba(255,255,255,0.3);
+    transition: all 0.2s cubic-bezier(.25,.46,.45,.94) 0s;
+	}
+	
+	/*======== 欢迎来到与非云设备管理平台 ========*/
+	.accountTemplate-top-c1{
+		height: 66px;
+	}
+	/*======== 左边线 ========*/
+	.accountTemplate-top-c1 span{
+			display: block;
+			float: left;
+	    width: 4px;
+	    height: 66px;
+	    background-color: #FFFFFF;
+	}
+	/*======== 欢迎来到与非云设备管理平台-文本 ========*/
+	.accountTemplate-top-c1 ul{
+		display: inline-block;
+		float: left;
+		color: #FFFFFF;
+		text-align: left;
+		font-weight: bolder;
+		letter-spacing: 0px;
+		margin-left: 10px;
+	}
+	/*======== 文本通用样式 ========*/
+	.accountTemplate-top-c1 ul li .hh{
+		font-size: 14px;
+		line-height: 14px;
+		margin-bottom: 6px;
+		text-shadow: 0px 15px 30px rgba(0,0,0,0.1);
+	} 
+	/*======== 文本字号区别 ========*/
+	.accountTemplate-top-c1 ul li:nth-of-type(2) p,
+	.accountTemplate-top-c1 ul li:nth-of-type(3) p{
+		font-size: 20px;
+		line-height: 20px;
+	} 
+	/*======== 右侧公司LOGO========*/
+	.accountTemplate-top-r{
+			float: right;
+			width: 100px;
+			height: 38px;
+			margin-right: 25.5px;
+			background: url(../../../../static/switchAccount/img/logo.png) no-repeat;
+	    background-size: cover;
+	}
+    /*======== 下部公司页脚========*/
+	.accountTemplate-bottom{
+		margin-top: 60px;
+		margin-bottom: 9px;
+	}
+	/*========西/安/山/脉/科/技/发/展/有/限/公/司========*/
+	.accountTemplate-bottom i{
+		font-size: 14px;
+		color: #FFFFFF;
+		letter-spacing: 45px;
+		padding-left: 45px;
+		line-height: 30px;
+	}
+	/*========西安山脉科技发展有限公司========*/
+	.accountTemplate-bottom span{
+		display: block;
+	  font-size: 20px;
+	  color: #FFFFFF;
+		letter-spacing: 5px;
+		font-weight: bolder;
+		margin-top: 45px;
+	}
+}
+
+
+
+@media only screen and (max-width: 1024px){ 
+	/*========登录页整体框架========*/
+	.accountTemplate-body{
+					background: url(../../../../static/switchAccount/img/backgroundImage.jpg) no-repeat;
+					background-size: 100% 100%;
+					position: absolute;
+				  top: -78px ;
+					z-index: 1001;
+					min-width: 1024px;
+				  max-width: 1024px;
+	}
+ /*========登录页整体框架内容区========*/
+.accountTemplate-content{
+				 width: 93.7%; 
+			   margin: 3.15%;
+				 display: inline-block;
+				 box-sizing: border-box;
+}
+	/*========登录框上面的部分========*/
+    .accountTemplate-top{
+	    height: 106px;
+    }
+    /*========左边装饰线和版本号部分========*/
+	.accountTemplate-top-l{
+		    float: left;
+	}
+    /*========装饰线上的版本文本========*/
+	.accountTemplate-top-l p{
+		display: inline-block;
+		font-size: 10px;
+		line-height: 10px;
+	  color: #FFFFFF;
+		margin-left: -6px;
+		margin-bottom: 6px;
+	}
+    /*========装饰线 ========*/
+	.accountTemplate-top-l span{
+		display: block;
+		width: 1px;
+		height: 224px;
+		background-color: #FFFFFF;
+	}
+	/*========欢迎文本部分========*/
+	.accountTemplate-top-c{
+		margin-left: 32px;
+		display: inline-block;
+		float: left;
+	}
+	/*========返回上一级========*/
+	.accountTemplate-top-c button{
+		display: block;
+		border: none;
+		font-size: 12px;
+		letter-spacing: 3px;
+		line-height: 24px;
+		margin-top: 24px;
+		color: #FFFFFF;
+		background-color: rgba(255,255,255,0.2);
+		padding: 0 14px 0 17px;
+		cursor: pointer;
+	}
+	.accountTemplate-top-c button:hover{
+		background-color: rgba(255,255,255,0.3);
+    transition: all 0.2s cubic-bezier(.25,.46,.45,.94) 0s;
+	}
+	
+	/*======== 欢迎来到与非云设备管理平台 ========*/
+	.accountTemplate-top-c1{
+		height: 47px;
+	}
+	/*======== 左边线 ========*/
+	.accountTemplate-top-c1 span{
+			display: block;
+			float: left;
+	    width: 3px;
+	    height: 47px;
+	    background-color: #FFFFFF;
+	}
+	/*======== 欢迎来到与非云设备管理平台-文本 ========*/
+	.accountTemplate-top-c1 ul{
+		display: inline-block;
+		float: left;
+		color: #FFFFFF;
+		text-align: left;
+		font-weight: bolder;
+		letter-spacing: 0px;
+		margin-left: 7px;
+	}
+	/*======== 文本通用样式 ========*/
+	.accountTemplate-top-c1 ul li .hh{
+		font-size: 10px;
+		line-height: 10px;
+		margin-bottom: 4px;
+		text-shadow: 0px 11px 21px rgba(0,0,0,0.1);
+	} 
+	/*======== 文本字号区别 ========*/
+	.accountTemplate-top-c1 ul li:nth-of-type(2) p,
+	.accountTemplate-top-c1 ul li:nth-of-type(3) p{
+		font-size: 14px;
+		line-height: 14px;
+	} 
+	/*======== 右侧公司LOGO========*/
+	.accountTemplate-top-r{
+			float: right;
+			width: 71px;
+			height: 27px;
+			margin-right: 18px;
+			background: url(../../../../static/switchAccount/img/logo.png) no-repeat;
+	    background-size: cover;
+	}
+    /*======== 下部公司页脚========*/
+	.accountTemplate-bottom{
+		margin-top: 42px;
+		margin-bottom: 6px;
+	}
+	/*========西/安/山/脉/科/技/发/展/有/限/公/司========*/
+	.accountTemplate-bottom i{
+		font-size: 10px;
+		color: #FFFFFF;
+		letter-spacing: 32px;
+		padding-left: 32px;
+		line-height: 21px;
+	}
+	/*========西安山脉科技发展有限公司========*/
+	.accountTemplate-bottom span{
+		display: block;
+	  font-size: 14px;
+	  color: #FFFFFF;
+		letter-spacing: 3px;
+		font-weight: bolder;
+		margin-top: 32px;
+	}
+}

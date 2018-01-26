@@ -1,0 +1,620 @@
+/*------------------ 数据详情页面主体部分 --------------------*/
+.dataDetails{
+	background-color: white;
+}
+.dataDetails h1,h2,h3,h4{
+    font-style: normal;
+}
+.dataDetails ul,li{
+	list-style: none;
+	margin-bottom: 0px;
+}
+.dataDetails p{
+	margin: 0;
+}
+/*-------------------------- 页面头部 ----------------------*/
+.dataDetails-top span{
+	display: inline-block;
+	color: #555555;
+}
+.dataDetails-content{
+	width: 95.894%;
+	margin-left: 2.053%;
+	margin-right: 2.053%;
+}
+.dataDetails-content-date{
+	display: block;
+	color: #CCCCCC;
+}
+
+/*--------------------页面内容部分设备部分-------------------*/
+.dataDetails-content-device-detail{
+	display: flex;
+	width: 68.17%;
+    margin-right: 31.83%;
+}
+/*--------------设备左侧图标----------------*/
+.dataDetails-content-device-detail-l{
+	display: inline-block;
+}
+.dataDetails-content-device-detail-l .img1{
+	display: block;
+	background-color: #96d676;
+	border-radius: 50%;
+}
+.dataDetails-content-device-detail-l .img1 .divs img{
+	width: 100%;
+    vertical-align: middle;
+}
+.dataDetails-content-device-detail-l p{
+	color: #96d676;
+	display: block;
+}
+/*--------------设备右侧内容区----------------*/
+.dataDetails-content-device-detail-r{
+	display: block;
+	position: relative;
+	width: 93.3%;
+}
+.dataDetails-content-device-detail-r .img2{
+	display: block;
+	background-color: #FFFFFF;
+}
+.dataDetails-content-device-detail-r .img2 img{
+	width: 100%;
+	height: 100%;
+}
+.dataDetails-content-device-detail-r-c{
+	display: inline-block;
+    border: 1px solid #96d676;
+    width: 96%;
+}
+.deviceDataDetail-top{
+	display: inline-block;
+	border-bottom: 1px solid #e9f7e1;
+}
+.deviceDataDetail-top li{
+	display: inline-block;
+	float: left;
+	color: #555555;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+/*.deviceDataDetail-top li:hover{
+	color: #96d676;
+    background-color: rgba(150,241,118,0.1);
+}*/
+.deviceDataDetail-bot{
+	display: inline-block;
+}
+.deviceDataDetail-bot li{
+	display: flex;
+	float: left;
+	background-color: #f2f7f0;
+}
+.deviceDataDetail-bot li p{
+	display: inline-block;
+}
+/*--------------------页面内容部分平台部分-------------------*/
+.dataDetails-content-forum-detail{
+	display: flex;
+	width: 68.17%;
+    margin-left: 31.83%;
+}
+/*--------------平台右侧图标----------------*/
+.dataDetails-content-forum-detail-r{
+	display: inline-block;
+}
+.dataDetails-content-forum-detail-r .img1{
+	display: block;
+	background-color: #F5C987;
+	border-radius: 50%;
+}
+.dataDetails-content-forum-detail-r .img1 .divs img{
+	width: 100%;
+  vertical-align: middle;
+}
+.dataDetails-content-forum-detail-r p{
+	color: #F5C987;
+	display: block;
+}
+/*--------------平台左侧内容区----------------*/
+
+.dataDetails-content-forum-detail-l{
+	display: block;
+	position: relative;
+	width: 93.3%;
+}
+.dataDetails-content-forum-detail-l .img2{
+	display: block;
+	background-color: #FFFFFF;
+}
+.dataDetails-content-forum-detail-l .img2 img{
+	width: 100%;
+	height: 100%;
+}
+.dataDetails-content-forum-detail-l-c{
+	display: inline-block;
+    border: 1px solid #F5C987;
+    width: 96%;
+}
+.forumDataDetail-top{
+	display: inline-block;
+	border-bottom: 1px solid #f7eee1;
+}
+.forumDataDetail-top li{
+	display: inline-block;
+	color: #555555;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    float: left;
+}
+/*.forumDataDetail-top li:hover{
+	color: #F5C987;
+    background-color: rgba(245,201,135,0.1);
+}*/
+.forumDataDetail-bot{
+	display: inline-block;
+}
+.forumDataDetail-bot li{
+	display: flex;
+	float: left;
+	background-color: #f7f4f0;
+}
+.forumDataDetail-bot li p{
+	display: inline-block;
+}
+@media only screen and (min-width: 1441px) {
+/*----------------------页面主体部分-------------------------*/
+	.dataDetails{
+		border-radius: 12px;
+	}
+	.dataDetails-top{
+		height: 81px;
+	}
+	.dataDetails-top span{
+		height: 81px;
+		line-height: 79px;
+		font-size: 21px;
+		letter-spacing: 6px;
+	}
+/*----------------------页面内容区-------------------------*/
+	.dataDetails-content{
+		padding-bottom: 75px;
+	}
+    .dataDetails-content-date{
+        font-size: 18px;
+        height: 75px;
+        line-height: 73px;
+	}
+/*----------------------页面设备数据部分-------------------------*/
+	.dataDetails-content-device-detail-l{
+		width: 60px;
+	}
+	.dataDetails-content-device-detail-l .img1{
+        width: 60px;
+        height: 60px;
+        line-height: 58px;
+/*        padding: 15px;*/
+ /*       margin-right: 15px;*/
+    }
+    .dataDetails-content-device-detail-l .img1 .divs{
+    	width: 30px;
+/*    	height: 32px;*/
+    	margin: auto;
+    }
+    .dataDetails-content-device-detail-l p{
+		font-size: 16px;
+		letter-spacing: 4px;
+		margin-top: 9px;
+		margin-left: 12px;
+	}
+    .dataDetails-content-device-detail-r .img2{
+        width: 20px;
+        height: 24px;
+        position: absolute;
+        left: 17px;
+        top: 18px;
+    }
+    .dataDetails-content-device-detail-r-c{
+/*    	width: 856px;*/
+/*    	height: 297px;*/
+    	border-radius: 7px;
+    	margin-left: 35px;
+    	padding: 30px;
+    }
+    .deviceDataDetail-top{
+    	padding-bottom: 30px;
+    }
+    .deviceDataDetail-top li{
+		width: 36px;
+		height: 36px;
+        font-size: 18px;
+        line-height: 36px;
+        margin-right: 9px;
+	}
+	.deviceDataDetail-bot{
+		margin-top: 14px;
+/*		margin-bottom: 22.5px;*/
+	}
+	.deviceDataDetail-bot li{
+		height: 36px;
+		line-height: 36px;
+        border-radius: 18px;
+        font-size: 16px;
+        letter-spacing: 5px;
+/*        margin: 6.75px;*/
+		margin-top: 16px;
+		margin-right: 16px;
+	}
+	.deviceDataDetail-bot li span{
+		margin-left: 16px;
+	}
+	.deviceDataDetail-bot li p{
+		margin-right: 11px;
+	}
+/*----------------------页面平台数据部分-------------------------*/
+	.dataDetails-content-forum-detail-r{
+		width: 60px;
+	}
+
+	.dataDetails-content-forum-detail-r .img1{
+        width: 60px;
+        height: 60px;
+        line-height: 58px;
+/*        margin-right: 15px;*/
+    }
+    .dataDetails-content-forum-detail-r .img1 .divs{
+    	width: 50px;
+/*    	height: 32px;*/
+    	margin: auto;
+    }
+    .dataDetails-content-forum-detail-r p{
+		font-size: 16px;
+		letter-spacing: 4px;
+		margin: 9px auto;
+	}
+    .dataDetails-content-forum-detail-l .img2{
+        width: 20px;
+        height: 24px;
+        position: absolute;
+        right: 17px;
+        top: 18px;
+    }
+    .dataDetails-content-forum-detail-l-c{
+/*    	width: 856px;*/
+/*    	height: 297px;*/
+    	border-radius: 7px;
+    	margin-right: 35px;
+    	padding: 30px;
+    }
+    .forumDataDetail-top{
+    	padding-bottom: 30px;
+    }
+	.forumDataDetail-top li{
+		width: 36px;
+		height: 36px;
+        font-size: 18px;
+        line-height: 36px;
+        margin-right: 9px;
+	}
+	.forumDataDetail-bot{
+		margin-top: 14px;
+/*		margin-bottom: 22.5px;*/
+	}
+	.forumDataDetail-bot li{
+		height: 36px;
+		line-height: 36px;
+        border-radius: 18px;
+        font-size: 16px;
+        letter-spacing: 5px;
+/*        margin: 6.75px;*/
+		margin-top: 16px;
+		margin-right: 16px;
+	}
+	.forumDataDetail-bot li span{
+		margin-left: 16px;
+	}
+	.forumDataDetail-bot li p{
+		margin-right: 11px;
+	}
+}
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+/*----------------------页面主体部分-------------------------*/
+	.dataDetails{
+		border-radius: 9px;
+	}
+	.dataDetails-top{
+		height: 60.75px;
+	}
+	.dataDetails-top span{
+		height: 60.75;
+		line-height: 58.75px;
+		font-size: 16px;
+		letter-spacing: 4.5px;
+	}
+/*----------------------页面内容部分-------------------------*/
+	.dataDetails-content{
+		padding-bottom: 56.25px;
+	}
+	.dataDetails-content-date{
+        font-size: 14px;
+        height: 56.25px;
+        line-height: 54.25px;
+	}
+/*----------------------页面设备数据部分-------------------------*/
+	.dataDetails-content-device-detail-l{
+		width: 45px;
+	}
+	.dataDetails-content-device-detail-l .img1{
+        width: 45px;
+        height: 45px;
+        line-height: 43px;
+        /*padding: 11.25px;*/
+/*        margin-right: 11.25px;*/
+    }
+    .dataDetails-content-device-detail-l .img1 .divs{
+    	width: 22.5px;
+/*    	height: 24px;*/
+    	margin: auto;
+    }
+    .dataDetails-content-device-detail-l p{
+		font-size: 12px;
+		letter-spacing: 3px;
+		margin: 6.75px auto;
+	}
+	.dataDetails-content-device-detail-r .img2{
+        width: 15px;
+        height: 18px;
+        position: absolute;
+        left: 13px;
+        top: 13.5px;
+    }
+    .dataDetails-content-device-detail-r-c{
+/*    	width: 642px;*/
+/*    	height: 223px;*/
+    	border-radius: 5.25px;
+    	margin-left: 26.25px;
+    	padding: 22.5px;
+    }
+    .deviceDataDetail-top{
+    	padding-bottom: 22.5px;
+    }
+    .deviceDataDetail-top li{
+    	font-size: 13.5px;
+        width: 27px;
+		height: 27px;
+		line-height: 27px;
+		margin-right: 6.75px;
+    }
+	.deviceDataDetail-bot{
+		margin-top: 10.5px;
+/*		margin-bottom: 22.5px;*/
+	}
+	.deviceDataDetail-bot li{
+		height: 27px;
+		line-height: 27px;
+        border-radius: 13.5px;
+        font-size: 12px;
+        letter-spacing: 3.75px;
+/*        margin: 6.75px;*/
+		margin-top: 12px;
+		margin-right: 12px;
+	}
+	.deviceDataDetail-bot li span{
+		margin-left: 12px;
+	}
+	.deviceDataDetail-bot li p{
+		margin-right: 8.25px;
+	}
+/*----------------------页面平台数据部分-------------------------*/
+	.dataDetails-content-forum-detail-r{
+		width: 45px;
+	}
+
+	.dataDetails-content-forum-detail-r .img1{
+        width: 45px;
+        height: 45px;
+        line-height: 43px;
+        /*padding: 11.25px;*/
+/*        margin-right: 11.25px;*/
+    }
+    .dataDetails-content-forum-detail-r .img1 .divs{
+    	width: 37.5px;
+/*    	height: 24px;*/
+    	margin: auto;
+    }
+    .dataDetails-content-forum-detail-r p{
+		font-size: 12px;
+		letter-spacing: 3px;
+		margin: 6.75px auto;
+	}
+    .dataDetails-content-forum-detail-l .img2{
+        width: 15px;
+        height: 18px;
+        position: absolute;
+        right: 13px;
+        top: 13.5px;
+    }
+    .dataDetails-content-forum-detail-l-c{
+/*    	width: 642px;*/
+/*    	height: 223px;*/
+    	border-radius: 5.25px;
+    	margin-right: 26.25px;
+    	padding: 22.5px;
+    }
+    .forumDataDetail-top{
+    	padding-bottom: 22.5px;
+    }
+    .forumDataDetail-top li{
+        font-size: 13.5px;
+        width: 27px;
+		height: 27px;
+		line-height: 27px;
+		margin-right: 6.75px;
+	}
+	.forumDataDetail-bot{
+		margin-top: 10.5px;
+/*		margin-bottom: 22.5px;*/
+	}
+	.forumDataDetail-bot li{
+		height: 27px;
+		line-height: 27px;
+        border-radius: 13.5px;
+        font-size: 12px;
+        letter-spacing: 3.75px;
+/*        margin: 6.75px;*/
+		margin-top: 12px;
+		margin-right: 12px;
+	}
+	.forumDataDetail-bot li span{
+		margin-left: 12px;
+	}
+	.forumDataDetail-bot li p{
+		margin-right: 8.25px;
+	}
+}
+@media only screen and (max-width: 1024px) {
+/*----------------------页面主体部分-------------------------*/
+	.dataDetails{
+		border-radius: 6px;
+	}
+	.dataDetails-top{
+		height: 43.2px;
+	}
+	.dataDetails-top span{
+		height: 43.2px;
+		line-height: 41.2px;
+		font-size: 12px;
+		letter-spacing: 3px;
+	}
+	.dataDetails-content{
+		padding-bottom: 40px;
+	}
+	.dataDetails-content-date{
+        font-size: 10px;
+        height: 40px;
+        line-height: 38px;
+	}
+	.dataDetails-content-device-detail-l{
+		width: 32px;
+	}
+	.dataDetails-content-device-detail .img1{
+        width: 32px;
+        height: 32px;
+        line-height: 30px;
+/*        margin-right: 8px;*/
+    }
+    .dataDetails-content-device-detail-l .img1 .divs{
+    	width: 16px;
+/*    	height: 17px;*/
+    	margin: auto;
+    }
+    .dataDetails-content-device-detail-l p{
+		font-size: 10px;
+		letter-spacing: 2px;
+		margin-top: 5px;
+		margin-left: 6px;
+	}
+    .dataDetails-content-device-detail-r .img2{
+        width: 11px;
+        height: 13px;
+        position: absolute;
+        left: 10px;
+        top: 9.5px;
+    }
+
+    .dataDetails-content-device-detail-r-c{
+    	border-radius: 4px;
+    	margin-left: 19px;
+    	padding: 16px;
+    }
+    .deviceDataDetail-top{
+    	padding-bottom: 16px;
+    }
+    .deviceDataDetail-top li{
+		width: 19.2px;
+		height: 19.2px;
+        font-size: 11px;
+        line-height: 19.2px;
+        margin-right: 4.8px;
+	}
+	.deviceDataDetail-bot{
+		margin-top: 7.5px;
+	}
+	.deviceDataDetail-bot li{
+		height: 19.2px;
+		line-height: 19.2px;
+        border-radius: 9.6px;
+        font-size: 10px;
+        letter-spacing: 2px;
+		margin-top: 8.5px;
+		margin-right: 8.5px;
+	}
+	.deviceDataDetail-bot li span{
+		margin-left: 8.5px;
+	}
+	.deviceDataDetail-bot li p{
+		margin-right: 6.5px;
+	}
+/*----------------------页面平台数据部分-------------------------*/
+	.dataDetails-content-forum-detail-r{
+		width: 32px;
+	}
+
+	.dataDetails-content-forum-detail-r .img1{
+        width: 32px;
+        height: 32px;
+        line-height: 30px;
+    }
+    .dataDetails-content-forum-detail-r .img1 .divs{
+    	width: 32px;
+    	margin: auto;
+    }
+    .dataDetails-content-forum-detail-r p{
+		font-size: 10px;
+		letter-spacing: 2px;
+		margin: 4px auto;
+	}
+    .dataDetails-content-forum-detail-l .img2{
+        width: 11px;
+        height: 13px;
+        position: absolute;
+        right: 10px;
+        top: 9.5px;
+    }
+    .dataDetails-content-forum-detail-l-c{
+    	border-radius: 4px;
+    	margin-right: 19px;
+    	padding: 16px;
+    }
+    .forumDataDetail-top{
+    	padding-bottom: 16px;
+    }
+	.forumDataDetail-top li{
+		width: 19.2px;
+		height: 19.2px;
+        font-size: 11px;
+        line-height: 19.2px;
+        margin-right: 4.8px;
+	}
+	.forumDataDetail-bot{
+		margin-top: 7.5px;
+	}
+	.forumDataDetail-bot li{
+		height: 19.2px;
+		line-height: 19.2px;
+        border-radius: 9.6px;
+        font-size: 10px;
+        letter-spacing: 2px;
+/*        margin: 6.75px;*/
+		margin-top: 8.5px;
+		margin-right: 8.5px;
+	}
+	.forumDataDetail-bot li span{
+		margin-left: 8.5px;
+	}
+	.forumDataDetail-bot li p{
+		margin-right: 6.5px;
+	}
+}

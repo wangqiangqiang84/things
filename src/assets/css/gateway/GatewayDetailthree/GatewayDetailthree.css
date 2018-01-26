@@ -1,0 +1,303 @@
+@charset "utf-8";
+/*历史记录模块*/
+@media only screen and (min-width: 1441px) {
+	/*========== 历史日志外框 =========*/
+	.gatewayDetailthree {
+		width: 100%;
+		display: inline-block;
+	}
+	
+	/*==========历史日志*标题=========*/
+	.gatewayDetailthree h2 {
+		text-align: left;
+		font-size: 24px;
+		color: #333;
+		margin: 39px 0px 36px 0px;
+		letter-spacing: 6px;
+	}
+/*==========历史日志*内容=========*/
+	.gatewayDetailthree li {
+		display: flex;
+		margin-bottom: 27px;
+	}
+	.gatewayDetailthree p{
+		font-size: 16px;
+		color: #88abda;
+		letter-spacing: 5px;
+	}
+
+	.gatewayDetailthree h3 {
+		margin: 0;
+		font-size: 16px;
+		color: #333;
+		letter-spacing: 5px;
+		padding-left: 16px;
+	}
+	.gatewayDetailthree span {
+		color: #CCCCCC;
+		font-size: 16px;
+		letter-spacing: 5px;
+		margin-left: 18px;
+	}
+	
+	/*==========点击页码切换样式==========*/
+	.page{
+     margin: 0 auto;
+     display: inline-block;
+     padding-top: 21px;
+	}
+	.page>li {
+		font-size: 16px;
+		letter-spacing: 2px;
+		float: left;
+		cursor: pointer;
+		line-height: 27px;
+		padding: 0px 16px 0px 18px;
+		background-color: #FFFFFF;
+		border: solid 1px #F0F0F0;
+	}
+	.page>li:hover{color: #66B3FF;
+											border: solid #66B3FF 1px;
+											background-color: rgba(102, 179, 255,0.02);
+}
+	.page .pageItem {
+		margin: 5px;
+	}
+	.page .pageItemActive {
+		margin: 5px;
+		color: #66B3FF;
+		border: solid #66B3FF 1px;
+		background-color: rgba(102, 179, 255,0.02);
+	}
+	.page .pageItemDisable {
+		margin: 5px;
+		color: #333;
+	}
+	/*========== 删除记录 ==========*/
+	.gatewayDetail-delete {
+		width: 100%;
+		height: 48px;
+		margin: 60px 0px;
+	}
+	.gatewayDetail-delete .delteGateway {
+		cursor: pointer;
+		background-color: #FFFFFF;
+		height: 48px;
+		line-height: 46px;
+		box-shadow: 0px 0px 15px 2px rgba(204, 204, 204, 0.1);
+		border: 1px solid #CCCCCC;
+		letter-spacing: 6px;
+		border-radius: 24px;
+		font-size: 16px;
+		color: #CCCCCC;
+		padding: 0px 63px 0px 69px;
+	}
+	.gatewayDetail-delete .delteGateway:hover {
+		box-shadow: 0px 0px 15px 2px rgb(245, 201, 136, 0.1);
+		border: 1px solid #f5c988;
+		color: #f5c988;
+		border-radius: 24px;
+		background-color: rgba(245, 201, 136, 0.02);
+	}
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+	/*========== 历史日志外框 =========*/
+	.gatewayDetailthree {
+		width: 100%;
+		display: inline-block;
+	}
+	
+	/*==========历史日志*标题=========*/
+	.gatewayDetailthree h2 {
+		text-align: left;
+		font-size: 18px;
+		color: #333;
+		margin: 22px 0px 27px 0px;
+		letter-spacing: 4px;
+	}
+
+	.gatewayDetailthree li {
+		display: flex;
+		margin-bottom: 20px;
+	}
+	.gatewayDetailthree p{
+		font-size: 12px;
+		color: #88abda;
+		letter-spacing: 4px;
+	}
+	.gatewayDetailthree h3 {
+		margin: 0;
+		font-size: 12px;
+		color: #333;
+		letter-spacing: 4px;
+		padding-left: 12px;
+	}
+	.gatewayDetailthree span {
+		color: #CCCCCC;
+		font-size: 12px;
+		letter-spacing: 4px;
+		margin-left: 13px;
+	}
+	
+	
+	/*点击页码切换样式*/
+.page{
+     margin: 0 auto;
+     display: inline-block;
+     padding-top: 18px;
+	}
+	.page>li {
+		font-size: 14px;
+		letter-spacing: 2px;
+		float: left; 
+		cursor: pointer;
+		line-height: 21px;
+		padding: 0px 12px 0px 14px;
+		background-color: #FFFFFF;
+		border: solid 1px #F0F0F0;
+	}	
+	.page>li:hover{color: #66B3FF;
+											border: solid #66B3FF 1px;
+											background-color: rgba(102, 179, 255,0.02);
+}
+	.page .pageItem {
+		margin: 4px;
+	}
+	.page .pageItemActive {
+		margin: 4px;
+		color: #66B3FF;
+		border: solid #66B3FF 1px;
+		background-color: rgba(102, 179, 255,0.02);
+}
+	.page .pageItemDisable {
+		margin: 4px;
+		color: #333;
+	}
+	/*-------------删除记录-------------*/
+	.gatewayDetail-delete {
+		width: 100%;
+		height: 36px;
+		margin: 45px 0px;
+	}
+	.gatewayDetail-delete .delteGateway {
+		cursor: pointer;
+		background-color: #FFFFFF;
+		height: 36px;
+		line-height: 34.5px;
+		box-shadow: 0px 0px 11px 2px rgba(204, 204, 204, 0.1);
+		border: 1px solid #CCCCCC;
+		letter-spacing: 4px;
+		border-radius: 18px;
+		font-size: 12px;
+		color: #CCCCCC;
+		padding: 0px 47px 0px 51px;
+	}
+	.gatewayDetail-delete .delteGateway:hover {
+		box-shadow: 0px 0px 11px 2px rgb(245, 201, 136, 0.1);
+		border: 1px solid #f5c988;
+		color: #f5c988;
+		background-color: rgba(245, 201, 136, 0.02);
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	/*========== 历史日志外框 =========*/
+	.gatewayDetailthree {
+		width: 100%;
+		display: inline-block;
+	}
+	
+	/*==========历史日志*标题=========*/
+	.gatewayDetailthree h2 {
+		text-align: left;
+		font-size: 13px;
+		color: #333;
+		margin: 21px 0px 19px 0px;
+		letter-spacing: 3px;
+	}
+	.gatewayDetailthree li {
+		display: flex;
+		margin-bottom: 14px;
+	}
+	.gatewayDetailthree p{
+		font-size: 10px;
+		color: #88abda;
+		letter-spacing: 3px;
+	}
+	.gatewayDetailthree h3 {
+		margin: 0;
+		font-size: 10px;
+		color: #333;
+		letter-spacing: 3px;
+		padding-left: 8.5px;
+	}
+	.gatewayDetailthree span {
+		color: #CCCCCC;
+		font-size: 10px;
+		letter-spacing: 3px;
+		margin-left: 10px;
+	}
+	
+	
+	/*点击页码切换样式*/
+	.page{
+     margin: 0 auto;
+     display: inline-block;
+     padding-top: 15px;
+	}
+	.page>li {
+		font-size: 10px;
+		float: left;
+		letter-spacing: 1px;
+		cursor: pointer;
+		line-height: 16px;
+		padding: 0px 9px 0px 10px;
+		background-color: #FFFFFF;
+		border: solid 1px #F0F0F0;
+	}	
+	.page>li:hover{color: #66B3FF;
+											border: solid #66B3FF 1px;
+											background-color: rgba(102, 179, 255,0.02);
+		
+	}
+	.page .pageItem {
+		margin: 3px;
+	}
+	.page .pageItemActive {
+		margin: 3px;
+		color: #66B3FF;
+		border: solid #66B3FF 1px;
+		background-color: rgba(102, 179, 255,0.02);
+	}
+
+	.page .pageItemDisable {
+		margin: 3px;
+		color: #333;
+	}
+	/*-------------删除记录-------------*/
+	.gatewayDetail-delete {
+		width: 100%;
+		height: 26px;
+		margin: 32px 0px;
+	}
+	.gatewayDetail-delete .delteGateway {
+		cursor: pointer;
+		background-color: #FFFFFF;
+		height: 26px;
+		line-height: 24px;
+		box-shadow: 0px 0px 8px 2px rgba(204, 204, 204, 0.1);
+		border: 1px solid #CCCCCC;
+		letter-spacing: 3px;
+		border-radius: 13px;
+		font-size: 10px;
+		color: #CCCCCC;
+		padding: 0px 27px 0px 30px;
+	}
+	.gatewayDetail-delete .delteGateway:hover {
+		box-shadow: 0px 0px 8px 2px rgb(245, 201, 136, 0.1);
+		border: 1px solid #f5c988;
+		color: #f5c988;
+		background-color: rgba(245, 201, 136, 0.02);
+	}
+}

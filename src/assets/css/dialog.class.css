@@ -1,0 +1,186 @@
+.dialog_them_black{
+    color: whitesmoke;
+    background: black;
+
+}
+.ui-dialog .ui-dialog-titlebar {
+    position: relative;
+    border-bottom: 1px solid;
+    border-color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    -webkit-border-bottom-right-radius: 0;
+    -moz-border-radius-bottomright: 0;
+    border-bottom-right-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -moz-border-radius-bottomleft: 0;
+    border-bottom-left-radius: 0;
+    border-bottom: 1px solid #ccc
+}
+.ui-dialog .ui-dialog-titlebar {
+    padding: 0 10px;
+    background: black;
+    border-bottom:1px solid #1E1E1E;
+}
+#select2_station{
+    display: block;
+}
+#select2_station>ul {
+    list-style: none;
+}
+
+#select2_station>li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.overlay-month-picker {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 9999;
+    background-color: rgba(34, 34, 34, 0.8);
+}
+.dialog-month-picker {
+    width: 980px;
+    height: 600px;
+    z-index: 100;
+    border-radius: 10px;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.75);
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.close-month-picker:hover {
+    background-color: #6f7070;
+}
+.close-month-picker {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #A9A0A0;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    border-color: #696464;
+    over-flow: auto;
+}
+.content-month-picker {
+    margin: auto;
+    color: white;
+    width: 100%;
+    height: 80%;
+    padding-left: 50px;
+    margin: 50px auto;
+    color: white;
+    overflow: auto;
+}
+.one-content-month-picker {
+    margin-bottom: 20px;
+}
+.content-year-month-picker {
+    float: left;
+    line-height: 92px;
+    font-size: 22px;
+    width: 200px;
+    text-align: center;
+}
+.year-sperator {
+    height: 30px;
+    line-height: 30px;
+    font-weight: normal;
+    font-size: 22px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.content-monthlist-month-pick {
+    float: left;
+    width: 620px;
+    max-height: 400px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #1E1E1E;
+    padding-bottom: 15px;
+}
+.content-monthlist-item-month-pick {
+    text-align: center;display: inline-block;padding-right: 25px;padding-top: 10px;vertical-align: middle;
+}
+.content-monthlist-item-top-month-pick {
+    margin-bottom: 5px; font-size:22px; width: 65px;height: 65px;border-style: solid;border-width: 2px;border-color: #1E1E1E;border-radius: 50%; line-height: 70px;
+}
+.content-monthlist-item-top-month-pick:hover {
+    cursor: pointer;
+    background-color: #4E4A4A;
+}
+
+.content-monthlist-item-sub-month-pick {
+    font-size:14px;
+    color: grey;
+    font-size:13px;
+}
+
+.entry-to-month-pick {
+    /*background-color: #4C4E4E;*/
+    /*border-style: solid;*/
+    display: none;
+    width: 75px;
+    border-width: 1px;
+    border-bottom-color: #aaa;
+    border-right-color: #aaa;
+    border-top-color: #ddd;
+    border-left-color: #ddd;
+    border-radius: 3px;
+    cursor: pointer;
+    padding-left: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background-image:url(https://static.micloud.xiaomi.net/res/742f7c93/img/clock_15.png);
+    /*background-image: url(https://static.micloud.xiaomi.net/res/ecdabe50/img/clock_18.png)*/
+    /*background-image: url(https://static.micloud.xiaomi.net/res/0b5d6e95/img/clock20.png);*/
+    /*background-image: url(https://static.micloud.xiaomi.net/res/0b5d6e95/img/clock20.png);*/
+    background-repeat: no-repeat;
+    background-position: 63px 5px;
+    background-size: 15px;
+}
+
+.entry-to-month-pick:hover {
+    background-color: #6f7070;
+    color: #fff;
+}
+/*
+::-webkit-scrollbar
+{
+    width: 7px;
+    height: 7px;
+}
+::-webkit-scrollbar-button{
+    width: 0;
+    height: 0;
+    display: none;
+}
+/*定义滚动条轨道 内阴影+圆角*/
+/*::-webkit-scrollbar-track
+{
+    width: 15px;
+}
+::-webkit-scrollbar-corner{
+    background-color: transparent;
+}*/
+/*定义滑块 内阴影+圆角*/
+/*::-webkit-scrollbar-thumb
+{
+    width: 7px;
+    background-color: #b4babf;
+    border-radius: 7px;
+}*/

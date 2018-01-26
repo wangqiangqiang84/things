@@ -1,0 +1,487 @@
+@charset "utf-8";
+
+ 
+ @media only screen and (min-width: 1441px) {
+/*========== 创建页面的父级 =========*/
+  .receptacle{
+	    position: absolute;
+	    top: -147px;
+	    z-index: 9999;
+        background-color: #FFFFFF ;
+        width: 1903px;
+				left: -25.76%;
+		}
+/*========== 基本信息模块 =========*/
+ 	.hellogat {
+ 		margin-top: 60px;
+ 		margin-bottom: 60px;
+ 	}
+/*========== 基本信息文本 =========*/
+ 	.gateway_information>p {
+ 		margin-bottom: 30px;
+ 		font-size: 24px;
+ 		line-height: 24px;
+ 		letter-spacing: 8px;
+ 		font-weight: bold;
+ 		color: #333;
+ 		padding-left: 39px;
+ 		text-align: left;
+ 	}
+/*========== 基本信息详细项=========*/
+ 	.get_designation {
+ 		margin-left: 102px;
+ 		text-align: left;
+ 	}
+/*========== 基本信息详细项-输入框=========*/
+ 	.get_title {padding-top: 30px;
+ 	}
+ 	.get_title p {
+ 		line-height: 42px;
+ 		display: inline-block;
+ 		font-size: 18px;
+ 		color: #333;
+ 		letter-spacing: 6px;
+ 	}	 
+	.get_title input {
+		font-family: unset;
+	    border: none;
+ 		margin: 0 24px;
+ 		padding: 0 24px;
+ 		font-size: 18px;
+ 		line-height: 42px; 
+ 		letter-spacing: 6px;
+ 		outline: none;
+ 		background: #f5f5f5;
+ 		color: #AAAAAA;
+ 		display: inline-block;
+ 	}
+  
+/*========== 基本信息详细项-错误提示=========*/	
+
+    .span_err {
+ 		color: #f1584a;
+ 		font-size: 18px;
+ 		letter-spacing: 4px;
+ 	}
+ 	
+/*========== 基本信息详细项-网关IP=========*/	
+ 	.gateway_ip {
+ 		margin-top: 30px;
+ 	} 	
+ 	.get_ip span{
+ 		line-height: 42px;
+ 		float: left;
+ 		font-size: 18px;
+ 		color: #333;
+ 		letter-spacing: 8px;
+ 	}
+/*========== IP英文字母版式独立 =========*/	
+ 	.get_ip {
+ 		line-height: 42px;
+ 		float: left;
+ 		font-size: 18px;
+ 		color: #333;
+ 		letter-spacing: normal;
+ 	}
+/*========== 基本信息详细项-网关IP选择框整体 =========*/	
+ 	.get_ggp {
+ 		display: inline-block;
+ 		margin-left: 57px;
+ 	}
+ 	.get_content1 {
+ 		box-sizing: border-box;
+ 		width: 300px;
+ 		float: left;
+ 		height: 100px;
+ 		color: #999;
+ 		cursor: pointer;
+ 		border: 1px solid #f0f0f0;
+ 		margin: 0px -1px 0px -1px;
+ 	}
+ 	.gateway_number1 {
+ 		padding-top: 27px;
+ 		font-size: 18px;
+ 		letter-spacing: 6px;
+ 		line-height: 18px;
+ 		color: #999;
+ 		text-align: center;
+ 	}
+ 	.gateway_huabe {
+ 		padding-top: 16px;
+ 		font-size: 18px;
+ 		letter-spacing: 6px;
+ 		color: #999;
+ 		line-height: 18px;
+ 		font-weight: bold;
+ 		text-align: center;
+ 	}
+ 	
+ 	
+/*========== 传输协议 =========*/	 
+    .get_deal {
+ 	    margin-top: 30px;
+}
+ 	.get_deal_p {
+ 		float: left;
+ 		color: #333;
+ 		font-size: 18px;
+ 		line-height: 42px;
+ 		letter-spacing: 6px;
+ 	}
+ 	.agree {
+ 		display: inline-block;
+ 		margin-left: 24px;
+ 	}
+    .agree_tcp {
+ 		float: left;
+ 		width: 150px;  
+ 		cursor: pointer;
+ 		border: 1px solid #f0f0f0;
+ 		margin: 0px -1px 0px 0px;
+ 	}
+ 	.agree_tcp p {
+ 		line-height: 42px;
+ 		text-align: center;
+ 		color: #999;
+ 		font-size: 18px;
+ 		letter-spacing: 6px;
+ 	} 	
+ 	
+
+/*========== 基本信息中的 框鼠标浮动样式 =========*/	 
+ .agree div:hover, .get_ggp div:hover  {
+ 	position: relative;
+ 	border: 1px solid #f5c988;
+ 	background-color: rgba(245,201,136,0.02);
+ 	box-shadow: 0px 0px 15px 2px rgb(245, 201, 136, 0.05);
+    }
+ /*========== 基本信息中的 框选中样式 =========*/
+	.selected {
+		-moz-background: transparent;
+	 	border: 1px solid #f5c988;
+	 	background-color: rgba(245,201,136,0.02);
+	 	box-shadow: 0px 0px 15px 2px rgb(245, 201, 136, 0.05);
+	} 
+}
+	
+
+ 
+@media only screen and (min-width:1025px) and (max-width:1440px) {
+/*========== 创建页面的父级 =========*/
+  .receptacle{
+	    position: absolute;
+	    top: -110px;
+	    z-index: 9999;
+        background-color: #FFFFFF ;
+        width: 1423px;
+				left: -25.76%;
+		}
+/*========== 基本信息模块 =========*/
+ 	.hellogat {
+ 		margin-top: 45px;
+ 		margin-bottom: 45px;
+ 	}
+/*========== 基本信息文本 =========*/
+ 	.gateway_information>p {
+ 		margin-bottom: 22px;
+ 		font-size: 18px;
+ 		line-height: 18px;
+ 		letter-spacing: 4px;
+ 		font-weight: bold;
+ 		color: #333;
+ 		padding-left: 30px;
+ 		text-align: left;
+ 	}
+/*========== 基本信息详细项=========*/
+ 	.get_designation {
+ 		margin-left: 75px;
+ 		text-align: left;
+ 	}
+/*========== 基本信息详细项-输入框=========*/
+ 	.get_title {padding-top: 22px;
+ 	}
+ 	.get_title p {
+ 		line-height: 33px;
+ 		display: inline-block;
+ 		font-size: 14px;
+ 		color: #333;
+ 		letter-spacing: 4px;
+ 	}	 
+	.get_title input {
+		font-family: unset;
+	    border: none;
+ 		margin: 0 18px;
+ 		padding: 0 18px;
+ 		font-size: 14px;
+ 		line-height: 33px;
+ 		letter-spacing: 4px;
+ 		outline: none;
+ 		background: #f5f5f5;
+ 		color: #AAAAAA;
+ 		display: inline-block;
+ 	} 	
+  
+/*========== 基本信息详细项-错误提示=========*/	
+
+    .span_err {
+ 		color: #f1584a;
+ 		font-size: 14px;
+ 		letter-spacing: 3px;
+ 	}
+ 	
+/*========== 基本信息详细项-网关IP=========*/	
+ 	.gateway_ip {
+ 		margin-top: 22px;
+ 	} 	
+ 	.get_ip span{
+ 		line-height: 33px;
+ 		float: left;
+ 		font-size: 14px;
+ 		color: #333;
+ 		letter-spacing: 4px;
+ 	}
+/*========== IP英文字母版式独立 =========*/	
+ 	.get_ip {
+ 		line-height: 33px;
+ 		float: left;
+ 		font-size: 14px;
+ 		color: #333;
+ 		letter-spacing: normal;
+ 	}
+/*========== 基本信息详细项-网关IP选择框整体 =========*/	
+ 	.get_ggp {
+ 		display: inline-block;
+ 		margin-left: 46px;
+ 	}
+ 	.get_content1 {
+ 		box-sizing: border-box;
+ 		width: 208px;
+ 		float: left;
+ 		height: 75px;
+ 		color: #999;
+ 		cursor: pointer;
+ 		border: 1px solid #f0f0f0;
+ 		margin: 0px -1px 0px -1px;
+ 	}
+ 	.gateway_number1 {
+ 		padding-top: 21px;
+ 		font-size: 14px;
+ 		letter-spacing: 4px;
+ 		line-height: 14px;
+ 		color: #999;
+ 		text-align: center;
+ 	}
+ 	.gateway_huabe {
+ 		padding-top: 12px;
+ 		font-size: 14px;
+ 		letter-spacing: 4px;
+ 		color: #999;
+ 		line-height: 14px;
+ 		font-weight: bold;
+ 		text-align: center;
+ 	}
+ 	
+ 	
+/*========== 传输协议 =========*/	 
+    .get_deal {
+ 	    margin-top: 22px;
+}
+ 	.get_deal_p {
+ 		float: left;
+ 		color: #333;
+ 		font-size: 14px;
+ 		line-height: 33px;
+ 		letter-spacing: 4px;
+ 	}
+ 	.agree {
+ 		display: inline-block;
+ 		margin-left: 18px;
+ 	}
+    .agree_tcp {
+ 		float: left;
+ 		width: 112px;  
+ 		cursor: pointer;
+ 		border: 1px solid #f0f0f0;
+ 	}
+ 	.agree_tcp p {
+ 		line-height: 33px;
+ 		text-align: center;
+ 		color: #999;
+ 		font-size: 14px;
+ 		letter-spacing: 4px;
+ 	} 	
+/*========== 基本信息中的 框鼠标浮动样式 =========*/	 
+ .agree div:hover, .get_ggp div:hover  {
+ 	border: 1px solid #f5c988;
+ 	background-color: rgba(245,201,136,0.02);
+ 	box-shadow: 0px 0px 15px 2px rgb(245, 201, 136, 0.05);
+    }
+ /*========== 基本信息中的 框选中样式 =========*/
+	.selected {
+		-moz-background: transparent;
+	 	border: 1px solid #f5c988;
+	 	background-color: rgba(245,201,136,0.02);
+	 	box-shadow: 0px 0px 15px 2px rgb(245, 201, 136, 0.05);
+	} 
+}
+
+
+ 
+ @media only screen and (max-width: 1024px) {
+/*========== 创建页面的父级 =========*/
+  .receptacle{
+	    position: absolute;
+	    top: -78px;
+	    z-index: 9999;
+        background-color: #FFFFFF ;
+			  width: 1007px;
+				left: -25.76%;
+		}
+/*========== 基本信息模块 =========*/
+ 	.hellogat {
+ 		margin-top: 33px;
+ 		margin-bottom: 33px;
+ 	}
+/*========== 基本信息文本 =========*/
+ 	.gateway_information>p {
+ 		margin-bottom: 16px;
+ 		font-size: 12px;
+ 		line-height: 12px;
+ 		letter-spacing: 3px;
+ 		font-weight: bold;
+ 		color: #333;
+ 		padding-left: 21px;
+ 		text-align: left;
+ 	}
+/*========== 基本信息详细项=========*/
+ 	.get_designation {
+ 		margin-left: 54px;
+ 		text-align: left;
+ 	}
+/*========== 基本信息详细项-输入框=========*/
+ 	.get_title {padding-top: 16px;
+ 	}
+ 	.get_title p {
+ 		line-height: 22px;
+ 		display: inline-block;
+ 		font-size: 10px; 
+ 		color: #333;
+ 		letter-spacing: 3px;
+ 	}	 
+	.get_title input {
+		font-family: unset;
+	    border: none;
+ 		margin: 0 12px;
+ 		padding: 0 12px;
+ 		font-size: 10px;
+ 		line-height: 22px; 
+ 		letter-spacing: 3px;
+ 		outline: none;
+ 		background: #f5f5f5;
+ 		color: #AAAAAA;
+ 		display: inline-block;
+ 	}
+ 	  
+/*========== 基本信息详细项-错误提示=========*/	
+
+    .span_err {
+ 		color: #f1584a;
+ 		font-size: 10px;
+ 		letter-spacing: 3px;
+ 	}
+ 	
+/*========== 基本信息详细项-网关IP=========*/	
+ 	.gateway_ip {
+ 		margin-top: 16px;
+ 	} 	
+ 	.get_ip span{
+ 		line-height: 22px;
+ 		float: left;
+ 		font-size: 10px;
+ 		color: #333;
+ 		letter-spacing: 3px;
+ 	}
+/*========== IP英文字母版式独立 =========*/	
+ 	.get_ip {
+ 		line-height: 22px;
+ 		float: left;
+ 		font-size: 10px;
+ 		color: #333;
+ 		letter-spacing: normal;
+ 	}
+/*========== 基本信息详细项-网关IP选择框整体 =========*/	
+ 	.get_ggp {
+ 		display: inline-block;
+ 		margin-left: 30px;
+ 	}
+ 	.get_content1 {
+ 		box-sizing: border-box;
+ 		width: 159px;
+ 		float: left;
+ 		height: 54px;
+ 		color: #999;
+ 		cursor: pointer;
+ 		border: 1px solid #f0f0f0;
+ 		margin: 0px -1px 0px -1px;
+ 	}
+ 	.gateway_number1 {
+ 		padding-top: 15px;
+ 		font-size: 10px;
+ 		letter-spacing: 3px;
+ 		line-height: 10px;
+ 		color: #999;
+ 		text-align: center;
+ 	}
+ 	.gateway_huabe {
+ 		padding-top: 9px;
+ 		font-size: 10px;
+ 		letter-spacing: 3px;
+ 		color: #999;
+ 		line-height: 10px;
+ 		font-weight: bold;
+ 		text-align: center;
+ 	}
+ 	
+ 	
+/*========== 传输协议 =========*/	 
+    .get_deal {
+ 	    margin-top: 16px;
+}
+ 	.get_deal_p {
+ 		float: left;
+ 		color: #333;
+ 		font-size: 10px;
+ 		line-height: 22px;
+ 		letter-spacing: 3px;
+ 	}
+ 	.agree {
+ 		display: inline-block;
+ 		margin-left: 12px;
+ 	}
+    .agree_tcp {
+ 		float: left;
+ 		width: 81px;  
+ 		cursor: pointer;
+ 		border: 1px solid #f0f0f0;
+ 	}
+ 	.agree_tcp p {
+ 		line-height: 22px;
+ 		text-align: center;
+ 		color: #999;
+ 		font-size: 10px;
+ 		letter-spacing: 3px;
+ 	} 	
+/*========== 基本信息中的 框鼠标浮动样式 =========*/	 
+ .agree div:hover, .get_ggp div:hover  {
+ 	border: 1px solid #f5c988;
+ 	background-color: rgba(245,201,136,0.02);
+ 	box-shadow: 0px 0px 15px 2px rgb(245, 201, 136, 0.05);
+    }
+ /*========== 基本信息中的 框选中样式 =========*/
+	.selected {
+		-moz-background: transparent;
+	 	border: 1px solid #f5c988;
+	 	background-color: rgba(245,201,136,0.02);
+	 	box-shadow: 0px 0px 15px 2px rgb(245, 201, 136, 0.05);
+	} 
+}

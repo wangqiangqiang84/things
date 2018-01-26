@@ -1,0 +1,568 @@
+@charset "utf-8";
+/*==========设置分支外部框架=========*/
+.personalSettings{
+	background-color: #FFFFFF;
+	display: block;
+}
+/*==========设置分支外部框架头部头像部分=========*/
+.personalSettings-head div img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	border: none;
+}
+/*==========设置分支内容切换区=========*/
+.personalSettings-content{
+	width: 100%;
+}
+/*==========设置分支外部框架切换后需要改变当前li颜色=========*/
+.showStyle{
+	color: #333333;
+	border-bottom: 2px solid #999999;
+}
+/*==========设置分支内容区基本信息上传头像=========*/
+.file_input {
+    opacity: 0;
+    position: absolute;
+}
+.img_list .img-div{
+	width: 120px;
+	height: 120px; 
+	text-align: center;
+}
+/*==========设置分支内容区绑定账号=========*/
+.binding-content{
+	display: inline-block;
+	text-align: left;
+}
+/*==========设置分支内容区绑定账号之绑定手机号=========*/
+.telContent .telBtn {
+	margin-right: 0;
+}
+/*==========设置分支内容区绑定账号之绑定邮箱号=========*/
+.emailContent .emailBtn {
+	margin-right: 0;
+}
+/*==========设置分支内容区绑定账号之qq登录=========*/
+.thirdPartyLogin .qqLogin{
+	background-color: #3db1da;
+}
+/*==========设置分支内容区绑定账号之微信登录=========*/
+.thirdPartyLogin .weixinLogin{
+	background-color: #50ba4b;
+}
+
+@media only screen and (min-width: 1441px) {
+    /*==========设置分支外部框架=========*/
+	.personalSettings{
+		min-height: 872px;
+		border-radius: 12px;
+	}
+	/*==========设置分支外部框架头部头像部分=========*/
+	.personalSettings-head{
+		display: block;
+		height: 159px;
+		width: 100%;
+		padding-top: 39px;
+		margin-bottom: 27px;
+	}
+	.personalSettings-head h2{
+		display: block;
+		height: 120px;
+		margin: 0;
+	}
+	.personalSettings-head div{
+		display: inline-block;
+		width: 120px;
+		height: 120px;
+		border-radius: 50%;
+		background-color: #F7F7F7;
+	}
+	/*==========设置分支外部框架主体区域导航部分=========*/
+	.personalSettings-nav{
+		display: block;
+		height: 45px;
+		line-height: 43px;
+		text-align: center;
+		border-bottom: 2px solid #F7F7F7;
+		color: #999999;
+	}
+	.personalSettings-nav li{
+		display: inline-block;
+		font-size: 21px;
+		margin: 0 75px;
+		cursor: pointer;
+		letter-spacing: 4px;
+	}
+   /*==========设置分支外部框架主体区域内容区=========*/
+	.personalSettings-content ul{
+		padding-top: 18px;
+		text-align: center;
+		display: inline-block;
+	}
+	.personalSettings-content li{
+		margin-top: 30px;
+		letter-spacing: 4px;
+		display: flex;
+	}
+	/*==========设置分支外部框架主体区域内容区小标题=========*/
+	.personalSettings-content li label{
+		font-size: 16px;
+		color: #CCCCCC;
+		margin-bottom: 0;
+		margin-right: 21px;
+		line-height: 42px;
+		width: 100px;
+		text-align: right;
+	}
+	/*==========设置分支外部框架主体区域内容区输入框=========*/
+	.personalSettings-content li input{
+		cursor: pointer;
+		font-size: 16px;
+		color: #999999;
+		width: 350px;
+		height: 42px;
+		background-color: #F7F7F7;
+		border: none;
+		border-radius: 2px;
+		padding-left: 16px;
+		padding-right: 16px;
+		letter-spacing: 4px;
+	}
+	.lineBox .file_input2{
+		cursor: text;
+}
+	/*==========设置分支外部框架主体区域内容区提示信息=========*/
+	.personalSettings-content li span{
+		font-size: 14px;
+		color: #F1584A;
+		margin-top: 0px;
+		line-height: 20px;
+		display: block;
+		text-align: left;
+	}
+	/*==========设置分支外部框架主体区域内容区基本信息部分上传头像框=========*/
+	.personalSettings-content li .upload_box{
+		width: 350px;
+		height: 42px;
+		line-height: 42px;
+	    border: 1px solid #DBDBDB;
+	    background-color: #FFFFFF;
+	    border-radius: 3px;
+	    color: #d9d9d9;
+	    font-size: 16px;
+	    letter-spacing: 4px;
+	    margin: 0;
+	}
+	/*==========设置分支外部框架主体区域内容区按钮=========*/
+	.personalSettings-content button{
+		cursor: pointer;
+		height: 42px;
+		font-size: 16px;
+		color: #ccc;
+		border: 1px solid #ccc;
+		background-color: #FFFFFF;
+		box-shadow: 0 0 15px 2px rgba(204,204,204,0.1);
+		padding: 0 27px 0 31px;
+		letter-spacing: 4px;
+		border-radius: 21px;
+		margin: 0 25px;
+		box-sizing: border-box;
+	}
+	.personalSettings-content button:hover{	
+		color: #f5c988;
+		box-shadow: 0 0 15px 2px rgba(245,201,136,0.1);
+		border: solid 1px #f5c988;
+		background: rgba(245,201,136,0.02);
+}
+	/*==========设置分支外部框架主体区域内容区基本信息主体=========*/
+	.info-content{
+		display: inline-block;
+		text-align: left;
+		min-width: 600px;
+	}
+	/*==========设置分支外部框架主体区域内容区基本信息按钮部分=========*/
+	.finishForm{
+		height: 42px;
+/*		line-height: 42px;*/
+		text-align: center;
+	/*	padding-right: 25px;*/
+		margin-top: 28px;
+		margin-bottom: 10px;
+		margin-left: 121px;
+		width: 350px;
+	}
+   /*==========设置分支外部框架主体区域内容区账号安全主体=========*/
+	.safe-content{
+		display: inline-block;
+		text-align: left;
+		min-width: 600px;
+	}
+   /*==========设置分支外部框架主体区域内容区绑定账号之第三方登录部分=========*/
+	.thirdPartyLogin {
+		height: 42px;
+		line-height: 42px;
+		text-align: center;
+	/*	padding-right: 25px;*/
+		margin-top: 80px;
+		margin-bottom: 10px;
+		margin-left: 121px;
+		width: 350px;
+	}
+	.thirdPartyLogin span{
+		cursor: pointer;
+		display: inline-block;
+		height: 42px;
+		width: 42px;
+		border-radius: 50%;
+		text-align: center;
+		margin: 0 20px;
+		color: #FFFFFF;
+	}
+	.thirdPartyLogin span i{
+		font-size: 20px;
+	}
+}
+@media only screen and (min-width: 1025px) and (max-width: 1440px){
+	/*==========设置分支外部框架=========*/
+	.personalSettings{
+		min-height: 800px;
+		border-radius: 8px;
+	}
+	/*==========设置分支外部框架头部头像部分=========*/
+	.personalSettings-head{
+		display: block;
+		height: 120px;
+		width: 100%;
+		padding-top: 30px;
+		margin-bottom: 20px;
+	}
+	.personalSettings-head h2{
+		display: block;
+		height: 90px;
+		margin: 0;
+	}
+	.personalSettings-head div{
+		display: inline-block;
+		width: 90px;
+		height: 90px;
+		border-radius: 50%;
+		background-color: #F7F7F7;
+	}
+	/*==========设置分支外部框架主体区域导航部分=========*/
+	.personalSettings-nav{
+		display: block;
+		height: 34px;
+		line-height: 30px;
+		text-align: center;
+		border-bottom: 2px solid #F7F7F7;
+		color: #999999;
+	}
+	.personalSettings-nav li{
+		display: inline-block;
+		font-size: 14px;
+		margin: 0 56px;
+		cursor: pointer;
+		letter-spacing:3px;
+	}
+	/*==========设置分支外部框架主体区域内容区=========*/
+	.personalSettings-content ul{
+		padding-top: 13.5px;
+		text-align: center;
+		display: inline-block;
+	}
+	.personalSettings-content li{
+		margin-top: 22.5px;
+		letter-spacing: 3px;
+		display: flex;
+	}
+	/*==========设置分支外部框架主体区域内容区小标题=========*/	
+	.personalSettings-content li label{
+		font-size: 12px;
+		color: #CCCCCC;
+		margin-bottom: 0;
+		margin-right: 16px;
+		line-height: 32px;
+		width: 75px;
+		text-align: right;
+	}
+	/*==========设置分支外部框架主体区域内容区输入框=========*/	
+	.personalSettings-content li input{
+		cursor: pointer;
+		font-size: 12px;
+		color: #999999;
+		width: 262.5px;
+		height: 32px;
+		background-color: #F7F7F7;
+		border: none;
+		border-radius: 2px;
+		padding-left: 12px;
+		padding-right: 12px;
+		letter-spacing: 3px;
+	}	
+	.lineBox .file_input2{
+		cursor: text;
+}
+	/*==========设置分支外部框架主体区域内容区提示信息=========*/	
+	.personalSettings-content li span{
+		font-size: 10px;
+		color: #F1584A;
+		margin-top: 0px;
+		line-height: 14px;
+		display: block;
+		text-align: left;
+	}
+	/*==========设置分支外部框架主体区域内容区基本信息部分上传头像框=========*/	
+	.personalSettings-content li .upload_box{
+		width: 262.5px;
+		height: 32px;
+		line-height: 32px;
+	    border: 1px solid #DBDBDB;
+	    background-color: #FFFFFF;
+	    border-radius: 3px;
+	    color: #d9d9d9;
+	    font-size: 12px;
+	    letter-spacing: 2px;
+	    margin: 0;
+	}
+	/*==========设置分支外部框架主体区域内容区按钮=========*/	
+	.personalSettings-content button{
+		cursor: pointer;
+		height: 32px;
+		font-size: 12px;
+		color: #ccc;
+		border: 1px solid #ccc;
+		background-color: #FFFFFF;
+		box-shadow: 0 0 15px 2px rgba(204,204,204,0.1);
+		padding: 0 20.25px 0 23.25px;
+		letter-spacing: 3px;
+		border-radius: 16px;
+		margin: 0 19px;
+		box-sizing: border-box;
+	}
+	.personalSettings-content button:hover{	
+		color: #f5c988;
+		box-shadow: 0 0 15px 2px rgba(245,201,136,0.1);
+		border: solid 1px #f5c988;
+		background: rgba(245,201,136,0.02);
+}
+	/*==========设置分支外部框架主体区域内容区基本信息主体=========*/	
+	.info-content{
+		display: inline-block;
+		text-align: left;
+		min-width: 450px;
+	}
+	/*==========设置分支外部框架主体区域内容区基本信息按钮部分=========*/	
+	.finishForm{
+		height: 32px;
+/*		line-height: 32px;*/
+		text-align: center;
+	/*	padding-right: 25px;*/
+		margin-top: 21px;
+		margin-bottom: 8px;
+		margin-left: 91px;
+		width: 262.5px;
+	}
+	/*==========设置分支外部框架主体区域内容区账号安全主体=========*/
+	.safe-content{
+		display: inline-block;
+		text-align: left;
+		min-width: 450px;
+	}
+   /*==========设置分支外部框架主体区域内容区绑定账号之第三方登录部分=========*/	
+	.thirdPartyLogin {
+		height: 32px;
+		line-height: 32px;
+		text-align: center;
+	/*	padding-right: 25px;*/
+		margin-top: 60px;
+		margin-bottom: 8px;
+		margin-left: 91px;
+		width: 262.5px;
+	}
+	.thirdPartyLogin span{
+		cursor: pointer;
+		display: inline-block;
+		height: 32px;
+		width: 32px;
+		border-radius: 50%;
+		text-align: center;
+		margin: 0 15px;
+		color: #FFFFFF;
+	}
+	.thirdPartyLogin span i{
+		font-size: 16px;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	/*==========设置分支外部框架=========*/
+	.personalSettings{
+		min-height: 600px;
+		border-radius: 6px;
+	}
+	/*==========设置分支外部框架头部头像部分=========*/	
+	.personalSettings-head{
+		display: block;
+		height: 81px;
+		width: 100%;
+		padding-top: 21px;
+		margin-bottom: 15px;
+	}
+	.personalSettings-head h2{
+		display: block;
+		height: 60px;
+		margin: 0;
+	}
+	.personalSettings-head div{
+		display: inline-block;
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		background-color: #F7F7F7;
+	}
+	/*==========设置分支外部框架主体区域导航部分=========*/
+	.personalSettings-nav{
+		display: block;
+		height: 28px;
+		line-height: 24px;
+		text-align: center;
+		border-bottom: 2px solid #F7F7F7;
+		color: #999999;
+	}
+	.personalSettings-nav li{
+		display: inline-block;
+		font-size: 12px;
+		margin: 0 40px;
+		cursor: pointer;
+		letter-spacing: 2px;
+	}
+	/*==========设置分支外部框架主体区域内容区=========*/
+	.personalSettings-content ul{
+		padding-top: 10px;
+		text-align: center;
+		display: inline-block;
+	}
+	.personalSettings-content li{
+		margin-top: 16px;
+		letter-spacing: 2px;
+		display: flex;
+	}
+	/*==========设置分支外部框架主体区域内容区小标题=========*/		
+	.personalSettings-content li label{
+		font-size: 10px;
+		color: #CCCCCC;
+		margin-bottom: 0;
+		margin-right: 12px;
+		line-height: 24px;
+		width: 70px;
+		text-align: right;
+	}
+	/*==========设置分支外部框架主体区域内容区输入框=========*/		
+	.personalSettings-content li input{
+		cursor: pointer;
+		font-size: 10px;
+		color: #999999;
+		width: 200px;
+		height: 24px;
+		background-color: #F7F7F7;
+		border: none;
+		border-radius: 2px;
+		padding-left: 10px;
+		padding-right: 10px;
+		letter-spacing: 2px;
+	}
+		.lineBox .file_input2{
+		cursor: text;
+}
+	/*==========设置分支外部框架主体区域内容区提示信息=========*/		
+	.personalSettings-content li span{
+		font-size: 10px;
+		color: #F1584A;
+		margin-top: 0px;
+		line-height: 12px;
+		display: block;
+		text-align: left;
+	}
+	/*==========设置分支外部框架主体区域内容区基本信息部分上传头像框=========*/	
+	.personalSettings-content li .upload_box{
+		width: 200px;
+		line-height: 24px;
+	    border: 1px solid #DBDBDB;
+	    background-color: #FFFFFF;
+	    border-radius: 2px;
+	    color: #d9d9d9;
+	    font-size: 10px;
+	    letter-spacing: 2px;
+	    margin: 0;
+	}
+	/*==========设置分支外部框架主体区域内容区按钮=========*/		
+	.personalSettings-content button{
+		cursor: pointer;
+		height: 24px;
+		font-size: 10px;
+		color: #ccc;
+		border: 1px solid #ccc;
+		background-color: #FFFFFF;
+		box-shadow: 0 0 15px 2px rgba(204,204,204,0.1);
+		padding: 0 15px 0 17px;
+		letter-spacing: 2px;
+		border-radius: 12px;
+		margin: 0 14px;
+		box-sizing: border-box;
+	}
+		.personalSettings-content button:hover{	
+		color: #f5c988;
+		box-shadow: 0 0 15px 2px rgba(245,201,136,0.1);
+		border: solid 1px #f5c988;
+		background: rgba(245,201,136,0.02);
+}
+	/*==========设置分支外部框架主体区域内容区基本信息主体=========*/		
+	.info-content{
+		display: inline-block;
+		text-align: left;
+/*		min-width: 400px;*/
+	}
+	/*==========设置分支外部框架主体区域内容区基本信息按钮部分=========*/		
+	.finishForm{
+		height: 21px;
+/*		line-height: 21px;*/
+		text-align: center;
+	/*	padding-right: 25px;*/
+		margin-top: 16px;
+		margin-bottom: 6px;
+		margin-left: 82px;
+		width: 200px;
+	}
+	/*==========设置分支外部框架主体区域内容区基账号安全主体=========*/		
+	.safe-content{
+		display: inline-block;
+		text-align: left;
+/*		min-width: 400px;*/
+	}
+   /*==========设置分支外部框架主体区域内容区绑定账号之第三方登录部分=========*/		
+	.thirdPartyLogin {
+		height: 24px;
+		line-height: 24px;
+		text-align: center;
+	/*	padding-right: 25px;*/
+		margin-top: 45px;
+		margin-bottom: 6px;
+		margin-left: 82px;
+		width: 200px;
+	}
+	.thirdPartyLogin span{
+		cursor: pointer;
+		display: inline-block;
+		height: 24px;
+		width: 24px;
+		line-height: 20px;
+		border-radius: 50%;
+		text-align: center;
+		margin: 0 12px;
+		color: #FFFFFF;
+	}
+	.thirdPartyLogin span i{
+		font-size: 12px;
+	}
+
+}

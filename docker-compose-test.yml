@@ -1,0 +1,13 @@
+version: '2'
+services:
+    nandcloud.cn-test:
+        image: node:6.11.4
+        restart: always
+        ports:
+            - "8081:8081"
+        volumes:
+           - ./:/usr/src/app
+        #environment:
+         #  - NODE_ENV=production
+        command: [bash,-c,"cd /usr/src/app && node ./build/dev-server.js"]
+

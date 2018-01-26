@@ -1,0 +1,42 @@
+{
+  "status":0,
+  "message":"",
+    "isLfts": [
+        {
+          "figure": "3",
+          "name": "已创建网关容量",
+          "color": "isLft-size",
+          "names": "isLft-clor"
+        },
+        {
+          "figure": "7",
+          "name": "可创建网关容量",
+          "color": "isLft-seven",
+          "names": "isLft-cloro"
+        }
+      ],
+      "isRights": [
+        {
+          "figure": 2,
+          "name": "运行中",
+          "color": "isRight-tow",
+          "names": "isRight-twclor" ,
+          "src": "../../../static/gateway/img/shezhi.png"
+
+        },
+        {
+          "figure": "0",
+          "name": "已停止",
+          "color": "isRight-zero",
+          "names": "isRight-zeclor",
+          "src": "../../../static/gateway/img/stop.png"
+        },
+        {
+          "figure": 1,
+          "name": "有异常",
+          "color": "isRight-one",
+          "names": "isRight-onclor",
+          "src": "../../../static/gateway/img/jinggao.png"
+        }
+      ]
+  }

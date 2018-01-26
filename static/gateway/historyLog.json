@@ -1,0 +1,50 @@
+{
+  "status":0,
+  "message":"",
+  "logs": [
+    { 
+      "ID":"01",
+      "type": "操作记录",
+      "content": "某某人在13:42分停止了某某网关.",
+      "time": "2017-07-12"
+    },
+    {
+      "ID":"02",
+      "type": "操作记录",
+      "content": "某某人在13:42分启动了某某网关.",
+      "time": "2017-07-12"
+    },
+    {
+      "ID":"03",
+      "type": "操作记录",
+      "content": "某某人在13:42分发生异常.",
+      "time": "2017-07-12"
+    },
+    {
+      "ID":"04",
+      "type": "告警记录",
+      "content": "网关XXX发生警告，警告信息为XXXXXX,若您想修改警告规则",
+      "total": "请点击此处",
+      "time": "2017-07-12"
+    }
+    
+  ],
+  "result": [
+    {
+      "EstablishUser": "创建用户：",
+      "createUserName": "用户名"
+    },
+    {
+      "EstablishTime": "创建时间：",
+      "createTime": "2017/08/10--17:52"
+    },
+    {
+      "LastRuntime": "最后一次运行时长：",
+      "RuntimeLength": "2小时25分钟 "
+    },
+    {
+      "LastStoptime": "最后一次停止时间：",
+      "startTime": "35分钟前"
+    }
+  ]
+}

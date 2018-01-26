@@ -1,0 +1,666 @@
+@charset "utf-8";
+
+		/*==========覆盖引用框架还原字体默认=========*/
+
+.cardContent b{
+    font-style: normal;
+	  font-weight: normal;
+}
+.main-fill b:hover{
+		cursor:text;
+	}
+	
+	
+@media only screen and (min-width:1920px) {
+ 	
+		/*==========卡片区域父级框=========*/
+	.main-fill {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	
+		/*==========卡片的三种状态样式=========*/
+	.main-information:nth-child(1),
+	.main-information:nth-child(2),
+	.main-information:nth-child(3),
+	.main-information:nth-child(6),
+	.main-information {
+		cursor: pointer;
+		height: 448px;
+		width: 18.35%;
+		margin: 30px 30px 0px 0px;
+		border-radius: 12px;
+	}
+	.main-information:nth-child(1),
+	.main-information:nth-child(2),
+	.main-information:nth-child(3) {background: #FFFFFF;}	
+	
+  .main-information:nth-child(1):hover,
+  .main-information:nth-child(2):hover,
+  .main-information:nth-child(3):hover {
+  	box-shadow: 0 0 30px 1px rgba(204, 204, 204,0.39);
+  	background-color: #FFFFFF;}
+  
+	.main-information:nth-child(1) {margin-left: 0px;}
+	.main-information:nth-child(5) {margin-right: 0px;}
+	.main-information:nth-child(6) {margin-left: 0px;}
+	.main-information:nth-child(10) {margin-right: 0px;}
+	
+    .main-information{background-color: #EDEDED;}
+	.main-information:hover {background: #E8E8E8;}
+
+	
+		/*==========卡片网关名称=========*/
+	.isLft-siz {
+		font-family: "Arial","Microsoft YaHei","SimHei","SimSun";
+		font-size: 21px;
+		color: #333;
+		letter-spacing: 6px;
+		line-height: 81px;
+		display: inline-block;
+		margin: 0 auto;
+	}
+		/*==========  文本信息的父级，行内块相对于卡片绝对居中 =========*/
+	.main-ip,.onlineupdown{margin: 0 auto;
+		        display: inline-block;
+				font-size: 16px;
+				line-height: 14px;
+				letter-spacing: 3px;}
+/*========== 文本信息的子级，为了内部文本左对齐 =========*/
+	.main-ipBox,.onlineupdown_box{text-align: left;}
+/*========== 文本信息的子级中的文本细节 =========*/
+	.main-ip span {
+		color: #CCCCCC;
+	}
+	.main-ip b {
+		color: #666; 
+	}
+	.margin-port {
+		margin-top: 16px;
+	}	
+	.onlineupdown span {
+		color: #CCCCCC;
+	}
+	.onlineupdown b {
+		color: #666; 
+	}
+	.onlineupdown div {
+		margin-bottom: 15px;
+	}	
+/*========== 状态图标 =========*/
+    .equipment img {
+		height: 82px;
+		margin: 39px 0px;
+	}
+/*========== 新建图标 =========*/
+	.equipmentn {
+		line-height: 402px;
+		height: 0;
+	}
+  
+/*========== 状态图标下的文本 =========*/
+	.footer {
+		font-size: 16px;
+		line-height: 14px;
+		letter-spacing: 4px;
+		color: #CCCCCC;
+		padding: 30px 0;
+	}
+/*========== 新建图标下的文本 =========*/
+	.footers {
+		font-size: 16px;
+		line-height: 14px;
+		letter-spacing: 6px;
+		color: #CCCCCC;
+		position: relative;
+		bottom: -402px;
+	}   
+}
+	
+
+
+		
+@media only screen and (min-width:1441px) and (max-width:1919px) {
+	
+		/*==========卡片区域父级框=========*/
+	.main-fill {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	
+		/*==========卡片的三种状态样式=========*/
+	.main-information:nth-child(1),
+	.main-information:nth-child(2),
+	.main-information:nth-child(3),
+	.main-information:nth-child(6),
+	.main-information {
+		cursor: pointer;
+		height: 448px;
+		width: 17.35%;
+		margin: 30px 30px 0px 0px;
+		border-radius: 12px;
+	}
+	.main-information:nth-child(1),
+	.main-information:nth-child(2),
+	.main-information:nth-child(3) {background: #FFFFFF;}	
+	
+  .main-information:nth-child(1):hover,
+  .main-information:nth-child(2):hover,
+  .main-information:nth-child(3):hover {
+  	box-shadow: 0 0 30px 1px rgb(204, 204, 204,0.39);
+  	background-color: #FFFFFF;}
+  
+	.main-information:nth-child(1) {margin-left: 0px;}
+	.main-information:nth-child(5) {margin-right: 0px;}
+	.main-information:nth-child(6) {margin-left: 0px;}
+	.main-information:nth-child(10) {margin-right: 0px;}
+	
+    .main-information{background-color: #EDEDED;}
+	.main-information:hover {background: #E8E8E8;}
+
+	
+		/*==========卡片网关名称=========*/
+	.isLft-siz {
+		font-family: "Arial","Microsoft YaHei","SimHei","SimSun";
+		font-size: 21px;
+		color: #333;
+		letter-spacing: 6px;
+		line-height: 81px;
+		display: inline-block;
+		margin: 0 auto;
+	}
+		/*==========  文本信息的父级，行内块相对于卡片绝对居中 =========*/
+	.main-ip,.onlineupdown{margin: 0 auto;
+		        display: inline-block;
+				font-size: 16px;
+				line-height: 14px;
+				letter-spacing: 3px;}
+/*========== 文本信息的子级，为了内部文本左对齐 =========*/
+	.main-ipBox,.onlineupdown_box{text-align: left;}
+/*========== 文本信息的子级中的文本细节 =========*/
+	.main-ip span {
+		color: #CCCCCC;
+	}
+	.main-ip b {
+		color: #666; 
+	}
+	.margin-port {
+		margin-top: 16px;
+	}	
+	.onlineupdown span {
+		color: #CCCCCC;
+	}
+	.onlineupdown b {
+		color: #666; 
+	}
+	.onlineupdown div {
+		margin-bottom: 15px;
+	}	
+/*========== 状态图标 =========*/
+    .equipment img {
+		height: 82px;
+		margin: 39px 0px;
+	}
+/*========== 新建图标 =========*/
+	.equipmentn {
+		line-height: 402px;
+		height: 0;
+	}
+/*========== 状态图标下的文本 =========*/
+	.footer {
+		font-size: 16px;
+		line-height: 14px;
+		letter-spacing: 4px;
+		color: #CCCCCC;
+		padding: 30px 0;
+	}
+/*========== 新建图标下的文本 =========*/
+	.footers {
+		font-size: 16px;
+		line-height: 14px;
+		letter-spacing: 6px;
+		color: #CCCCCC;
+		position: relative;
+		bottom: -402px;
+	}
+}
+
+
+
+@media only screen and (min-width:1440px) and (max-width:1440px) {
+ 	
+/*==========卡片区域父级框=========*/
+	.main-fill {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	
+		/*==========卡片的三种状态样式=========*/
+	.main-information:nth-child(1),
+	.main-information:nth-child(2),
+	.main-information:nth-child(3),
+	.main-information:nth-child(6),
+	.main-information {
+		cursor: pointer;
+		height: 340px;
+		width: 18.35%;
+		margin: 22px 22px 0px 0px;
+		border-radius: 12px;
+	}
+	.main-information:nth-child(1),
+	.main-information:nth-child(2),
+	.main-information:nth-child(3) {background: #FFFFFF;}	
+	
+  .main-information:nth-child(1):hover,
+  .main-information:nth-child(2):hover,
+  .main-information:nth-child(3):hover {
+  	box-shadow: 0 0 22px 1px rgb(204, 204, 204,0.39);
+  	background-color: #FFFFFF;}
+  
+	.main-information:nth-child(1) {margin-left: 0px;}
+	.main-information:nth-child(5) {margin-right: 0px;}
+	.main-information:nth-child(6) {margin-left: 0px;}
+	.main-information:nth-child(10) {margin-right: 0px;}
+	
+    .main-information{background-color: #EDEDED;}
+	.main-information:hover {background: #E8E8E8;}
+
+	
+		/*==========卡片网关名称=========*/
+	.isLft-siz {
+		font-family: "Arial","Microsoft YaHei","SimHei","SimSun";
+		font-size: 16px;
+		color: #333;
+		letter-spacing: 4px;
+		line-height: 60px;
+		display: inline-block;
+		margin: 0 auto;
+	}
+		/*==========  文本信息的父级，行内块相对于卡片绝对居中 =========*/
+	.main-ip,.onlineupdown{margin: 0 auto;
+		        display: inline-block;
+				font-size: 14px;
+				line-height: 12px;
+				letter-spacing: 3px;}
+/*========== 文本信息的子级，为了内部文本左对齐 =========*/
+	.main-ipBox,.onlineupdown_box{text-align: left;}
+/*========== 文本信息的子级中的文本细节 =========*/
+	.main-ip span {
+		color: #CCCCCC;
+	}
+	.main-ip b {
+		color: #666; 
+	}
+	.margin-port {
+		margin-top: 12px;
+	}	
+	.onlineupdown span {
+		color: #CCCCCC;
+	}
+	.onlineupdown b {
+		color: #666; 
+	}
+	.onlineupdown div {
+		margin-bottom: 12px;
+	}	
+/*========== 状态图标 =========*/
+    .equipment img  {
+		height: 62px;
+		margin: 27px 0px;
+	}
+/*========== 新建图标 =========*/
+	.equipmentn {
+		line-height: 303px;
+		height: 0;
+	}
+/*========== 状态图标下的文本 =========*/
+	.footer {
+		font-size: 14px;
+		line-height: 12px;
+		letter-spacing: 3px;
+		color: #CCCCCC;
+		padding: 21px 0;
+	}
+/*========== 新建图标下的文本 =========*/
+	.footers {
+		font-size: 14px;
+		line-height: 12px;
+		letter-spacing: 3px;
+		color: #CCCCCC;
+		position: relative;
+		bottom: -306px;
+	}
+}
+
+	
+@media only screen and (min-width:1346px) and (max-width:1439px) {
+	/*==========卡片区域父级框=========*/
+	.main-fill {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	
+		/*==========卡片的三种状态样式=========*/
+	.main-information:nth-child(1),
+	.main-information:nth-child(2),
+	.main-information:nth-child(3),
+	.main-information:nth-child(6),
+	.main-information {
+		cursor: pointer;
+		height: 340px;
+		width: 17.35%;
+		margin: 22px 22px 0px 0px;
+		border-radius: 12px;
+	}
+	.main-information:nth-child(1),
+	.main-information:nth-child(2),
+	.main-information:nth-child(3) {background: #FFFFFF;}	
+	
+  .main-information:nth-child(1):hover,
+  .main-information:nth-child(2):hover,
+  .main-information:nth-child(3):hover {
+  	box-shadow: 0 0 22px 1px rgb(204, 204, 204,0.39);
+  	background-color: #FFFFFF;}
+  
+	.main-information:nth-child(1) {margin-left: 0px;}
+	.main-information:nth-child(5) {margin-right: 0px;}
+	.main-information:nth-child(6) {margin-left: 0px;}
+	.main-information:nth-child(10) {margin-right: 0px;}
+	
+    .main-information{background-color: #EDEDED;}
+	.main-information:hover {background: #E8E8E8;}
+
+	
+		/*==========卡片网关名称=========*/
+	.isLft-siz {
+		font-family: "Arial","Microsoft YaHei","SimHei","SimSun";
+		font-size: 16px;
+		color: #333;
+		letter-spacing: 4px;
+		line-height: 60px;
+		display: inline-block;
+		margin: 0 auto;
+	}
+		/*==========  文本信息的父级，行内块相对于卡片绝对居中 =========*/
+	.main-ip,.onlineupdown{margin: 0 auto;
+		        display: inline-block;
+				font-size: 14px;
+				line-height: 12px;
+				letter-spacing: 3px;}
+/*========== 文本信息的子级，为了内部文本左对齐 =========*/
+	.main-ipBox,.onlineupdown_box{text-align: left;}
+/*========== 文本信息的子级中的文本细节 =========*/
+	.main-ip span {
+		color: #CCCCCC;
+	}
+	.main-ip b {
+		color: #666; 
+	}
+	.margin-port {
+		margin-top: 12px;
+	}	
+	.onlineupdown span {
+		color: #CCCCCC;
+	}
+	.onlineupdown b {
+		color: #666; 
+	}
+	.onlineupdown div {
+		margin-bottom: 12px;
+	}	
+/*========== 状态图标 =========*/
+    .equipment img  {
+		height: 62px;
+		margin: 27px 0px;
+	}
+/*========== 新建图标 =========*/
+	.equipmentn {
+		line-height: 303px;
+		height: 0;
+	}
+/*========== 状态图标下的文本 =========*/
+	.footer {
+		font-size: 14px;
+		line-height: 12px;
+		letter-spacing: 3px;
+		color: #CCCCCC;
+		padding: 21px 0;
+	}
+/*========== 新建图标下的文本 =========*/
+	.footers {
+		font-size: 14px;
+		line-height: 12px;
+		letter-spacing: 3px;
+		color: #CCCCCC;
+		position: relative;
+		bottom: -305px;
+	}
+}
+
+
+@media only screen and (min-width:1025px) and (max-width:1345px) {
+	/*==========卡片区域父级框=========*/
+	.main-fill {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	
+		/*==========卡片的三种状态样式=========*/
+	.main-information:nth-child(1),
+	.main-information:nth-child(2),
+	.main-information:nth-child(3),
+	.main-information:nth-child(6),
+	.main-information {
+		cursor: pointer;
+		height: 261px;
+		width: 17.35%;
+		margin: 21px 21px 0px 0px;
+		border-radius: 12px;
+	}
+	.main-information:nth-child(1),
+	.main-information:nth-child(2),
+	.main-information:nth-child(3) {background: #FFFFFF;}	
+	
+  .main-information:nth-child(1):hover,
+  .main-information:nth-child(2):hover,
+  .main-information:nth-child(3):hover {
+  	box-shadow: 0 0 21px 1px rgb(204, 204, 204,0.39);
+  	background-color: #FFFFFF;}
+  
+	.main-information:nth-child(1) {margin-left: 0px;}
+	.main-information:nth-child(5) {margin-right: 0px;}
+	.main-information:nth-child(6) {margin-left: 0px;}
+	.main-information:nth-child(10) {margin-right: 0px;}
+	
+    .main-information{background-color: #EDEDED;}
+	.main-information:hover {background: #E8E8E8;}
+
+	
+		/*==========卡片网关名称=========*/
+	.isLft-siz {
+		font-family: "Arial","Microsoft YaHei","SimHei","SimSun";
+		font-size: 14px;
+		color: #333;
+		letter-spacing: 3px;
+		line-height: 57px;
+		display: inline-block;
+		margin: 0 auto;
+	}
+		/*==========  文本信息的父级，行内块相对于卡片绝对居中 =========*/
+	.main-ip,.onlineupdown{margin: 0 auto;
+		        display: inline-block;
+				font-size: 11px;
+				line-height: 10px;
+				letter-spacing: 2px;}
+/*========== 文本信息的子级，为了内部文本左对齐 =========*/
+	.main-ipBox,.onlineupdown_box{text-align: left;}
+/*========== 文本信息的子级中的文本细节 =========*/
+	.main-ip span {
+		color: #CCCCCC;
+	}
+	.main-ip b {
+		color: #666; 
+	}
+	.margin-port {
+		margin-top: 10px;
+	}	
+	.onlineupdown span {
+		color: #CCCCCC;
+	}
+	.onlineupdown b {
+		color: #666; 
+	}
+	.onlineupdown div {
+		margin-bottom: 10px;
+	}	
+/*========== 状态图标 =========*/
+    .equipment img  {
+		height: 57px;
+		margin: 15px 0px;
+	}
+/*========== 新建图标 =========*/
+	.equipmentn {
+		line-height: 240px;
+		height: 0;
+	}
+/*========== 状态图标下的文本 =========*/
+	.footer {
+		font-size: 11px;
+		line-height: 10px;
+		letter-spacing: 2px;
+		color: #CCCCCC;
+		padding: 5px 0;
+	}
+/*========== 新建图标下的文本 =========*/
+	.footers {
+		font-size: 11px;
+		line-height: 10px;
+		letter-spacing: 2px;
+		color: #CCCCCC;
+		position: relative;
+		bottom: -240px;
+	}
+}
+
+
+		
+@media (max-width: 1024px) {
+	/*==========卡片区域父级框=========*/
+	.main-fill {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	
+		/*==========卡片的三种状态样式=========*/
+	.main-information:nth-child(1),
+	.main-information:nth-child(2),
+	.main-information:nth-child(3),
+	.main-information:nth-child(6),
+	.main-information {
+		cursor: pointer;
+		height: 253px;
+		width: 18.35%;
+		margin: 16px 16px 0px 0px;
+		border-radius: 12px;
+	}
+	.main-information:nth-child(1),
+	.main-information:nth-child(2),
+	.main-information:nth-child(3) {background: #FFFFFF;}	
+	
+  .main-information:nth-child(1):hover,
+  .main-information:nth-child(2):hover,
+  .main-information:nth-child(3):hover {
+  	box-shadow: 0 0 16px 1px rgb(204, 204, 204,0.39);
+  	background-color: #FFFFFF;}
+  
+	.main-information:nth-child(1) {margin-left: 0px;}
+	.main-information:nth-child(5) {margin-right: 0px;}
+	.main-information:nth-child(6) {margin-left: 0px;}
+	.main-information:nth-child(10) {margin-right: 0px;}
+	
+    .main-information{background-color: #EDEDED;}
+	.main-information:hover {background: #E8E8E8;}
+
+	
+		/*==========卡片网关名称=========*/
+	.isLft-siz {
+		font-family: "Arial","Microsoft YaHei","SimHei","SimSun";
+		font-size: 12px;
+		color: #333;
+		letter-spacing: 3px;
+		line-height: 42px;
+		display: inline-block;
+		margin: 0 auto;
+	}
+		/*==========  文本信息的父级，行内块相对于卡片绝对居中 =========*/
+	.main-ip,.onlineupdown{margin: 0 auto;
+		        display: inline-block;
+				font-size: 9px;
+				line-height: 10px;
+				letter-spacing: 2px;}
+/*========== 文本信息的子级，为了内部文本左对齐 =========*/
+	.main-ipBox,.onlineupdown_box{text-align: left;}
+/*========== 文本信息的子级中的文本细节 =========*/
+	.main-ip span {
+		color: #CCCCCC;
+	}
+	.main-ip b {
+		color: #666; 
+	}
+	.margin-port {
+		margin-top: 9px;
+	}	
+	.onlineupdown span {
+		color: #CCCCCC;
+	}
+	.onlineupdown b {
+		color: #666; 
+	}
+	.onlineupdown div {
+		margin-bottom: 9px;
+	}	
+/*========== 状态图标 =========*/
+    .equipment img  {
+		height: 42px;
+		margin: 20px 0px;
+	}
+/*========== 新建图标 =========*/
+	.equipmentn {
+		line-height: 215px;
+		height: 0;
+	}
+	.equipmentn .imgSize{
+  	width: 25px;
+  	height: 25px;
+  }
+/*========== 状态图标下的文本 =========*/
+	.footer {
+		font-size: 9px;
+		line-height: 10px;
+		letter-spacing: 2px;
+		color: #CCCCCC;
+		padding: 16px 0;
+	}
+/*========== 新建图标下的文本 =========*/
+	.footers {
+		font-size: 9px;
+		line-height: 10px;
+		letter-spacing: 2px;
+		color: #CCCCCC;
+		position: relative;
+		bottom: -230px;
+	}
+}
+	

@@ -1,0 +1,726 @@
+.device-detail-name .infoGroup ul li{
+  padding: 0;
+  white-space:nowrap;
+}
+.device-detail-name .infoGroup ul li label{
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.device-detail-name .infoGroup .clear{
+  clear:both;
+}
+.device-detail label{
+  display: inline;
+  margin-bottom: 0 !important;
+}
+.device-detail p{
+  margin: 0;
+  padding: 0;
+}
+.wapper-t .deviceBtns{
+  text-align: left;
+}
+/*-------------详情部分样式-----------*/
+@media  (min-width:1441px){
+  .device-detail-name{
+    margin-bottom: 36px;
+    display: flex;
+    position: relative;
+  }
+  .device-detail-name label.nameValue{
+    font-size: 24px;
+    letter-spacing: 6px;
+    width: 150px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .device-detail-name button{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4px;
+    color:#dbdbdb;
+    background-color: #FFFFFF;
+    border-radius:12px;
+    margin-left:16px;
+    border: 1px solid #f0f0f0;
+    padding-left:16px;
+    padding-right:12px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .device-detail-name button:hover{
+    border: 1px solid #ccc;
+  }
+  /*-------完整的名称信息------*/
+  .device-detail-name p{
+    position: absolute;
+    left: 0;
+    top: 30px;
+    border: 1px solid #000;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 21px;
+    padding: 3px 7px;
+  }
+  /*------------弹出框样式-------------------*/
+  .device-detail .wapper-t .hintArea{
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    left: 29.4%;
+    top: 180px;
+    z-index: 1100;
+    border-radius: 12px;
+    background: #ffffff;
+    border: 1px solid #f0f0f0;
+    padding: 30px 53px 60px;
+    box-shadow: 0 0 24px 0 rgba(0,0,0,0.5);
+    box-sizing: border-box;
+  }
+  .device-detail .wapper-t .hintArea .modifyContent{
+    font-size: 24px;
+    color: #333;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+  }
+  .device-detail .wapper-t .hintArea textarea{
+    width:494px;
+    height:136px;
+    background: #f7f7f7;
+    border: 1px solid #f0f0f0;
+    padding: 6px 12px;
+    font-size: 18px;
+    color: #999;
+    letter-spacing: 3px;
+    line-height: 30px;
+    resize: none
+  }
+  .device-detail .wapper-t .hintArea .warning{
+    margin-top: 12px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: #f1584a;
+    letter-spacing: 3px;
+    text-align: left !important;
+  }
+  .device-detail .wapper-t .hintArea .btns{
+    margin-top: 80px;
+  }
+  .device-detail .wapper-t .hintArea button{
+    font-size: 18px;
+    border-radius: 18px;
+    color: #dbdbdb;
+    width: 102px;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #f0f0f0;
+    background: #ffffff;
+    display: inline-block;
+  }
+  .device-detail .wapper-t .hintArea button.wordOut{
+    margin-right: 127px;
+  }
+  .device-detail .wapper-t .hintArea button:hover{
+    color: #f5c987;
+    border: 1px solid #f5c987;
+  }
+  /*------------按钮样式-----------*/
+  .wapper-t .CloudConfigurationBtn,.dataFlowBtn,.AccountAuthorizationBtn{
+    height: 48px;
+    font-size:18px;
+    color:#ccc;
+    letter-spacing: 6px;
+    box-shadow:0 0 15px 2px rgba(204,204,204,0.1);
+    border:solid 1px #ccc;
+    padding: 0 69px;
+    border-radius:24px;
+    margin:60px 0 60px 175px;
+    background: #FFFFFF;
+  }
+  .wapper-t .CloudConfigurationBtn:hover,
+  .wapper-t .AccountAuthorizationBtn:hover,
+  .wapper-t .dataFlowBtn:hover{
+    color:#f5c988;
+    box-shadow:0 0 15px 2px rgba(245,201,136,0.1);
+    border:solid 1px #f5c988;
+    background: rgba(245,201,136,0.02);
+  }
+
+  /*------------分隔线样式---------------*/
+  .wapper-t .line{
+    width: 100%;
+    height: 2px;
+    background: #f7f7f7;
+  }
+  .infoGroup ul li:nth-child(1),
+  .infoGroup ul li:nth-child(2){
+    margin-bottom: 24px;
+    text-align: left;
+    height: 24px;
+    line-height: 24px;
+  }
+  .infoGroup ul li:nth-child(3){
+    margin-bottom: 36px;
+    text-align: left;
+    height: 24px;
+    line-height: 24px;
+  }
+  .infoGroup ul li .itemName{
+    font-size: 16px;
+    color:#ccc;
+    letter-spacing: 4px;
+  }
+  .infoGroup ul li .default {
+    color: #555
+  }
+  .infoGroup ul li .reds {
+    color: #f57f62;
+  }
+  .infoGroup ul li .greens {
+    color: #5ce66a;
+  }
+  .infoGroup ul li .itemValue{
+    font-size: 16px;
+    letter-spacing: 4px;
+  }
+  .infoGroup .info li:nth-child(3),
+  .infoGroup .infoo li:nth-child(1){
+    display: flex;
+    position: relative;
+  }
+  .infoGroup .info li span.locationValue{
+    width: 160px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  /*------完整的位置信息------*/
+  .infoGroup .info li:nth-child(3) p{
+    position: absolute;
+    left: 60px;
+    top: 24px;
+    border: 1px solid #000;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 21px;
+    padding: 3px 7px;
+  }
+  .infoGroup .infoo li span.cardValue{
+    width: 150px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  /*--------完整的卡号信息------*/
+  .infoGroup .infoo li:nth-child(1) p{
+    position: absolute;
+    left: 60px;
+    top: 24px;
+    border: 1px solid #000;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 21px;
+    padding: 3px 7px;
+  }
+  .infoGroup ul li button{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4px;
+    color:#dbdbdb;
+    background-color: #FFFFFF;
+    border-radius:12px;
+    margin-left:16px;
+    border: 1px solid #f0f0f0;
+    padding-left:16px;
+    padding-right:12px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .infoGroup ul li button:hover{
+    border: 1px solid #ccc;
+  }
+  /*.info li:nth-child(3) .reset{*/
+    /*margin-right: 147px;*/
+  /*}*/
+  /*.infos li:nth-child(3)>.itemValue{*/
+    /*margin-right:72px;*/
+  /*}*/
+}
+@media (max-width:1440px) and (min-width:1025px){
+  /*----------详情部分样式--------*/
+  .device-detail-name{
+    margin-bottom: 27px;
+    display: flex;
+    position: relative;
+  }
+  .device-detail-name label.nameValue{
+    font-size:18px;
+    letter-spacing: 4.5px;
+    width: 120px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .device-detail-name button{
+    font-size: 12px;
+    line-height:18px;
+    letter-spacing: 3px;
+    color:#dbdbdb;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    margin-left:12px;
+    border: 1px solid #f0f0f0;
+    padding-left:12px;
+    padding-right:9px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 0;
+    padding-bottom: 0;
+    vertical-align: baseline;
+  }
+  .device-detail-name button:hover{
+    border: 1px solid #ccc;
+  }
+  /*--------完整的名称信息-------*/
+  .device-detail-name p{
+    position: absolute;
+    left: 0;
+    top: 20px;
+    border: 1px solid #000;
+    font-size: 10.5px;
+    letter-spacing: 1px;
+    line-height: 15.75px;
+    padding: 2.25px 5.25px;
+  }
+  /*------------弹出框样式-------------------*/
+  .device-detail .wapper-t .hintArea{
+    width: 450px;
+    height: 300px;
+    position: absolute;
+    left: 29.4%;
+    top: 143px;
+    z-index: 1100;
+    padding: 23px 40px 45px;
+    border-radius: 9px;
+    background: #ffffff;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 0 18px 0 rgba(0,0,0,0.5);
+    box-sizing: border-box;
+  }
+  .device-detail .wapper-t .hintArea .modifyContent{
+    font-size: 18px;
+    color: #333;
+    letter-spacing: 3.75px;
+    margin-bottom: 32.5px;
+  }
+  .device-detail .wapper-t .hintArea textarea{
+    width:370px;
+    height:102px;
+    background: #f7f7f7;
+    border: 1px solid #f0f0f0;
+    padding: 4.5px 9px;
+    font-size: 13.5px;
+    color: #999;
+    letter-spacing: 2.25px;
+    line-height: 22.5px;
+    resize: none
+  }
+  .device-detail .wapper-t .hintArea .warning{
+    margin-top: 9px;
+    margin-bottom: 22.5px;
+    font-size: 12px;
+    color: #f1584a;
+    letter-spacing: 2.25px;
+    text-align: left !important;
+  }
+  .device-detail .wapper-t .hintArea .btns{
+    margin-top: 60px;
+  }
+  .device-detail .wapper-t .hintArea button{
+    font-size: 13.5px;
+    border-radius: 13.5px;
+    color: #dbdbdb;
+    width: 77px;
+    height: 27px;
+    line-height: 27px;
+    border: 1px solid #f0f0f0;
+    background: #ffffff;
+    display: inline-block;
+    margin-bottom: 0;
+  }
+  .device-detail .wapper-t .hintArea button.wordOut{
+    margin-right:95px;
+
+  }
+  .device-detail .wapper-t .hintArea button:hover{
+    color: #f5c987;
+    border: 1px solid #f5c987;
+  }
+  /*------------按钮样式----------------*/
+  .wapper-t .CloudConfigurationBtn,.dataFlowBtn,.AccountAuthorizationBtn{
+    height: 36px;
+    font-size:13.5px;
+    color:#ccc;
+    letter-spacing: 4.5px;
+    box-shadow:0 0 15px 2px rgba(204,204,204,0.1);
+    border:solid 1px #ccc;
+    padding: 0 51.75px;
+    border-radius: 18px;
+    margin:45px 0 45px 131px;
+    background: #FFFFFF;
+  }
+  .wapper-t .AccountAuthorizationBtn:hover,
+  .wapper-t .CloudConfigurationBtn:hover,
+  .wapper-t .dataFlowBtn:hover{
+    color:#f5c988;
+    box-shadow:0 0 15px 2px rgba(245,201,136,0.1);
+    border:solid 1px #f5c988;
+    background: rgba(245,201,136,0.02);
+  }
+  /*------------分隔线样式---------------*/
+  .wapper-t .line{
+    width: 100%;
+    height: 2px;
+    background: #f7f7f7;
+  }
+  .infoGroup ul li:nth-child(1),
+  .infoGroup ul li:nth-child(2){
+    margin-bottom: 18px;
+    text-align: left;
+    height:18px;
+    line-height: 18px;
+  }
+  .infoGroup ul li:nth-child(3){
+    margin-bottom: 27px;
+    text-align: left;
+    height:18px;
+    line-height: 18px;
+  }
+  .infoGroup ul li .itemName{
+    font-size: 12px;
+    color:#ccc;
+    letter-spacing: 3px;
+  }
+  .infoGroup ul li .default {
+    color: #555
+  }
+  .infoGroup ul li .reds {
+    color: #f57f62;
+  }
+  .infoGroup ul li .greens {
+    color: #5ce66a;
+  }
+  .infoGroup ul li .itemValue{
+    font-size: 12px;
+    letter-spacing: 3px;
+  }
+  .infoGroup .info li:nth-child(3),
+  .infoGroup .infoo li:nth-child(1){
+    display: flex;
+    position: relative;
+  }
+  .infoGroup .info li span.locationValue{
+    width: 120px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  /*------完整的位置信息------*/
+  .infoGroup .info li:nth-child(3) p{
+    position: absolute;
+    left: 45px;
+    top: 20px;
+    border: 1px solid #000;
+    font-size: 10.5px;
+    letter-spacing: 1px;
+    line-height: 15.75px;
+    padding: 2.25px 5.25px;
+  }
+  .infoGroup .infoo li span.cardValue{
+    width: 110px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  /*---------完整的卡号信息-------*/
+  .infoGroup .infoo li:nth-child(1) p{
+    position: absolute;
+    left: 45px;
+    top: 18px;
+    border: 1px solid #000;
+    font-size: 10.5px;
+    letter-spacing: 1px;
+    line-height: 15.75px;
+    padding: 2.25px 5.25px;
+  }
+  .infoGroup ul li button{
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 3px;
+    color:#dbdbdb;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    margin-left: 12px;
+    border: 1px solid #f0f0f0;
+    padding-left:12px;
+    padding-right:9px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .infoGroup ul li button:hover{
+    border: 1px solid #ccc;
+  }
+  /*.info li:nth-child(3) .reset{*/
+    /*margin-right: 110.25px;*/
+  /*}*/
+  /*.infos li:nth-child(3)>.itemValue{*/
+    /*margin-right:54px;*/
+  /*}*/
+}
+@media (max-width:1024px){
+  /*-----------详情样式-----------*/
+  .device-detail-name{
+    margin-bottom: 19.08px;
+    display: flex;
+    position: relative;
+  }
+  .device-detail-name label.nameValue{
+    font-size: 12.72px;
+    letter-spacing: 3.18px;
+    width: 90px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  /*-------完整的名称信息------*/
+  .device-detail-name p{
+    position: absolute;
+    left: 0;
+    top: 18px;
+    border: 1px solid #000;
+    font-size: 7.42px;
+    letter-spacing: 0.5px;
+    line-height: 12px;
+    padding: 1.6px 3.71px;
+  }
+  .device-detail-name button{
+    font-size:8.48px;
+    color:#dbdbdb;
+    line-height: 14px;
+    border-radius:6px;
+    border: 1px solid #f0f0f0;
+    background-color: #FFFFFF;
+    letter-spacing: 2.12px;
+    margin-left:8.48px;
+    padding-left:8.48px;
+    padding-right:6.36px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .device-detail-name button:hover{
+    border: 1px solid #ccc;
+  }
+  /*------------弹出框样式-------------------*/
+  .device-detail .wapper-t .hintArea{
+    width: 320px;
+    height: 213px;
+    position: absolute;
+    left: 29.4%;
+    top: 108px;
+    z-index: 1100;
+    padding: 16px 28px 32px;
+    border-radius: 6.36px;
+    background: #ffffff;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 0 12.72px 0 rgba(0,0,0,0.5);
+    box-sizing: border-box;
+  }
+  .device-detail .wapper-t .hintArea .modifyContent{
+    font-size: 12.72px;
+    color: #333;
+    letter-spacing: 2.65px;
+    margin-bottom: 16px;
+  }
+  .device-detail .wapper-t .hintArea textarea{
+    width:263px;
+    height:72.1px;
+    background: #f7f7f7;
+    border: 1px solid #f0f0f0;
+    padding: 3.18px 6.36px;
+    font-size: 9.54px;
+    color: #999;
+    letter-spacing: 1.6px;
+    line-height: 16px;
+    resize: none
+  }
+  .device-detail .wapper-t .hintArea .warning{
+    margin-top: 6.36px;
+    margin-bottom: 16px;
+    font-size: 8.48px;
+    color: #f1584a;
+    letter-spacing: 1.6px;
+    text-align: left !important;
+  }
+  .device-detail .wapper-t .hintArea .btns{
+    margin-top: 43px;
+  }
+  .device-detail .wapper-t .hintArea button{
+    font-size: 9.54px;
+    border-radius: 9.54px;
+    color: #dbdbdb;
+    width: 54.06px;
+    height: 19.1px;
+    line-height: 19.1px;
+    border: 1px solid #f0f0f0;
+    background: #ffffff;
+    display: inline-block;
+    margin-bottom: 0;
+  }
+  .device-detail .wapper-t .hintArea button.wordOut{
+    margin-right: 68px;
+  }
+  .device-detail .wapper-t .hintArea button:hover{
+    color: #f5c987;
+    border: 1px solid #f5c987;
+  }
+  /*------------按钮样式----------------*/
+  .wapper-t .CloudConfigurationBtn,.AccountAuthorizationBtn,.dataFlowBtn{
+    height:25.44px;
+    font-size:9.54px;
+    color:#ccc;
+    letter-spacing:3.18px;
+    box-shadow:0 0 15px 2px rgba(204,204,204,0.1);
+    border:solid 1px #ccc;
+    padding: 0 36.57px;
+    border-radius: 13px;
+    margin:30px 0 30px 93px;
+    background: #FFFFFF;
+  }
+  .wapper-t .AccountAuthorizationBtn:hover,
+  .wapper-t .CloudConfigurationBtn:hover,
+  .wapper-t .dataFlowBtn:hover{
+    color:#f5c988;
+    box-shadow:0 0 15px 2px rgba(245,201,136,0.1);
+    border:solid 1px #f5c988;
+    background: rgba(245,201,136,0.02);
+  }
+  /*------------分隔线样式---------------*/
+  .wapper-t .line{
+    width: 100%;
+    height: 2px;
+    background:#f7f7f7;
+  }
+  .infoGroup ul li:nth-child(1),
+  .infoGroup ul li:nth-child(2){
+    margin-bottom: 12.72px;
+    text-align: left;
+    height: 14px;
+    line-height: 14px;
+  }
+  .infoGroup ul li:nth-child(3){
+    margin-bottom: 19.08px;
+    text-align: left;
+    height: 14px;
+    line-height: 14px;
+  }
+  .infoGroup ul li .itemName{
+    font-size: 8.48px;
+    color:#ccc;
+    letter-spacing: 2.12px;
+  }
+  .infoGroup ul li .default {
+    color: #555
+  }
+  .infoGroup ul li .reds {
+    color: #f57f62;
+  }
+  .infoGroup ul li .greens {
+    color: #5ce66a;
+  }
+  .infoGroup ul li .itemValue{
+    font-size: 8.48px;
+    letter-spacing: 2.12px;
+  }
+  .infoGroup .info li:nth-child(3),
+  .infoGroup .infoo li:nth-child(1){
+    display: flex;
+    position: relative;
+  }
+  .infoGroup .info li span.locationValue{
+    width: 120px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  /*---------完整的位置信息----------*/
+  .infoGroup .info li:nth-child(3) p{
+    position: absolute;
+    left: 43px;
+    top: 15px;
+    border: 1px solid #000;
+    font-size: 7.42px;
+    letter-spacing: 0.5px;
+    line-height: 12px;
+    padding: 1.6px 3.71px;
+  }
+  .infoGroup .infoo li span.cardValue{
+    width: 100px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  /*---------完整的卡号信息----------*/
+  .infoGroup .infoo li:nth-child(1) p{
+    position: absolute;
+    left: 43px;
+    top: 14px;
+    border: 1px solid #000;
+    font-size: 7.42px;
+    letter-spacing: 0.5px;
+    line-height: 12px;
+    padding: 1.6px 3.71px;
+  }
+  .infoGroup ul li button{
+    font-size:8.48px;
+    color:#dbdbdb;
+    border-radius: 6px;
+    line-height: 14px;
+    margin-left:8.48px;
+    border: 1px solid #f0f0f0;
+    background-color:  #FFFFFF;
+    letter-spacing: 2.12px;
+    padding-left:8.48px;
+    padding-right:6.36px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .infoGroup ul li button:hover{
+    border: 1px solid #ccc;
+  }
+  /*.info li:nth-child(3) .reset{*/
+    /*margin-right: 77.91px;*/
+  /*}*/
+  /*.infos li:nth-child(3)>.itemValue{*/
+    /*margin-right: 38.16px;*/
+  /*}*/
+}

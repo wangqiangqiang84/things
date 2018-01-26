@@ -1,0 +1,15 @@
+build/*.js
+config/*.js
+src/assets/js/bootstrap/*.js
+src/assets/js/libs/*.js
+src/assets/js/plugin/*
+src/assets/js/notification/*
+src/assets/js/smart-chat-ui/*
+src/assets/js/smartwidgets/*
+src/assets/js/speech/*
+src/assets/js/app.config.js
+src/assets/js/app.min.js
+src/assets/js/demo.min.js
+src/assets/js/device/require
+src/assets/js/Easeljs/*.js
+src/assets/js/device/main.js

@@ -1,0 +1,81 @@
+{
+  "status":0,
+  "message":"",
+  "result":[
+	    {
+	      "gatewayID": "001",
+	      "gatewayName": "上海图像监测站",
+	      "value": "600"
+	    },
+	    {
+	      "gatewayID": "002",
+	      "gatewayName": "上海图像监测站",
+	      "value": "500"
+	    },
+	    {
+	      "gatewayID": "003",
+	      "gatewayName": "上海图像监测站",
+	      "value": "400"
+	    },
+	    {
+	      "gatewayID": "004",
+	      "gatewayName": "上海图像监测站",
+	      "value": "300"
+	    },
+	    {
+	      "gatewayID": "005",
+	      "gatewayName": "上海图像监测站",
+	      "value": "600"
+	    },
+	    {
+	      "gatewayID": "006",
+	      "gatewayName": "上海图像监测站",
+	      "value": "500"
+	    },
+	    {
+	      "gatewayID": "007",
+	      "gatewayName": "上海图像监测站",
+	      "value": "400"
+	    },
+	    {
+	      "gatewayID": "008",
+	      "gatewayName": "上海图像监测站",
+	      "value": "300"
+	    },
+	    {
+	      "gatewayID": "009",
+	      "gatewayName": "上海图像监测站",
+	      "value": "600"
+	    },
+	    {
+	      "gatewayID": "010",
+	      "gatewayName": "上海图像监测站",
+	      "value": "500"
+	    },
+	    {
+	      "gatewayID": "011",
+	      "gatewayName": "上海图像监测站",
+	      "value": "400"
+	    },
+	    {
+	      "gatewayID": "012",
+	      "gatewayName": "上海图像监测站",
+	      "value": "300"
+	    },
+	    {
+	      "gatewayID": "010",
+	      "gatewayName": "上海图像监测站",
+	      "value": "500"
+	    },
+	    {
+	      "gatewayID": "011",
+	      "gatewayName": "上海图像监测站",
+	      "value": "400"
+	    },
+	    {
+	      "gatewayID": "012",
+	      "gatewayName": "上海图像监测站",
+	      "value": "300"
+	    }
+  ]
+}

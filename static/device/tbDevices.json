@@ -1,0 +1,96 @@
+{
+  "data": [
+    {
+      "id": {
+        "entityType": "DEVICE",
+        "id": "58c6ec70-d632-11e7-9b1e-5d2ab15a187d"
+      },
+      "createdTime": 1512089738423,
+      "tenantId": {
+        "entityType": "TENANT",
+        "id": "586d0ca0-d632-11e7-9b1e-5d2ab15a187d"
+      },
+      "customerId": {
+        "entityType": "CUSTOMER",
+        "id": "58804680-d632-11e7-9b1e-5d2ab15a187d"
+      },
+      "name": "Test Device A1",
+      "type": "default",
+      "additionalInfo": null
+    },
+    {
+      "id": {
+        "entityType": "DEVICE",
+        "id": "58c9f9b0-d632-11e7-9b1e-5d2ab15a187d"
+      },
+      "createdTime": 1512089738443,
+      "tenantId": {
+        "entityType": "TENANT",
+        "id": "586d0ca0-d632-11e7-9b1e-5d2ab15a187d"
+      },
+      "customerId": {
+        "entityType": "CUSTOMER",
+        "id": "58804680-d632-11e7-9b1e-5d2ab15a187d"
+      },
+      "name": "Test Device A2",
+      "type": "default",
+      "additionalInfo": null
+    },
+    {
+      "id": {
+        "entityType": "DEVICE",
+        "id": "58cb5940-d632-11e7-9b1e-5d2ab15a187d"
+      },
+      "createdTime": 1512089738452,
+      "tenantId": {
+        "entityType": "TENANT",
+        "id": "586d0ca0-d632-11e7-9b1e-5d2ab15a187d"
+      },
+      "customerId": {
+        "entityType": "CUSTOMER",
+        "id": "58804680-d632-11e7-9b1e-5d2ab15a187d"
+      },
+      "name": "Test Device A3",
+      "type": "default",
+      "additionalInfo": null
+    },
+    {
+      "id": {
+        "entityType": "DEVICE",
+        "id": "915ef990-d639-11e7-9f33-5d2ab15a187d"
+      },
+      "createdTime": 1512092839849,
+      "tenantId": {
+        "entityType": "TENANT",
+        "id": "586d0ca0-d632-11e7-9b1e-5d2ab15a187d"
+      },
+      "customerId": {
+        "entityType": "CUSTOMER",
+        "id": "58804680-d632-11e7-9b1e-5d2ab15a187d"
+      },
+      "name": "5500000001",
+      "type": "default",
+      "additionalInfo": null
+    },
+    {
+      "id": {
+        "entityType": "DEVICE",
+        "id": "d118a000-d64c-11e7-9f33-5d2ab15a187d"
+      },
+      "createdTime": 1512101107200,
+      "tenantId": {
+        "entityType": "TENANT",
+        "id": "586d0ca0-d632-11e7-9b1e-5d2ab15a187d"
+      },
+      "customerId": {
+        "entityType": "CUSTOMER",
+        "id": "58804680-d632-11e7-9b1e-5d2ab15a187d"
+      },
+      "name": "0000000009",
+      "type": "default",
+      "additionalInfo": null
+    }
+  ],
+  "nextPageLink": null,
+  "hasNext": false
+}

@@ -1,0 +1,139 @@
+.background-container {
+	background-color: #fff;
+	text-align: left;
+	padding: 39px 0 39px 39px;
+}
+
+.search .search-box {
+  position: relative;
+  border: 1px solid #dbdbdb;
+	display: inline-block;
+	vertical-align: top;
+	width: 413px;
+	height: 40px;
+	margin-bottom: 39px;
+	overflow: hidden;
+}
+
+.search .search-icon {
+	position: absolute;
+	right: 18px;
+	top: 8px;
+	width: 24px;
+	height: 24px;
+	background: url(../../../../../../static/device/img/overviewPage/searchDefault.png);
+	background-size: 100% 100%;
+  cursor: pointer;
+}
+
+.search .search-conent {
+	position: absolute;
+	width:  335px; 
+	height: 22px;
+	line-height: 22px;
+	font-size: 16px;
+	margin: 9px 0 0 18px;
+	color: #ccc;
+	letter-spacing: 4px;
+  border: 0;
+  outline: 0;
+  padding: 0;
+}
+
+
+
+.search-users .search-users-nav,
+.authorized-users .search-users-nav {
+  font-size: 16px;
+  letter-spacing: 4px;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.prompt-information {
+	font-size: 16px;
+	color: #ccc;
+	margin-bottom: 39px;
+}
+
+.search-user-content {
+	display: inline-block;
+	width: 576px;
+	box-sizing: border-box;
+	border: 1px solid #f0f0f0;
+	font-size: 16px;
+	margin-right: 120px;
+	margin-bottom: 39px;
+}
+
+.information,
+.browse,
+.revisability {
+	display: inline-block;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.information {
+	padding: 30px;
+	width: 358px;
+}
+
+.information li {
+	text-align: left;
+	padding-left: 28px;
+	letter-spacing: 4px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #999;
+}
+
+.information li:nth-child(1) {
+	background: url(../../../../../../static/device/img/authorization/user.png) no-repeat;
+}
+
+.information li:nth-child(2) {
+	margin: 16px 0;
+	background: url(../../../../../../static/device/img/authorization/mailbox.png) no-repeat;
+}
+
+.search-users .information li:nth-child(3) {
+	background: url(../../../../../../static/device/img/authorization/close.png) no-repeat;
+}
+
+.authorized-users .information li:nth-child(3) {
+	background: url(../../../../../../static/device/img/authorization/open.png) no-repeat;
+}
+
+.browse,
+.revisability {
+	width: 108px;
+	height: 140px;
+	line-height: 16px;
+	text-align: center;
+	border-left: 1px solid #f0f0f0;
+	color: #f5c987;
+	cursor: pointer;
+}
+
+.browse:hover,
+.revisability:hover {
+	background-color: #f7f7f7;
+}
+
+.search-users .browse dd:first-child,
+.search-users .revisability dd:first-child {
+	margin: 49px 0 8px 0;	
+}
+
+.authorized-users .browse dd,
+.authorized-users .revisability dd {
+	margin-top: 59px;	
+}
+
+.clickRevise {
+	display: none;
+}
+

@@ -1,0 +1,29 @@
+{
+  "detailsOne":[
+    { "itemName":"设备状态",
+      "itemValue":"不在线"
+    },
+    { "itemName":"设备编码",
+      "itemValue":"5678909-6"
+    }
+  ],
+  "detailsTwo":[
+    { "itemName":"厂商",
+      "itemValue":"西安山脉科技发展有限公司"
+    },
+    { "itemName":"硬件型号",
+      "itemValue":"5FH8909-6"
+    },
+    { "itemName":"固件版本",
+      "itemValue":"GJH-YUY-TYO-7.3"
+    }
+  ],
+  "detailsThree":[
+    { "itemName":"所属网关",
+      "itemValue":"广西圆桌"
+    },
+    { "itemName":"最后活动时间",
+      "itemValue":"2017.9.21"
+    }
+  ]
+}

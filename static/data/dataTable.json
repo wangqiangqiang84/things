@@ -1,0 +1,113 @@
+{
+  "status":0,
+  "message":"",
+  "total":"",
+  "keys": [
+    {
+      "variableName": "数据类型",
+      "time": " 时间",
+      "value": " 值",
+      "gatewayname": "网关名称",
+      "deviceCode": "设备编码",
+      "devicename": "设备名称"
+    }
+  ],
+  "result":[
+        {
+          "variableName": "测站水位数值",
+          "time": " 2017.08.10  09:55:22",
+          "value": " 16000.081  立方米每秒",
+          "gatewayname": "广西图像监测站",
+          "deviceCode": "13900001111",
+          "devicename": "西安山脉科技"
+        },
+        {
+          "variableName": "测站水位数值",
+          "time": " 2017.08.10  09:55:22",
+          "value": " 16000.081  立方米每秒",
+          "gatewayname": "广西图像监测站",
+          "deviceCode": "13900001111",
+          "devicename": "西安山脉科技"
+        },
+        {
+          "variableName": "测站水位数值",
+          "time": " 2017.08.10  09:55:22",
+          "value": " 16000.081  立方米每秒",
+          "gatewayname": "广西图像监测站",
+          "deviceCode": "13900001111",
+          "devicename": "西安山脉科技"
+        },
+        {
+          "variableName": "测站水位数值",
+          "time": " 2017.08.10  09:55:22",
+          "value": " 16000.081  立方米每秒",
+          "gatewayname": "广西图像监测站",
+          "deviceCode": "13900001111",
+          "devicename": "西安山脉科技"
+        },
+        {
+          "variableName": "测站水位数值",
+          "time": " 2017.08.10  09:55:22",
+          "value": " 16000.081  立方米每秒",
+          "gatewayname": "广西图像监测站",
+          "deviceCode": "13900001111",
+          "devicename": "西安山脉科技"
+        },
+        {
+          "variableName": "测站水位数值",
+          "time": " 2017.08.10  09:55:22",
+          "value": " 16000.081  立方米每秒",
+          "gatewayname": "广西图像监测站",
+          "deviceCode": "13900001111",
+          "devicename": "西安山脉科技"
+        },
+        {
+          "variableName": "测站水位数值",
+          "time": " 2017.08.10  09:55:22",
+          "value": " 16000.081  立方米每秒",
+          "gatewayname": "广西图像监测站",
+          "deviceCode": "13900001111",
+          "devicename": "西安山脉科技"
+        },
+        {
+          "variableName": "测站水位数值",
+          "time": " 2017.08.10  09:55:22",
+          "value": " 16000.081  立方米每秒",
+          "gatewayname": "广西图像监测站",
+          "deviceCode": "13900001111",
+          "devicename": "西安山脉科技"
+        },
+        {
+          "variableName": "测站水位数值",
+          "time": " 2017.08.10  09:55:22",
+          "value": " 16000.081  立方米每秒",
+          "gatewayname": "广西图像监测站",
+          "deviceCode": "13900001111",
+          "devicename": "西安山脉科技"
+        },
+        {
+          "variableName": "测站水位数值",
+          "time": " 2017.08.10  09:55:22",
+          "value": " 16000.081  立方米每秒",
+          "gatewayname": "广西图像监测站",
+          "deviceCode": "13900001111",
+          "devicename": "西安山脉科技"
+        },
+        {
+          "variableName": "测站水位数值",
+          "time": " 2017.08.10  09:55:22",
+          "value": " 16000.081  立方米每秒",
+          "gatewayname": "广西图像监测站",
+          "deviceCode": "13900001111",
+          "devicename": "西安山脉科技"
+        },
+        {
+          "variableName": "测站水位数值",
+          "time": " 2017.08.10  09:55:22",
+          "value": " 16000.081  立方米每秒",
+          "gatewayname": "广西图像监测站",
+          "deviceCode": "13900001111",
+          "devicename": "西安山脉科技"
+        }
+    ]
+}

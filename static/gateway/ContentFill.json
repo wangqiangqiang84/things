@@ -1,0 +1,106 @@
+{
+  "status":0,
+  "message":"",
+	"isTops": [
+    {
+      "ID":"01",
+      "name": "广西图像站",
+      "IP": "80.150.43.161",
+      "port": "90911",
+      "src": "../../../static/gateway/img/shezhi.png",
+      "gatewayStatus": "网关状态：",
+      "operation": "运行中",
+      "countOfOnline": "10",
+      "countOfRegisted": "120",
+      "gatewayID": "SL651-IMAGE-V2",
+      "transportType": "TCP",
+      "templateVersion": "当前版本："
+    },
+    {
+      "ID":"02",
+      "name": "长沙图像站",
+      "IP": "80.150.43.161",
+      "port": "90911",
+      "src": "../../../static/gateway/img/stop.png",
+      "gatewayStatus": "网关状态：",
+      "operation": "已停止",
+      "countOfOnline": "10",
+      "countOfRegisted": "120",
+      "gatewayID": "SL651-IMAGE-V2",
+      "transportType": "TCP",
+      "templateVersion": "当前版本："
+    },
+    {
+      "ID":"03",
+      "name": "湖南图像站",
+      "IP": "80.150.43.161",
+      "port": "90911",
+      "src": "../../../static/gateway/img/jinggao.png",
+      "gatewayStatus": "网关状态：",
+      "operation": "有异常",
+      "countOfOnline": "10",
+      "countOfRegisted": "120",
+      "gatewayID": "SL651-IMAGE-V2",
+      "transportType": "TCP",
+      "templateVersion": "当前版本："
+    }
+    ],
+    "isTopNew": [
+      {
+        "ID":"01",
+        "gateway": "新建网关",
+        "src": "../../../static/gateway/img/newJia.png ",
+        "src_imgSize": "imgSize"
+      },
+      {
+        "ID":"02",
+        "src": "../../../static/gateway/img/newJia.png",
+        "gateway": "新建网关"
+      }
+      ,
+      {
+        "ID":"03",
+        "src": "../../../static/gateway/img/newJia.png",
+        "gateway": "新建网关"
+      }
+      ,
+      {
+        "ID":"04",
+        "src": "../../../static/gateway/img/newJia.png",
+        "gateway": "新建网关"
+      }
+      ,
+      {
+        "ID":"05",
+        "src": "../../../static/gateway/img/newJia.png",
+        "gateway": "新建网关"
+      },
+      {
+        "ID":"06",
+        "src": "../../../static/gateway/img/newJia.png",
+        "gateway": "新建网关"
+      },
+      {
+        "ID":"07",
+        "src": "../../../static/gateway/img/newJia.png",
+        "gateway": "新建网关"
+      }
+    ],
+    "isNames":[
+      {
+        "ID": "1111",
+        "templateName": "摸板名称：",
+        "gatewayID": "SL651-IMAGE-V2"
+      },
+      {
+        "ID": "1111",
+        "currentVersion": "当前版本：",
+        "templateVersion": "V2.1"
+      },
+      {
+        "ID": "1111",
+        "transportProtocol": "传输协议：",
+        "transportType": "TCP"
+      }
+    ]
+  }

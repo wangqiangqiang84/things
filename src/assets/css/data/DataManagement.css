@@ -1,0 +1,1379 @@
+/*------------------ 主体外框-------------------------*/
+.dataManagement{
+	display: flex;
+	background-color: white;
+}
+.dataManagement p{
+    margin: 0;
+}
+.dataManagement-l{
+	width: 69%;
+	margin-left:3.89%;
+}
+.dataManagement-r{
+	width: 23%;
+	margin-left:2.25%;
+	margin-right:2.25%;
+}
+.dataManagement-r-top{
+	cursor: pointer;
+}
+/*.tabsBody div li p:hover{
+	white-space: normal;
+}*/
+.ivu-table-wrapper{
+	border: none !important;
+	position: static;
+}
+.ivu-table:before{
+	height: 0px !important;
+	border: none;
+}
+.ivu-table:after {
+	width: 0px !important;
+}
+.ivu-input {
+	border-radius: 0px !important;
+}
+.clickShowGatewayStyle {
+	background-color: #fef9f3 !important;
+	color: #f5c987 !important;
+}
+.clickShowDataStyle{
+	background-color: #fef9f3 !important;
+	color: #f5c987 !important;
+}
+.dataManagement-number{
+	display: none;
+}
+.tab-nav-action{
+	border:1px solid #ffaa80;
+	border-radius: 20px;
+	color: #ffaa80;
+	box-shadow: 0px 0px 15px 2px rgba(245,201,135,0.05);
+}
+.dataManagement-r-bot{
+	display: none;
+}
+.dataManagement-r .litter{
+	position: relative;
+    top: 30%;
+    right: 0px;
+}
+.input-group input{
+	color: #999999 ;
+}
+@media only screen and (min-width: 1441px){
+	.dataManagement-r .litter{
+		font-size: 16px;
+	}
+	.dataManagement{
+    border-radius: 10px;
+  }
+	/*------------------ 主体右边表格整体部分-------------------------*/
+	.dataManagement-l{
+		height: 855px;
+/*		width: 1013px;*/
+        width: 69%;
+		letter-spacing: 3px;
+		margin-top: 60px;
+	}
+	.dataManagement-l .table2{
+		display: none;
+	}
+	.dataManagement-l .table3{
+		display: none;
+	}
+	/*------------------ 主体右边表格部分-------------------------*/
+	.dataManagement-l .table1{
+/*		width: 1013px;*/
+    width: 100%;
+		font-size: 16px;
+	}
+	.table1 .ivu-table-large{
+		font-size: 16px;
+	}
+	.table1 .ivu-table td{
+		text-align: center;
+		border: none;
+		letter-spacing: 4px;
+		color: #999999;
+	}
+	.table1 .ivu-table td span{
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	.table1 .ivu-table td span:hover{
+		white-space: normal;
+	}
+	.table1 .ivu-table-large th{
+		height: 81px;
+	}
+	.table1 .ivu-table-large td {
+		height: 81px;
+	}
+	.table1 .ivu-table-header th{
+		text-align: center;
+	}
+	.table1 .ivu-table-header thead {
+		border-bottom: 3px solid #F7F7F7;
+	}
+	.table1 .ivu-table-header thead .ivu-table-cell{
+		color: #555555;
+		line-height: 1.1;
+	}
+	.table1 .ivu-table th{
+		background-color: #fcfcfc;
+	}
+	.table1 .ivu-table-stripe .ivu-table-body tr:nth-child(2n) td, .ivu-table-stripe .ivu-table-fixed-body tr:nth-child(2n) td{
+		background-color: #fcfcfc;
+	}
+	.table1 .time{
+		letter-spacing: 4px;
+	}
+	.table1 .tel{
+		letter-spacing: 1px;
+	}
+    .table1 .ivu-table-cell{
+    	padding: 0 15px;
+    }
+    .table1 .ivu-table-tbody tr{
+    	border: none;
+    }
+    .dataManagement-l .table1 .scrollBar-height{
+    	height: 10px;
+    	width: 10px;
+    }
+    /*-------------------------数据统计部分---------------------------*/
+    .dataManagement-number{
+    	width: 105%;
+    	height: 45px;
+    	background-color: white;
+    	font-size: 16px;
+    	text-align: center;
+    	border: 1px solid #F7F7F7;
+    	border-bottom: none;
+    	box-shadow: 0px -6px 12px 0px rgba(0,0,0,0.1);
+    	background-color: rgba(255,255,255,0.96);
+    	line-height: 45px;
+        position:relative ;
+/*        top: -4px;*/
+/*    	border-radius: 10px 0 10px 0;*/
+    	border-top-left-radius: 10px;
+    	border-top-right-radius: 10px;
+    	z-index: 999;
+/*    	margin-left: -57px;*/
+    	margin-left: -5.7%;
+    }
+    .dataManagement-number p{
+    	color: #CCCCCC;
+    	letter-spacing: 6px;
+    }
+    .dataManagement-number span{
+    	color: #999;
+    	letter-spacing: 2px;
+    	margin: 0px 10px;
+    }
+    /*------------------- 数据统计列表 -----------------------*/
+    /*.dataManagement-r{
+		height: 936px;
+	width: 328px;
+	}*/
+	.dataManagement-r-top{
+		width: 140px;
+		height: 50px;
+		margin: 0 auto;
+		padding-bottom: 5px;
+	}
+	.dataManagement-r-top img{
+		width: 100%;
+		height: 100%;
+	}
+	.dataManagement-r-bot{
+		margin-top: 30px;
+	}
+	.dataManagement-r-bot .tabs ul{
+		display: flex;
+/*		width: 319px;*/
+		justify-content: space-around;
+		border: 1px solid #cccccc;
+		height: 42px;
+		align-items: center;
+		border-radius: 20px;
+		background-color: white;
+		letter-spacing: 4px;
+		color: #CCCCCC;
+		box-shadow: 0px 0px 15px 2px rgba(204,204,204,0.05);
+	}
+	.dataManagement-r-bot .tabs li{
+		width: 33.33%;
+		height: 42px;
+		line-height: 40px;
+		font-size: 16px;
+		cursor: pointer;
+		text-align: center;
+	}
+	/*.dataManagement-r-bot .tabs li:hover{
+		border:1px solid #ffaa80;
+		border-radius: 20px;
+		color: #ffaa80;
+		box-shadow: 0px 0px 15px 2px rgba(245,201,135,0.05);
+	}*/
+	.tabsBody{
+/*		width: 319px;*/
+		height: 745px;
+		background-color: white;
+		overflow: auto;
+	}
+	.tabsBody div{
+	    padding-right:9px;
+	}
+	.tabsBody div li{
+	    display: flex;
+	    line-height: 18px;
+	    margin-top: 45px;
+	    font-size: 16px;
+	}
+	.tabsBody div li p{
+		min-width: 123px;
+		line-height: 18px;
+		font-size: 16px;
+		color: #999999;
+		letter-spacing: 4px;
+	    text-overflow: ellipsis;
+	    overflow: hidden;
+	    white-space: nowrap;
+	    margin-bottom: 0px;
+	}
+	.tabsBody div li .big_width{
+	    height: 10px;
+	    margin-left: 9px;
+	    margin-top: 4px;
+	    background-color: #FFFFFF;
+	    border-radius: 5px;
+	}
+	.tabsBody div li .small_width{
+	    height: 10px;
+	    background: linear-gradient(to right,#ffa985,#ff6685);
+	    box-shadow: 0px 45px 45px 0px rgba(255,169,140,0.05);
+	    border-radius: 5px;
+	}
+	.tabsBody div li b{
+		color: #ff8d8c;
+		font-size: 16px;
+		letter-spacing: 2px;
+		margin-left: 6px;
+		font-weight: 100;
+	}
+	/*-------------------- 条件删选弹出框 ----------------------*/
+	.dataManagement-out{
+		width: 100%;
+		background-color: rgba(255,255,255,0.96);
+		border-radius: 0px 0px 12px 12px;
+		border: 1px solid #F7F7F7;
+		border-bottom: none;
+		box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.1);
+		display: none;
+		position: absolute;
+		top: 0;
+		left: 0;
+/*		z-index: 999;*/
+	}
+	.dataManagement-out .head{
+		width: 100%;
+		height: 99px;
+	}
+	.dataManagement-content h2{
+		display: block;
+		float: left;
+		color: #555;
+		font-size: 24px;
+		letter-spacing: 6px;
+		font-weight: 900;
+        line-height: 24px;
+        margin: 45px 0px 30px 45px;
+	}
+	.dataManagement-content h3{
+		display: block;
+		float: left;
+        color: #555;
+        font-size: 18px;
+        letter-spacing: 4px;
+        line-height: 42px;
+        margin-left: 45px;
+        margin-right: 24px;
+        margin-top: 15px;
+        margin-bottom: 0px;
+	}
+	.dataManagement-content .gatewayName ul{
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0;
+	}
+	.dataManagement-content .gatewayName li{
+		color: #CCCCCC;
+		font-size: 18px;
+        letter-spacing: 4px;
+        line-height: 42px;
+        height: 42px;
+        background-color: #FCFCFC;
+        margin-right: 15px;
+        margin-top: 15px;
+        padding: 0 24px;
+        cursor: pointer;
+	}
+	.STCD{
+		margin-top: 30px;
+	}
+	.STCD h3{
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.STCD-cont{
+		font-size: 18px;
+		margin-left: 165px;
+	}
+	.STCD-top{
+		line-height: 42px;
+	}
+	.input-group{
+		height: 42px;
+		line-height: 42px;
+		display: flex;
+	}
+	.input-group input{
+		font-size: 18px;
+		width: 246px;
+		/*height: 44px;
+		line-height: 42px;*/
+		padding-left: 24px;
+		letter-spacing: 4px;
+		border: 1px solid #DBDBDB;
+		color: #CCCCCC;
+/*		margin-top: 1px;*/
+	}
+	.input-group button{
+		font-size: 18px;
+		letter-spacing: 4px;
+		padding: 0px 12px;
+		border: 1px solid #DBDBDB;
+		background-color: #fef9f3;
+		color: #F5C987;
+		border-left: none;
+	}
+	.STCD-cont ul{
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0;
+		margin-top: 21px;
+	}
+	.STCD-cont li{
+		display: flex;
+		height: 42px;
+		line-height: 42px;
+		color: #999999;
+		font-size: 18px;
+		letter-spacing: 4px;
+		cursor: pointer;
+		border: 1px solid #DBDBDB;
+		padding: 0px 24px;
+		margin-right: 12px;
+		margin-bottom: 12px;
+		background-color: white;
+	}
+	.STCD-cont li span{
+		margin-left: 24px;
+	}
+	.dataManagement-content .dataType ul{
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0;
+	}
+	.dataManagement-content .dataType li{
+		color: #CCCCCC;
+		font-size: 18px;
+        letter-spacing: 4px;
+        line-height: 42px;
+        height: 42px;
+        background-color: #FCFCFC;
+        margin-right: 15px;
+        margin-top: 15px;
+        padding: 0 24px;
+        cursor: pointer;
+	}
+	.startTime{
+		margin-top: 30px;
+		line-height: 42px;
+	}
+	.startTime h3{
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.startTime-content{
+		line-height: 42px;
+	}
+	.ivu-picker-panel-body{
+		font-size: 18px;
+	}
+	.ivu-date-picker{
+		width: 244px !important;
+	}
+	.ivu-input-large{
+		font-size: 18px;
+		height: 42px;
+		color: #999;
+        letter-spacing: 4px;
+	}
+	.ivu-date-picker-cells-header span {
+	    display: inline-block;
+	    width: 28px;
+	    height: 28px;
+    }
+	.ivu-date-picker-cells {
+	    width: 244px;
+	    margin: 0px;
+	    white-space: normal;
+    }
+    span.ivu-date-picker-cells-cell {
+	    width: 32px;
+	    height: 32px;
+	    cursor: pointer;
+    }
+    span.ivu-picker-panel-icon-btn{
+    	width: 20px;
+    }
+    .ivu-picker-panel-body {
+	    float: left;
+	    width: 242px;
+	}
+	.ivu-picker-panel-content .ivu-time-picker-cells-list {
+	    width: 121px !important;
+	    max-height: 225px !important;
+	}
+	.ivu-picker-panel-content .ivu-time-picker-cells-list ul li {
+	    padding: 0px !important;
+	    text-align: center !important;
+	}
+	.ivu-input-wrapper-large  .ivu-input-icon{
+		width: 42px;
+		height: 42px;
+		line-height: 42px;
+	}
+	.startTime-content{
+		display: inline-block;
+		float: left;
+	}
+	.foot{
+		width: 100%;
+		display: inline-block;
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 60px;
+	}
+	.foot ul{
+		text-align: center;
+	}
+	.foot button{
+		background-color: white;
+/*    	width: 225px;*/
+        height: 48px;
+        line-height: 46px;
+        box-shadow: 0px 0px 15px 2px rgba(204,204,204,0.1);
+        border: 1px solid #CCCCCC;
+        letter-spacing: 6px;
+        border-radius: 24px;
+        font-size: 16px;
+        color: #CCCCCC;
+        margin: 0px 75px;
+        padding: 0px 66px 0px 69px;
+	}
+	.foot button:hover{
+        box-shadow: 0px 0px 15px 2px rgb(245,201,136,0.1);
+        border: 1px solid #f5c988;
+        color: #f5c988;
+        background-color: rgba(245,201,136,0.02);
+	}
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px){
+	.dataManagement-r .litter{
+		font-size: 12px;
+	}
+	 .dataManagement{
+        border-radius: 8px;
+    }
+	/*------------------ 主体右边表格整体部分-------------------------*/
+	.dataManagement-l{
+		height: 644px;
+/*		width: 760px;*/
+		letter-spacing: 2px;
+		margin-top: 45px;
+	}
+	.dataManagement-l .table1{
+		display: none;
+	}
+	.dataManagement-l .table3{
+		display: none;
+	}
+	/*------------------ 主体右边表格部分-------------------------*/
+	.dataManagement-l .table2{
+/*		width: 760px;*/
+        width: 100%;
+		font-size: 12px;
+	}
+	.table2 .ivu-table td{
+		text-align: center;
+		border: none;
+	}
+	.table2 .ivu-table-large{
+		font-size: 12px;
+	}
+	.table2 .ivu-table-large th{
+		height: 61px;
+	}
+	.table2 .ivu-table-large td {
+		height: 61px;
+		text-align: center;
+		border: none;
+		letter-spacing: 3px;
+		color: #999999;
+	}
+	.table2 .ivu-table td span{
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	.table2 .ivu-table td span:hover{
+		white-space: normal;
+	}
+	.table2 .ivu-table-header th{
+		text-align: center;
+	}
+	.table2 .ivu-table-header thead {
+		border-bottom: 2px solid #F7F7F7;
+	}
+	.table2 .ivu-table-header thead .ivu-table-cell{
+		color: #555555;
+		line-height: 1.1;
+	}
+	.table2 .ivu-table th{
+		background-color: #fcfcfc;
+	}
+	.table2 .ivu-table-stripe .ivu-table-body tr:nth-child(2n) td, .ivu-table-stripe .ivu-table-fixed-body tr:nth-child(2n) td{
+		background-color: #fcfcfc;
+	}
+	.table2 .time{
+		letter-spacing: 2px;
+	}
+	.table2 .tel{
+		letter-spacing: 1px;
+	}
+    .table2 .ivu-table-cell{
+    	padding: 0 11px;
+    }
+    .table2 .ivu-table-tbody tr{
+    	border: none;
+    }
+    .dataManagement-l .table2 .scrollBar-height{
+    	height: 7px;
+    	width: 7px;
+    }
+    /*-------------------------数据统计部分---------------------------*/
+    .dataManagement-number{
+    	width: 105%;
+    	height: 34px;
+    	background-color: white;
+    	font-size: 12px;
+    	text-align: center;
+    	border: 1px solid #F7F7F7;
+    	border-bottom: none;
+    	box-shadow: 0px -5px 9px 0px rgba(0,0,0,0.1);
+    	background-color: rgba(255,255,255,0.96);
+    	line-height: 34px;
+        position:relative ;
+/*        top: -3px;*/
+/*    	border-radius: 8px;*/
+    	border-top-left-radius: 8px;
+    	border-top-right-radius: 8px;
+    	/*margin-left: -42.75px;*/
+    	margin-left: -5.7%;
+    	z-index: 999;
+    }
+    .dataManagement-number p{
+    	color: #CCCCCC;
+    	letter-spacing: 6px;
+    }
+    .dataManagement-number span{
+    	color: #999;
+    	letter-spacing: 2px;
+    	margin: 0px 8px;
+    }
+    /*------------------- 数据统计列表 -----------------------*/
+    /*.dataManagement-r{
+		height: 700px;
+	width: 246px;
+	}*/
+	.dataManagement-r-top{
+		width: 105px;
+		height: 40px;
+		margin: 0 auto;
+	}
+	.dataManagement-r-top img{
+		width: 100%;
+		height: 100%;
+	}
+	.dataManagement-r-bot{
+		margin-top: 20px;
+	}
+	.dataManagement-r-bot .tabs ul{
+		display: flex;
+/*		width: 246px;*/
+		justify-content: space-around;
+		border: 1px solid #cccccc;
+		height: 32px;
+		align-items: center;
+		border-radius: 15px;
+		background-color: white;
+		letter-spacing: 3px;
+		color: #CCCCCC;
+		box-shadow: 0px 0px 11px 2px rgba(204,204,204,0.05);
+		margin-bottom: 0px;
+	}
+	.dataManagement-r-bot .tabs li{
+		width: 33.33%;
+		height: 32px;
+		line-height: 30px;
+		font-size: 12px;
+		cursor: pointer;
+		text-align: center;
+	}
+	/*.dataManagement-r-bot .tabs li:hover{
+		border:1px solid #ffaa80;
+		border-radius: 15px;
+		color: #ffaa80;
+		box-shadow: 0px 0px 11px 2px rgba(245,201,135,0.05);
+	}*/
+	.tabsBody{
+/*		width: 246px;*/
+		height: 560px;
+		background-color: white;
+		overflow: auto;
+	}
+	.tabsBody div li{
+	    display: flex;
+	    line-height: 14px;
+	    margin-top: 33.75px;
+	    font-size: 12px;
+	}
+	.tabsBody div li p{
+		min-width: 82px;
+		line-height: 14px;
+		font-size: 12px;
+		color: #999999;
+		letter-spacing: 3px;
+	    text-overflow: ellipsis;
+	    overflow: hidden;
+	    white-space: nowrap;
+	    margin-bottom: 0px;
+	}
+	.tabsBody div li .big_width{
+	    height: 8px;
+	    margin-left: 6px;
+	    margin-top: 4px;
+	    background-color: #FFFFFF;
+	    border-radius: 4px;
+	}
+	.tabsBody div li .small_width{
+	    height: 8px;
+	    background: linear-gradient(to right,#ffa985,#ff6685);
+	    box-shadow: 0px 10px 8px 0px rgba(255,169,140,0.05);
+	    border-radius: 4px;
+	}
+	.tabsBody div li b{
+		color: #ff8d8c;
+		font-size: 12px;
+		letter-spacing: 2px;
+		margin-left: 5px;
+		font-weight: 100;
+	}
+	/*-------------------- 条件删选弹出框 ----------------------*/
+	.dataManagement-out{
+		width: 100%;
+		background-color: rgba(255,255,255,0.96);
+		border-radius: 0px 0px 9px 9px;
+		border: 1px solid #F7F7F7;
+		border-bottom: none;
+		box-shadow: 0px 5px 9px 0px rgba(0,0,0,0.1);
+		display: none;
+		position: absolute;
+		top: 0;
+		left: 0;
+/*		z-index: 999;*/
+	}
+	.dataManagement-out .head{
+		width: 100%;
+		height: 86px;
+	}
+	.dataManagement-content h2{
+		display: block;
+		float: left;
+		color: #555;
+		font-size: 18px;
+		letter-spacing: 4px;
+		font-weight: 900;
+        line-height: 18px;
+        margin: 34px 0px 23.75px 34px;
+	}
+	.dataManagement-content h3{
+		display: block;
+		float: left;
+        color: #555;
+        font-size: 14px;
+        letter-spacing: 3px;
+        line-height: 32px;
+        margin-left: 32px;
+        margin-right: 18px;
+        margin-top: 11.25px;
+        margin-bottom: 0px;
+	}
+	.dataManagement-content .gatewayName ul{
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0;
+	}
+	.dataManagement-content .gatewayName li{
+		color: #CCCCCC;
+		font-size: 14px;
+        letter-spacing: 3px;
+        line-height: 32px;
+        height: 32px;
+        background-color: #FCFCFC;
+        margin-right: 11px;
+        margin-top: 11.25px;
+        padding: 0 18px;
+        cursor: pointer;
+	}
+	.STCD{
+		margin-top: 22.5px;
+		margin-bottom: 4.5px;
+	}
+	.STCD h3{
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.STCD-cont{
+		font-size: 14px;
+		margin-left: 127px;
+	}
+	.STCD-top{
+		height: 32px;
+		line-height: 30px;
+	}
+	.input-group{
+		height: 32px;
+		line-height: 30px;
+		display: flex;
+	}
+	.input-group input{
+		font-size: 14px;
+		width: 184px;
+		/*height: 32px;
+		line-height: 30px;*/
+		padding-left: 18px;
+		letter-spacing: 3px;
+		border: 1px solid #DBDBDB;
+	}
+	.input-group button{
+		/*height: 32px;
+		line-height: 30px;*/
+		font-size: 14px;
+		letter-spacing: 3px;
+		padding: 0px 9px;
+		border: 1px solid #DBDBDB;
+		background-color: #fef9f3;
+		color: #F5C987;
+		border-left: none;
+	}
+	.STCD-cont ul{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.STCD-cont li{
+		display: flex;
+		height: 32px;
+		line-height: 30px;
+		color: #999999;
+		font-size: 14px;
+		letter-spacing: 3px;
+		cursor: pointer;
+		border: 1px solid #DBDBDB;
+		padding: 0px 18px;
+		margin-right: 9px;
+		margin-bottom: 9px;
+		margin-top: 9px;
+		background-color: white;
+	}
+	.STCD-cont li span{
+		margin-left: 18px;
+	}
+	.dataManagement-content .dataType ul{
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0;
+	}
+	.dataManagement-content .dataType li{
+		color: #CCCCCC;
+		font-size: 14px;
+        letter-spacing: 3px;
+        line-height: 30px;
+        height: 32px;
+        background-color: #FCFCFC;
+        margin-right: 10px;
+        margin-top: 9px;
+        padding: 0 18px;
+        cursor: pointer;
+	}
+	.startTime{
+		margin-top: 14px;
+		line-height: 30px;
+	}
+	.startTime h3{
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.startTime-content{
+		height: 32px;
+	}
+	.ivu-picker-panel-body{
+		font-size: 14px;
+	}
+	.ivu-date-picker{
+		width: 182px !important;
+	}
+	.ivu-input-large{
+		font-size: 14px;
+		height: 32px;
+		letter-spacing: 3px;
+	}
+	.ivu-date-picker-cells-header span {
+	    display: inline-block;
+	    width: 20px;
+	    height: 20px;
+    }
+	.ivu-date-picker-cells {
+	    width: 182px;
+	    margin: 0px;
+	    white-space: normal;
+    }
+    span.ivu-date-picker-cells-cell {
+	    width: 24px;
+	    height: 24px;
+	    cursor: pointer;
+    }
+    span.ivu-picker-panel-icon-btn{
+    	width: 18px;
+    }
+    .ivu-picker-panel-body {
+	    float: left;
+	    width: 180px;
+	}
+	.ivu-picker-panel-content .ivu-time-picker-cells-list {
+	    width: 90px !important;
+	    max-height: 170px !important;
+	}
+	.ivu-picker-panel-content .ivu-time-picker-cells-list ul li {
+	    padding: 0px !important;
+	    text-align: center !important;
+	}
+	.ivu-input-wrapper-large  .ivu-input-icon{
+		width: 32px;
+		height: 32px;
+		line-height: 32px;
+	}
+	.ivu-picker-confirm>span{
+		padding: 4px 2px;
+	}
+	.startTime-content{
+		display: inline-block;
+		float: left;
+	}
+	.foot{
+		width: 100%;
+		display: inline-block;
+        text-align: center;
+        margin-top: 45px;
+        margin-bottom: 45px;
+	}
+	.foot ul{
+		text-align: center;
+	}
+	.foot button{
+		background-color: white;
+/*    	width: 169px;*/
+        height: 36px;
+        line-height: 34px;
+        box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.1);
+        border: 1px solid #CCCCCC;
+        letter-spacing: 5px;
+        border-radius: 18px;
+        font-size: 14px;
+        color: #CCCCCC;
+        margin: 0px 56px;
+        padding: 0px 46.75px 0px 51.75px;
+	}
+	.foot button:hover{
+        box-shadow: 0px 0px 10.5px 1.5px rgb(245,201,136,0.1);
+        border: 1px solid #f5c988;
+        color: #f5c988;
+        background-color: rgba(245,201,136,0.02);
+	}
+}
+
+@media only screen and (max-width: 1024px){
+     .dataManagement-r .litter{
+		font-size: 10px;
+	}
+	.dataManagement{
+        border-radius: 5px;
+    }
+	/*------------------ 主体右边表格整体部分-------------------------*/
+	.dataManagement-l{
+		height: 455px;
+/*		width: 540px;*/
+		letter-spacing: 1px;
+		margin-top: 32px;
+	}
+	.dataManagement-l .table1{
+		display: none;
+	}
+	.dataManagement-l .table2{
+		display: none;
+	}
+	/*------------------ 主体右边表格部分-------------------------*/
+	.dataManagement-l .table3{
+		/*width: 540px;*/
+		width: 100%;
+		font-size: 10px;
+	}
+	.ivu-table-body{
+		height: 436px !important;
+	}
+	.table3 .ivu-table td{
+		text-align: center;
+		border: none;
+		letter-spacing: 2px;
+		color: #999999;
+	}
+	.table3 .ivu-table-large{
+		font-size: 10px;
+	}
+	.table3 .ivu-table-large th{
+		height: 43px;
+		line-height: 43px;
+	}
+	.table3 .ivu-table-large td {
+		height: 43px;
+	}
+	.table3 .ivu-table-header th{
+		text-align: center;
+		height: 43px;
+	}
+	.table3 .ivu-table-header thead {
+		border-bottom: 2px solid #F7F7F7;
+	}
+	.table3 .ivu-table-header thead .ivu-table-cell{
+		color: #555555;
+		line-height: 1.1;
+	}
+	.table3 .ivu-table th{
+		background-color: #fcfcfc;
+	}
+	.table3 .ivu-table-stripe .ivu-table-body tr:nth-child(2n) td, .ivu-table-stripe .ivu-table-fixed-body tr:nth-child(2n) td{
+		background-color: #fcfcfc;
+	}
+	.table3 .time{
+		letter-spacing: 1px;
+	}
+	.table3 .tel{
+		letter-spacing: 1px;
+	}
+    .table3 .ivu-table-cell{
+    	padding: 0px 8px;
+    }
+    .table3 .ivu-table td{
+    	height: 43px;
+    }
+    .table3 .ivu-table td span{
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	.table3 .ivu-table td span:hover{
+		white-space: normal;
+	}
+    .table3 .ivu-table-tbody tr{
+    	border: none;
+    }
+    .dataManagement-l .table1 .scrollBar-height{
+    	height: 5px;
+    	width: 5px;
+    }
+    /*-------------------------数据统计部分---------------------------*/
+    .dataManagement-number{
+    	width: 105%;
+    	height: 25px;
+    	background-color: white;
+    	font-size: 10px;
+    	text-align: center;
+    	border: 1px solid #F7F7F7;
+    	border-bottom: none;
+    	box-shadow: 0px -3px 7px 0px rgba(0,0,0,0.1);
+    	background-color: rgba(255,255,255,0.96);
+    	line-height: 24px;
+        position:relative ;
+/*        top: -2px;*/
+/*    	border-radius: 5px;*/
+    	border-top-left-radius: 5px;
+    	border-top-right-radius: 5px;
+    	margin-left: -5.7%;
+    	z-index: 999;
+    }
+    .dataManagement-number p{
+    	color: #CCCCCC;
+    	letter-spacing: 3px;
+    }
+    .dataManagement-number span{
+    	color: #999;
+    	letter-spacing: 2px;
+    	margin: 0px 5px;
+    }
+    /*------------------- 数据统计列表 -----------------------*/
+    /*.dataManagement-r{
+		height: 500px;
+		width: 180px;
+	}*/
+	.dataManagement-r-top{
+		width: 80px;
+		height: 30px;
+		margin: 0 auto;
+	}
+	.dataManagement-r-top img{
+		width: 100%;
+		height: 100%;
+	}
+	.dataManagement-r-bot{
+		margin-top: 12px;
+	}
+	.dataManagement-r-bot .tabs ul{
+		display: flex;
+/*		width: 180px;*/
+		justify-content: space-around;
+		border: 1px solid #cccccc;
+		height: 24px;
+		align-items: center;
+		border-radius: 11px;
+		background-color: white;
+		letter-spacing: 2px;
+		color: #CCCCCC;
+		box-shadow: 0px 0px 8px 1px rgba(204,204,204,0.05);
+	}
+	.dataManagement-r-bot .tabs li{
+		width: 33.33%;
+		height: 24px;
+		line-height: 22px;
+		font-size: 10px;
+		cursor: pointer;
+		text-align: center;
+	}
+	/*.dataManagement-r-bot .tabs li:hover{
+		border:1px solid #ffaa80;
+		border-radius: 11px;
+		color: #ffaa80;
+		box-shadow: 0px 0px 8px 1px rgba(245,201,135,0.05);
+	}*/
+	.tabsBody{
+/*		width: 180px;*/
+		height: 385px;
+		background-color: white;
+		overflow: auto;
+	}
+	.tabsBody div{
+	    padding-right:3px;
+	}
+	.tabsBody div li{
+	    display: flex;
+	    line-height: 12px;
+	    margin-top: 24px;
+	    font-size: 10px;
+	}
+	.tabsBody div li p{
+		min-width: 66px;
+		line-height: 12px;
+		font-size: 10px;
+		color: #999999;
+		letter-spacing: 2px;
+	    text-overflow: ellipsis;
+	    overflow: hidden;
+	    white-space: nowrap;
+	    margin-bottom: 0px;
+	}
+	.tabsBody div li .big_width{
+	    height: 6px;
+	    margin-left: 5px;
+	    background-color: #FFFFFF;
+	    border-radius: 3px;
+	}
+	.tabsBody div li .small_width{
+	    height: 6px;
+	    background: linear-gradient(to right,#ffa985,#ff6685);
+	    box-shadow: 0px 24px 24px 0px rgba(255,169,140,0.05);
+	    border-radius: 3px;
+	}
+	.tabsBody div li b{
+		color: #ff8d8c;
+		font-size: 9px;
+		letter-spacing: 1px;
+		margin-left: 3px;
+		font-weight: 100;
+	}
+	/*-------------------- 条件删选弹出框 ----------------------*/
+	.dataManagement-out{
+		width: 100%;
+		background-color: rgba(255,255,255,0.96);
+		border-radius: 0px 0px 7px 7px;
+		border: 1px solid #F7F7F7;
+		border-bottom: none;
+		box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.1);
+		display: none;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 999;
+	}
+	.dataManagement-out .head{
+		width: 100%;
+		height: 53px;
+	}
+	.dataManagement-content h2{
+		display: block;
+		float: left;
+		color: #555;
+		font-size: 13px;
+		letter-spacing: 3px;
+		font-weight: 900;
+        line-height: 13px;
+        margin: 24px 0px 16px 24px;
+	}
+	.dataManagement-content h3{
+		display: block;
+		float: left;
+        color: #555;
+        font-size: 10px;
+        letter-spacing: 2px;
+        line-height: 24px;
+        margin-left: 24px;
+        margin-right: 13px;
+        margin-top: 8px;
+        margin-bottom: 0px;
+	}
+	.dataManagement-content .gatewayName ul{
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0;
+	}
+	.dataManagement-content .gatewayName li{
+		color: #CCCCCC;
+		font-size: 10px;
+        letter-spacing:2px;
+        line-height: 24px;
+        height: 24px;
+        background-color: #FCFCFC;
+        margin-right: 8px;
+        margin-top: 8px;
+        padding: 0 13px;
+        cursor: pointer;
+	}
+	.STCD{
+		margin-top: 16px;
+	}
+	.STCD h3{
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.STCD-cont{
+		font-size: 10px;
+		margin-left: 88px;
+	}
+	.STCD-top{
+		line-height: 24px;
+	}
+	.input-group{
+		height: 24px;
+		line-height: 24px;
+		display: flex;
+	}
+	.input-group input{
+		font-size: 10px;
+		width: 131px;
+		/*height: 26px;
+		line-height: 24px;*/
+		padding-left: 13px;
+		letter-spacing: 2px;
+		border: 1px solid #DBDBDB;
+		color: #CCCCCC;
+	}
+	.input-group button{
+		font-size: 10px;
+		letter-spacing: 2px;
+		padding: 0px 7px;
+		border: 1px solid #DBDBDB;
+		background-color: #fef9f3;
+		color: #F5C987;
+		border-left: none;
+	}
+	.STCD-cont ul{
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0;
+		margin-top: 11px;
+	}
+	.STCD-cont li{
+		display: flex;
+		height: 24px;
+		line-height: 24px;
+		color: #999999;
+		font-size: 10px;
+		letter-spacing: 2px;
+		cursor: pointer;
+		border: 1px solid #DBDBDB;
+		padding: 0px 13px;
+		margin-right: 7px;
+		margin-bottom: 7px;
+		background-color: white;
+	}
+	.STCD-cont li span{
+		margin-left: 13px;
+	}
+	.dataManagement-content .dataType ul{
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0;
+	}
+	.dataManagement-content .dataType li{
+		color: #CCCCCC;
+		font-size: 10px;
+        letter-spacing: 2px;
+        line-height: 24px;
+        height: 24px;
+        background-color: #FCFCFC;
+        margin-right: 8px;
+        margin-top: 8px;
+        padding: 0 13px;
+        cursor: pointer;
+	}
+	.startTime{
+		margin-top: 10px;
+		line-height: 24px;
+	}
+	.startTime h3{
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.ivu-picker-panel-body{
+		font-size: 10px;
+	}
+	.ivu-date-picker{
+		width: 140px !important;
+	}
+	.ivu-input-large{
+		font-size: 10px;
+		height: 24px;
+		letter-spacing: 2px;
+	}
+	.ivu-input-wrapper-large .ivu-input-icon{
+		height: 24px;
+		line-height: 24px;
+	}
+	.ivu-date-picker-cells-header span {
+	    display: inline-block;
+	    width: 14px;
+	    height: 14px;
+    }
+	.ivu-date-picker-cells {
+	    width: 140px;
+	    margin: 0px;
+	    white-space: normal;
+    }
+    span.ivu-date-picker-cells-cell {
+	    width: 18px;
+	    height: 18px;
+	    cursor: pointer;
+    }
+    .ivu-date-picker-cells span em{
+    	width: 18px;
+	    height: 18px;
+	    line-height: 18px;
+    }
+    span.ivu-picker-panel-icon-btn{
+    	width: 12px;
+    }
+    .ivu-picker-panel-body {
+	    float: left;
+	    width: 138px;
+	}
+	.ivu-picker-panel-content .ivu-time-picker-cells-list {
+	    width: 70px !important;
+	    max-height: 138px !important;
+	}
+	.ivu-picker-panel-content .ivu-time-picker-cells-list ul li {
+	    padding: 0px !important;
+	    text-align: center !important;
+	}
+	.ivu-picker-confirm{
+		padding: 0px !important;
+	}
+	.ivu-btn-small{
+		padding: 2px;
+	}
+	.ivu-picker-confirm>span{
+		padding: 4px;
+	}
+	.ivu-input-large{
+		padding: 6px 4px;
+	}
+	.ivu-input-icon{
+		width: 24px;
+	}
+	.startTime-content{
+		display: inline-block;
+		float: left;
+	}
+	.foot{
+		width: 100%;
+		display: inline-block;
+        text-align: center;
+        margin-top: 32px;
+        margin-bottom: 32px;
+	}
+	.foot ul{
+		text-align: center;
+	}
+	.foot button{
+		background-color: white;
+/*    	width: 120px;*/
+        height: 26px;
+        line-height: 24px;
+        box-shadow: 0px 0px 8px 1px rgba(204,204,204,0.1);
+        border: 1px solid #CCCCCC;
+        letter-spacing: 3px;
+        border-radius: 13px;
+        font-size: 10px;
+        color: #CCCCCC;
+        margin: 0px 40px;
+        padding: 0px 33.8px 0px 36.8px;
+	}
+	.foot button:hover{
+        box-shadow: 0px 0px 8px 1px rgb(245,201,136,0.1);
+        border: 1px solid #f5c988;
+        color: #f5c988;
+        background-color: rgba(245,201,136,0.02);
+	}
+}

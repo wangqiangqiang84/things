@@ -1,0 +1,165 @@
+{
+
+  "status":0,
+  "message":"",
+  "result": [
+  	{
+  		"manufactoreName": [
+  			{
+		      "id": "111111",
+		      "name": "元瑞电力工程",
+		      "isClick": true
+		    },
+		    {
+		      "id": "111111",
+		      "name": "广东浩发科技公司",
+		      "isClick": false
+		    },
+  			{
+		      "id": "111111",
+		      "name": "长圣水利工程",
+		      "isClick": false
+		    },
+		    {
+		      "id": "111111",
+		      "name": "西安山脉科技有限公司",
+		      "isClick": false
+		    },
+		    {
+		      "id": "111111",
+		      "name": "广西晶安有限公司",
+		      "isClick": false
+		    },
+		    {
+		      "id": "111111",
+		      "name": "云岚汇恒有限责任公司",
+		      "isClick": false
+		    },
+		    {
+		      "id": "111111",
+		      "name": "青岛汇中集团",
+		      "isClick": false
+		    }
+  		],
+  		"hardwareModel": [
+  			{
+		      "id": "111111",
+		      "name": "W6000P3",
+		      "isClick": true
+		    },
+		    {
+		      "id": "111111",
+		      "name": "STM32L0",
+		      "isClick": false
+		    },
+		    {
+		      "id": "111111",
+		      "name": "GTA2017OL",
+		      "isClick": false
+		    },
+		    {
+		      "id": "111111",
+		      "name": "R6-PROMAX",
+		      "isClick": false
+		    },
+		    {
+		      "id": "111111",
+		      "name": "KING007",
+		      "isClick": false
+		    }
+  		],
+  		"firmwareVersion": [
+		    {
+		      "id": "111111",
+		      "name": "V2.10",
+		      "isClick": true
+		    },
+		    {
+		      "id": "111111",
+		      "name": "V2.26",
+		      "isClick": false
+		    },
+		    {
+		      "id": "111111",
+		      "name": "V2.31",
+		      "isClick": false
+		    },
+		    {
+		      "id": "111111",
+		      "name": "V2.70",
+		      "isClick": false
+		    },
+		    {
+		      "id": "111111",
+		      "name": "V2.79",
+		      "isClick": false
+		    },
+		    {
+		      "id": "111111",
+		      "name": "V2.92",
+		      "isClick": false
+		    },
+		    {
+		      "id": "111111",
+		      "name": "V3.01",
+		      "isClick": false
+		    },
+		    {
+		      "id": "111111",
+		      "name": "V3.21",
+		      "isClick": false
+		    },
+		    {
+		      "id": "111111",
+		      "name": "V4.12",
+		      "isClick": false
+		    },
+		    {
+		      "id": "111111",
+		      "name": "V4.51",
+		      "isClick": false
+		    }
+  		],
+  		"messages": [
+        {
+          "templateName": "摸板名称"
+        },
+        {
+          "templateVersion": "当前版本"
+        },
+        {
+          "createUser": "创建用户"
+        },
+        {
+          "createTime": "创建时间"
+        },
+        {
+          "modifyUser": "修改用户"
+        },
+        {
+          "modifyTime": "修改时间"
+        }
+      ],
+      "templates": [
+        {
+          "templateName": "SL651-IMAGE-V2"
+        },
+        {
+          "templateVersion": "V2.1"
+        },
+        {
+          "modifyUserName": "用户名"
+        },
+        {
+          "createTime": "2017/08/10--17:52"
+        },
+        {
+          "createUserName": "用户名"
+        },
+        {
+          "modifyTime": "2017/08/10--17:52"
+        }
+      ]
+  	}
+  ]
+}

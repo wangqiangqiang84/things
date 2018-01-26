@@ -1,0 +1,113 @@
+{
+  "status":0,
+  "message":"",
+  "total": "18",
+  "deviceStatius":[
+  	{
+      "count":"283",
+      "name":"deviceOnline"
+    },
+    {
+      "count":"96",
+      "name":"deviceOutline"
+    },
+    {
+      "count":"5",
+      "name":"deviceError"
+    },
+    {
+      "count":"17",
+      "name":"deviceNotRegister"
+    }
+  ],
+  "result":[
+  	{
+  		"ID": "12312311223",
+      "name":"西水位站",
+      "code":"6011223344",
+      "state":"在线",
+      "gatewayName":"广西圆桌",
+      "phoneNumber":"13991165555",
+      "lastActiveTime":"07.26-12:00",
+      "manufacturer":"西安山脉科技",
+      "location":"协同大厦二路南段"
+    }, 
+    {
+    	"ID": "12312311223",
+      "name":"西水位站",
+      "code":"6011223344",
+      "state":"在线",
+      "gatewayName":"广西圆桌",
+      "phoneNumber":"13991165555",
+      "lastActiveTime":"07.26-12:00",
+      "manufacturer":"西安山脉科技",
+      "location":"协同大厦二路南段"
+    }, 
+    {
+    	"ID": "12312311223",
+      "name":"西水位站",
+      "code":"6011223344",
+      "state":"在线",
+      "gatewayName":"广西圆桌",
+      "phoneNumber":"13991165555",
+      "lastActiveTime":"07.26-12:00",
+      "manufacturer":"西安山脉科技",
+      "location":"协同大厦二路南段"
+    }, 
+    {
+      "ID": "12312311223",
+      "name":"西水位站",
+      "code":"6011223344",
+      "state":"在线",
+      "gatewayName":"广西圆桌",
+      "phoneNumber":"13991165555",
+      "lastActiveTime":"07.26-12:00",
+      "manufacturer":"西安山脉科技",
+      "location":"协同大厦二路南段"
+    }, 
+    {
+     	"ID": "12312311223",
+      "name":"西水位站",
+      "code":"6011223344",
+      "state":"在线",
+      "gatewayName":"广西圆桌",
+      "phoneNumber":"13991165555",
+      "lastActiveTime":"07.26-12:00",
+      "manufacturer":"西安山脉科技",
+      "location":"协同大厦二路南段"
+    }, 
+    {
+    	"ID": "12312311223",
+      "name":"西水位站",
+      "code":"6011223344",
+      "state":"在线",
+      "gatewayName":"广西圆桌",
+      "phoneNumber":"13991165555",
+      "lastActiveTime":"07.26-12:00",
+      "manufacturer":"西安山脉科技",
+      "location":"协同大厦二路南段"
+    }, 
+    {
+      "ID": "12312311223",
+      "name":"西水位站",
+      "code":"6011223344",
+      "state":"在线",
+      "gatewayName":"广西圆桌",
+      "phoneNumber":"13991165555",
+      "lastActiveTime":"07.26-12:00",
+      "manufacturer":"西安山脉科技",
+      "location":"协同大厦二路南段"
+    }, 
+    {
+      "ID": "12312311223",
+      "name":"西水位站",
+      "code":"6011223344",
+      "state":"在线",
+      "gatewayName":"广西圆桌",
+      "phoneNumber":"13991165555",
+      "lastActiveTime":"07.26-12:00",
+      "manufacturer":"西安山脉科技",
+      "location":"协同大厦二路南段"
+    }
+  ]
+}

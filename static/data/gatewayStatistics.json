@@ -1,0 +1,81 @@
+{
+  "status":0,
+  "message":"",
+  "result":[
+	    {
+	      "gatewayID": "001",
+	      "gatewayName": "广西图像监测站",
+	      "value": "600"
+	    },
+	    {
+	      "gatewayID": "002",
+	      "gatewayName": "广西图像监测站",
+	      "value": "500"
+	    },
+	    {
+	      "gatewayID": "003",
+	      "gatewayName": "广西图像监测站",
+	      "value": "400"
+	    },
+	    {
+	      "gatewayID": "004",
+	      "gatewayName": "广西图像监测站",
+	      "value": "300"
+	    },
+	    	    {
+	      "gatewayID": "001",
+	      "gatewayName": "广西图像监测站",
+	      "value": "600"
+	    },
+	    {
+	      "gatewayID": "002",
+	      "gatewayName": "广西图像监测站",
+	      "value": "500"
+	    },
+	    {
+	      "gatewayID": "003",
+	      "gatewayName": "广西图像监测站",
+	      "value": "400"
+	    },
+	    {
+	      "gatewayID": "004",
+	      "gatewayName": "广西图像监测站",
+	      "value": "300"
+	    },
+	    	    {
+	      "gatewayID": "001",
+	      "gatewayName": "广西图像监测站",
+	      "value": "600"
+	    },
+	    {
+	      "gatewayID": "002",
+	      "gatewayName": "广西图像监测站",
+	      "value": "500"
+	    },
+	    {
+	      "gatewayID": "003",
+	      "gatewayName": "广西图像监测站",
+	      "value": "400"
+	    },
+	    {
+	      "gatewayID": "004",
+	      "gatewayName": "广西图像监测站",
+	      "value": "300"
+	    },
+	    {
+	      "gatewayID": "002",
+	      "gatewayName": "广西图像监测站",
+	      "value": "500"
+	    },
+	    {
+	      "gatewayID": "003",
+	      "gatewayName": "广西图像监测站",
+	      "value": "400"
+	    },
+	    {
+	      "gatewayID": "004",
+	      "gatewayName": "广西图像监测站",
+	      "value": "300"
+	    }
+      ]
+}

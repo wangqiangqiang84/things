@@ -1,0 +1,10 @@
+version: '2'
+services:
+    nandcloud.cn-develop:
+        build: ./
+        image: 123.57.183.193:9111/summit/nandcloud.cn-develop:latest
+        restart: always
+        ports:
+            - "8080:80"
+
+

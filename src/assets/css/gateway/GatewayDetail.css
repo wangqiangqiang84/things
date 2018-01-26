@@ -1,0 +1,1400 @@
+@charset "utf-8";
+		/*========== 圆角矩形按钮的hover状态 =========*/
+.gatewayDetail-one button:hover {border: 1px solid #CCCCCC;color: #CCCCCC;}
+ 
+.gatewayDetail-two-top .box {margin: 0 3.5%;width: 67%;}
+
+.gatewayDetail-two-bot .big_box {margin: 0 3.5%;width: 67%;}
+ 
+
+
+.gatewayDetail-one-c-bot2 li:nth-of-type(1) span {letter-spacing: normal;overflow: hidden;cursor: pointer;}
+/*.gatewayDetail-one-c-bot2 li:nth-of-type(1) span>a{ color: #333333;}*/
+.gatewayDetail-one-c-bot2 li:nth-of-type(1) span>a:hover{ color: #409fff;}
+
+
+
+
+@media only screen and (min-width: 1441px) {
+		/*========== 内容版块 =========*/
+	.gatewayDetail {
+		border-radius: 12px;
+		padding: 39px;
+		width: 100%;
+		background-color: #FFFFFF;
+		overflow: hidden;
+	}
+	/*========删除网关黑色遮罩层========*/
+	.gatewayDetail .mask{
+	  position: fixed;
+	  right: 0;
+	  bottom: 0;
+	  background: rgba(0,0,0,0.1);
+	  z-index: 1000;
+	  display: none;
+	  width:100%; 
+	  height:100%;
+	}
+	/*======== 网关详情部分 ========*/
+	.gatewayDetail-one {
+		position: relative;
+	}
+	.gatewayDetail-one-box{
+		display: flex;
+	}
+	/*======== 大号字框 ========*/
+	.gatewayDetail-one-l {
+		width: 180px;
+		height: 150px;
+        margin-right: 39px;
+	  background-color: #f9f8f4;
+}
+		/*======== 大号字 ========*/
+	.gatewayDetail-one-l h1 {
+		font-size: 72px;
+		width: 180px;
+		line-height: 150px;
+    margin: 0 auto;
+    overflow: hidden;
+    color: #f5c887;
+	}
+			/*======== 详情信息の名称 ========*/
+	.gatewayDetail-one-c-top {
+		display: flex;
+        justify-content: space-between;
+	}
+	.gatewayDetail-one-c-top-box{
+		margin-bottom: 30px;
+		display: flex;
+		height: 24px;
+	}
+
+	/*======== 名称 ========*/
+	.gatewayDetail-one-c-top label.nameValue{
+    font-size: 24px;
+    line-height: 24px;
+    color: #333;
+    letter-spacing: 5px;
+    max-width: 145px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: left;
+    cursor: text;
+  }
+	/*======== 修改网关名称的按钮 ========*/
+	.gatewayDetail-one button {
+		display: inline-block;
+		font-size: 16px;
+		color: #CCCCCC;
+		line-height: 22px;
+		border-radius: 12px;
+		letter-spacing: 5px;
+		background-color: #FFFFFF;
+		border: 1px solid #F0F0F0;
+		margin-left: 16px;
+		padding: 0 11px 0 16px;
+		cursor: pointer;
+	}
+	
+	
+	
+	
+	
+	
+	/*======== 修改网关名称和确认删除网关 弹窗样式 ========*/
+  .gatewayDetail-one-c .hintArea,
+  .gatewayDetail-one-c .hintArea_delet{
+    width: 600px;
+    position: absolute;
+    left: 29.4%;
+    top:60px;
+    z-index: 1100;
+    padding: 30px 60px ;
+    border-radius: 12px;
+    background: #ffffff;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 0 24px 0 rgba(0,0,0,0.1);
+  }
+  /*========修改网关名称和确认删除网关弹窗上的 【修改/删除网关名称】（当前操作文本说明）========*/
+	.gatewayDetail-one-c .hintArea .modifyContent,
+	.gatewayDetail-one-c .hintArea_delet .modifyContent{
+    font-size: 24px;
+    color: #333;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+  }
+  /*========修改网关名称和确认删除网关弹窗上的 【输入框内的样式】（输入框）========*/ 
+  .gatewayDetail-one-c .hintArea textarea,
+  .gatewayDetail-one-c .hintArea_delet textarea{
+    width: 478px;
+    height: 136px;
+    background: #F7F7F7;
+    border: 1px solid #f0f0f0;
+    padding: 0px 12px;
+    font-size: 18px;
+    color: #999;
+    letter-spacing: 3px;
+    line-height: 30px;
+    resize: none;
+  }  
+/*======== 修改网关名称的  红色错误提示文本 ========*/
+  .gatewayDetail-one-c .hintArea .warningTips,
+    .gatewayDetail-one-c .hintArea_delet .warningTip{
+    font-size: 16px;
+    line-height: 33px;
+    color: #f1584a;
+    letter-spacing: 4px;
+    text-align: left;
+    margin-bottom: 30px;
+    /*visibility: hidden;*/
+  }  
+  /*======== 确认与取消按钮hover样式 ========*/
+   .gatewayDetail-one-c .clickEvent button:hover{
+    color: #f5c987;
+    border: 1px solid #f5c987;
+  }
+  .gatewayDetail-one-c .clickEvent button {
+    font-size: 18px;
+    color: #dbdbdb;
+    letter-spacing: 6px;
+    padding: 0px 21px 0px 27px;
+    height: 36px;
+    border-radius: 18px;
+    margin: 0px 51px 18px 51px;
+    line-height: 34px;
+    border: 1px solid #f0f0f0;
+    background: #ffffff;
+    display: inline-block;
+  }
+  /*======== 确认删除网（用以定位） ========*/
+  .gatewayDetail-one-c .hintArea_delet{
+  	top:120%;
+  }
+  
+  
+  
+
+.gatewayDetail-one-c{
+	width: 100%;
+}
+  /*======== 详细信息 ========*/
+	.gatewayDetail-one-c-bot {
+		display: flex;
+		justify-content: space-between;
+	} 
+ /*======== 每一条详情信息 整体的样式 ========*/
+	.gatewayDetail-one li {
+		display: flex;
+		font-size: 16px;
+		letter-spacing: 3px;
+		color: #CCCCCC;
+		align-items: flex-end;
+		line-height: 24px;
+	}	 
+	/*======== 第一竖列详情信息 左右自适应弹性间距 ========*/
+	 .gatewayDetail-one-c-bot1 {
+/*	 	   min-width: 300px;*/
+/*	 	   padding-right: 4%;*/
+	}	
+  /*======== 第二竖列详情信息 左右自适应弹性间距 ========*/
+	.gatewayDetail-one-c-bot2 {
+/*	 	   width: 475px;*/
+/*           min-width: 300px;*/
+/*	 	   padding-right: 10%;*/
+	}
+	.gatewayDetail-one-c-bot3 {
+	 	   width: 300px;
+	}
+	.gatewayDetail-one-c-bot4 {
+	 	   width: 300px;
+	}
+ /*======== 每一条详情信息 名称的样式 ========*/
+	.gatewayDetail-one li h3 {
+		font-weight: normal;
+		font-size: 16px;
+	}
+		 /*======== 每一条详情信息 数值的样式 ========*/
+	.gatewayDetail-one li span {
+		display: block;
+		color: #333333;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		word-wrap: break-word;
+	}
+	
+   /*======== 开启关闭网关 描述当前状态的文本颜色 ========*/
+	.gatewayDetail-one-c-bot1 li:nth-of-type(1) span {color: #5ce66a;   width: 62px;}
+  .gatewayDetail-one .gatewayDetail-one-c-bot li .statusToggle {color: #F00000;}
+   /*======== IP数值 的文本 ========*/
+  .gatewayDetail-one-c-bot1 li:nth-of-type(2) span{width: 180px; text-align: left;}
+  /*======== 模板名称内联页面入口 的文本 ========*/
+  .gatewayDetail-one .gatewayDetail-one-c-bot2 li:nth-of-type(1) span a{width: 57px;text-align: left;display: table;}
+  	
+    /*======== 详情信息内部上下间距 ========*/
+	.gatewayDetail-one-c-bot1 li:nth-of-type(2) {
+		margin-top: 14px;
+	}
+	.gatewayDetail-one-c-bot1 li:nth-of-type(3) {
+		margin-top: 14px;
+	}
+	.gatewayDetail-one-c-bot2 li:nth-of-type(2) {
+		margin-top: 14px;
+	}
+	.gatewayDetail-one-c-bot2 li:nth-of-type(3) {
+		margin-top: 14px;
+	}
+	.gatewayDetail-one-c-bot3 li:nth-of-type(3) {
+		margin-top: 38px;
+	}
+	.gatewayDetail-one-c-bot3 li:nth-of-type(4) {
+		margin-top: 14px;
+	}
+	.gatewayDetail-one-c-bot4 li:nth-of-type(2) {
+		margin-top: 6px;
+	}
+/*======== 详情信息 网关端口数值的样式 ========*/
+	.gatewayDetail-one-c-bot1 input {
+		border: none;
+		width: 62px;
+		font-size: 16px;
+		letter-spacing: 3px;
+		line-height: 24px;
+	}
+
+
+	/*======== 第三竖 ========*/
+  .gatewayDetail-one-r{
+  	position: relative;
+  	bottom: 42px;
+  }
+	/*======== 第三竖列详情内部上下间距 ========*/
+	.gatewayDetail-one-r li{
+		margin-top: 14px;
+	}
+  .gatewayDetail-one-r li:nth-of-type(3) {
+		margin-top: 34px;
+	}
+	/*======== 第三竖列第一行数值颜色 ========*/
+  .gatewayDetail-one-r li:nth-of-type(1) span {
+		color: #333333;
+		width: 121px;
+		text-align: left;
+	}
+	/*======== 底部的详情描述文本段落 ========*/
+	.gatewayDetail-one-b {
+    margin-top: 37px;
+    text-align: left;
+    overflow: hidden;
+	}
+	.gatewayDetail-one-b h3 {
+   display: inline-block;
+   font-weight: normal;
+    font-size: 16px;
+    color: #CCCCCC;
+    letter-spacing: 4px;
+	}
+	.gatewayDetail-one .gatewayDetail-one-b span {
+    font-size: 16px;
+    color: #333333;
+    letter-spacing: 3px;
+	}
+	.gatewayDetail-one-btn {
+		display: inline-block;
+		width: 100%;
+	}
+  
+  
+	
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*跳转符合样式*/
+   .gatewayDetail-one-c .clickEvents{
+    margin-top: 80px;
+  }
+  
+  .gatewayDetail-one-c .hintArea_delet .clickEvents{
+  	text-align: left;
+    margin-top: 38px;
+    width: 100%;
+    border-top: 1px solid #efefef;
+  }
+  
+  .hintArea .clickEvent button:hover{
+    color: #f5c987;
+    border: 1px solid #f5c987;
+  }
+  .gatewayDetail-one-c .clickEvents .wordOut:nth-child(1){
+    margin-right: 127px;
+  }
+  
+  .gatewayDetail-one-c .clickEvents .wordOut,
+  .gatewayDetail-one-c .clickEvents .wordIn{
+    font-size: 18px;
+    border-radius: 18px;
+    color: #dbdbdb;
+    width: 102px;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #f0f0f0;
+    background: #ffffff;
+    display: inline-block;
+    margin-left: 0px;
+  }
+
+
+
+  
+
+	/*<!-------------设备信息 --------------->*/
+	.gatewayDetail-two {
+		border-top: 2px solid #F7F7F7;
+		border-bottom: 2px solid #F7F7F7;
+		justify-content: space-around;
+	}
+	.gatewayDetail-two li div{
+		display: flex;
+		min-width: 162px;
+	}
+	.gatewayDetail-two span {
+		display: inline-block;
+		width: 16px;
+		height: 16px;
+		border-radius: 4px;
+		background: linear-gradient(to bottom right, #ffa985, #ff6685);
+		margin-right: 9px;
+	}
+	.gatewayDetail-two p {
+		color: #555555;
+		font-size: 16px;
+		text-align: center;
+		letter-spacing: 5px;
+	}
+	.gatewayDetail-two ul {
+		padding-left: 0px;
+		height: 230px;
+	}
+	.gatewayDetail-two li {
+		display: flex;
+		line-height: 16px;
+		justify-content: space-between;
+	}
+
+	.gatewayDetail-two h2 {
+		font-size: 24px;
+		color: #555555;
+		margin: 40px 0px;
+		letter-spacing: 6px;
+	}
+	.gatewayDetail-two h3 {
+		font-size: 16px;
+		line-height: 16px;
+		color: #CCCCCC;
+		margin: 0;
+		letter-spacing: 5px;
+	}
+	.gatewayDetail-two-top {
+		float: left;
+		display: flex;
+		display: inline-block;
+		width: 100%;
+	}
+	.gatewayDetail-two-top .box {
+		height: 8px;
+		margin-top: 5px;
+		background-color: #FFFFFF;
+		border-radius: 4px;
+	}
+	.gatewayDetail-two-top .box1 {
+		height: 8px;
+		border-radius: 4px;
+		background: linear-gradient(to right, #ff6685, #ffa985);
+	}
+	.gatewayDetail-two-bot {
+		float: left;
+		display: flex;
+		display: inline-block;
+		width: 100%;
+		margin-top: 51px;
+		margin-bottom: 51px;
+	}
+	.gatewayDetail-two-bot .big_box {
+		height: 8px;
+		margin-top: 5px;
+		background-color: #e1e7ed;
+		border-radius: 4px;
+	}
+	.gatewayDetail-two-bot .small_box {
+		height: 8px;
+		border-radius: 4px;
+		background: linear-gradient(to right, #ff6685, #ffa985, #c68cff, #66e8ff);
+	}
+	.gatewayDetail-two-bot span {
+		background: linear-gradient(to bottom right, #ffaf85, #c68cff);
+	}
+	.gatewayDetail-two-bot .p2 {
+		width: 30px;
+	}
+	.gatewayDetail-two .span2 {
+		background: #e7e1ed;
+		margin-right: 0px;
+		margin-left: 15px;
+	}
+	 
+	/*设备薪资按钮*/
+	
+	 .gatewayDetail-one .dataFlowBtn{
+    height: 48px;
+    font-size: 18px;
+    color: #ccc;
+    letter-spacing: 5px;
+    box-shadow: 0 0 15px 2px rgba(204,204,204,0.1);
+    border: solid 1px #ccc;
+    padding: 0px;
+    border-radius: 24px;
+    margin: 60px 0 60px 12.36%;
+    background: #FFFFFF;
+    width: 15.89%;
+    float: left;
+  }
+  .gatewayDetail-one .dataFlowBtn:hover{
+    color:#f5c988;
+    box-shadow:0 0 15px 2px rgba(245,201,136,0.1);
+    border:solid 1px #f5c988;
+    background: rgba(245,201,136,0.02);
+  }
+	 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+		/*========== 内容版块 =========*/
+	.gatewayDetail {
+		border-radius: 12px;
+		padding: 30px;
+		width: 100%;
+		background-color: #FFFFFF;
+		overflow: hidden;
+	}
+	/*========删除网关黑色遮罩层========*/
+	.gatewayDetail .mask{
+	  position: fixed;
+	  right: 0;
+	  bottom: 0;
+	  background: rgba(0,0,0,0.1);
+	  z-index: 1000;
+	  display: none;
+	  width:100%; 
+	  height:100%;
+	}
+	/*======== 网关详情部分 ========*/
+	.gatewayDetail-one {
+		position: relative;
+	}
+	.gatewayDetail-one-box{
+		display: flex;
+	}
+	/*======== 大号字框 ========*/
+	.gatewayDetail-one-l {
+		width: 135px;
+		height: 112px;
+        margin-right: 30px;
+	  background-color: #f9f8f4;
+}
+		/*======== 大号字 ========*/
+	.gatewayDetail-one-l h1 {
+		font-size: 54px;
+		width: 135px;
+		line-height: 112px;
+    margin: 0 auto;
+    overflow: hidden;
+    color: #f5c887;
+	}
+			/*======== 详情信息の名称 ========*/
+	.gatewayDetail-one-c-top {
+		display: flex;
+        justify-content: space-between;
+	}
+	.gatewayDetail-one-c-top-box{
+		margin-bottom: 24px;
+		display: flex;
+		height: 18px;
+	}
+
+	/*======== 名称 ========*/
+	.gatewayDetail-one-c-top label.nameValue{
+    font-size:18px;
+    line-height: 18px;
+    color: #333;
+    letter-spacing: 2px;
+    max-width: 108px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: left;
+    cursor: text;
+  }
+	/*======== 修改网关名称的按钮 ========*/
+	.gatewayDetail-one button {
+		display: inline-block;
+		font-size: 12px;
+		color: #CCCCCC;
+		line-height: 16px;
+		border-radius: 9px;
+		letter-spacing: 2px;
+		background-color: #FFFFFF;
+		border: 1px solid #F0F0F0;
+		margin-left: 3px;
+		padding: 0 9px 0 12px;
+		cursor: pointer;
+	}
+	
+	
+	
+	
+	
+	
+	/*======== 修改网关名称和确认删除网关 弹窗样式 ========*/
+  .gatewayDetail-one-c .hintArea,
+  .gatewayDetail-one-c .hintArea_delet{
+    width: 450px;
+    position: absolute;
+    left: 29.4%;
+    top:45px;
+    z-index: 1100;
+    padding: 22px 45px ;
+    border-radius: 9px;
+    background: #ffffff;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 0 24px 0 rgba(0,0,0,0.1);
+  }
+  /*========修改网关名称和确认删除网关弹窗上的 【修改/删除网关名称】（当前操作文本说明）========*/
+	.gatewayDetail-one-c .hintArea .modifyContent,
+	.gatewayDetail-one-c .hintArea_delet .modifyContent{
+    font-size: 18px;
+    color: #333;
+    letter-spacing: 2px;
+    margin-bottom: 22px;
+  }
+  /*========修改网关名称和确认删除网关弹窗上的 【输入框内的样式】（输入框）========*/ 
+  .gatewayDetail-one-c .hintArea textarea,
+  .gatewayDetail-one-c .hintArea_delet textarea{
+    width: 359px;
+    height: 102px;
+    background: #F7F7F7;
+    border: 1px solid #f0f0f0;
+    padding: 0px 9px;
+    font-size: 14px;
+    color: #999;
+    letter-spacing: 1px;
+    line-height: 22px;
+    resize: none;
+  }  
+/*======== 修改网关名称的  红色错误提示文本 ========*/
+  .gatewayDetail-one-c .hintArea .warningTips,
+    .gatewayDetail-one-c .hintArea_delet .warningTip{
+    font-size: 12px;
+    line-height: 24px;
+    color: #f1584a;
+    letter-spacing: 2px;
+    text-align: left;
+    margin-bottom: 22px;
+    /*visibility: hidden;*/
+  }  
+  /*======== 确认与取消按钮hover样式 ========*/
+   .gatewayDetail-one-c .clickEvent button:hover{
+    color: #f5c987;
+    border: 1px solid #f5c987;
+  }
+  .gatewayDetail-one-c .clickEvent button {
+    font-size: 14px;
+    color: #dbdbdb;
+    letter-spacing: 4px;
+    padding: 0px 14px 0px 18px;
+    height: 27px;
+    border-radius: 13.5px;
+    margin: 0px 39px 14px 39px;
+    line-height: 24px;
+    border: 1px solid #f0f0f0;
+    background: #ffffff;
+    display: inline-block;
+  }
+  /*======== 确认删除网（用以定位） ========*/
+  .gatewayDetail-one-c .hintArea_delet{
+  	top:120%;
+  }
+  
+  
+  
+
+.gatewayDetail-one-c{
+	width: 100%;
+}
+  /*======== 详细信息 ========*/
+	.gatewayDetail-one-c-bot {
+		display: flex;
+		justify-content: space-between;
+	} 
+ /*======== 每一条详情信息 整体的样式 ========*/
+	.gatewayDetail-one li {
+		display: flex;
+		font-size: 12px;
+		letter-spacing: 2px;
+		color: #CCCCCC;
+		align-items: flex-end;
+		line-height: 18px;
+	}	 
+
+	.gatewayDetail-one-c-bot3 {
+	 	   width: 225px;
+	}
+	.gatewayDetail-one-c-bot4 {
+	 	   width: 225px;
+	}
+ /*======== 每一条详情信息 名称的样式 ========*/
+	.gatewayDetail-one li h3 {
+		font-weight: normal;
+		font-size: 12px;
+	}
+		 /*======== 每一条详情信息 数值的样式 ========*/
+	.gatewayDetail-one li span {
+		display: block;
+		color: #333333;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		word-wrap: break-word;
+	}
+	
+   /*======== 开启关闭网关 描述当前状态的文本颜色 ========*/
+	.gatewayDetail-one-c-bot1 li:nth-of-type(1) span {color: #5ce66a;   width: 46px;}
+  .gatewayDetail-one .gatewayDetail-one-c-bot li .statusToggle {color: #F00000;}
+   /*======== IP数值 的文本 ========*/
+  .gatewayDetail-one-c-bot1 li:nth-of-type(2) span{width: 135px; text-align: left;}
+  /*======== 模板名称内联页面入口 的文本 ========*/
+  .gatewayDetail-one .gatewayDetail-one-c-bot2 li:nth-of-type(1) span a{width: 42px;text-align: left;display: table;}
+  	
+    /*======== 详情信息内部上下间距 ========*/
+	.gatewayDetail-one-c-bot1 li:nth-of-type(2) {
+		margin-top: 10px;
+	}
+	.gatewayDetail-one-c-bot1 li:nth-of-type(3) {
+		margin-top: 10px;
+	}
+	.gatewayDetail-one-c-bot2 li:nth-of-type(2) {
+		margin-top: 10px;
+	}
+	.gatewayDetail-one-c-bot2 li:nth-of-type(3) {
+		margin-top: 10px;
+	}
+	.gatewayDetail-one-c-bot3 li:nth-of-type(3) {
+		margin-top: 28px;
+	}
+	.gatewayDetail-one-c-bot3 li:nth-of-type(4) {
+		margin-top: 10px;
+	}
+	.gatewayDetail-one-c-bot4 li:nth-of-type(2) {
+		margin-top: 4px;
+	}
+/*======== 详情信息 网关端口数值的样式 ========*/
+	.gatewayDetail-one-c-bot1 input {
+		border: none;
+		width: 46px;
+		font-size: 12px;
+		letter-spacing: 2px;
+		line-height: 18px;
+	}
+
+
+	/*======== 第三竖 ========*/
+  .gatewayDetail-one-r{
+  	position: relative;
+  	bottom: 31px;
+  }
+	/*======== 第三竖列详情内部上下间距 ========*/
+	.gatewayDetail-one-r li{
+		margin-top: 10px;
+	}
+  .gatewayDetail-one-r li:nth-of-type(3) {
+		margin-top: 25px;
+	}
+	/*======== 第三竖列第一行数值颜色 ========*/
+  .gatewayDetail-one-r li:nth-of-type(1) span {
+		color: #333333;
+		width: 90px;
+		text-align: left;
+	}
+	/*======== 底部的详情描述文本段落 ========*/
+	.gatewayDetail-one-b {
+    margin-top: 27px;
+    text-align: left;
+    overflow: hidden;
+	}
+	.gatewayDetail-one-b h3 {
+   display: inline-block;
+   font-weight: normal;
+    font-size: 12px;
+    color: #CCCCCC;
+    letter-spacing: 2px;
+	}
+	.gatewayDetail-one .gatewayDetail-one-b span {
+    font-size: 12px;
+    color: #333333;
+    letter-spacing: 2px;
+	}
+	.gatewayDetail-one-btn {
+		display: inline-block;
+		width: 100%;
+	}
+  
+  
+	
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*跳转符合样式*/
+   .gatewayDetail-one-c .clickEvents{
+    margin-top: 60px;
+  }
+  
+  .gatewayDetail-one-c .hintArea_delet .clickEvents{
+  	text-align: left;
+    margin-top: 28px;
+    width: 100%;
+    border-top: 1px solid #efefef;
+  }
+  
+  .hintArea .clickEvent button:hover{
+    color: #f5c987;
+    border: 1px solid #f5c987;
+  }
+  .gatewayDetail-one-c .clickEvents .wordOut:nth-child(1){
+    margin-right: 96px;
+  }
+  
+  .gatewayDetail-one-c .clickEvents .wordOut,
+  .gatewayDetail-one-c .clickEvents .wordIn{
+    font-size: 14px;
+    border-radius: 13.5px;
+    color: #dbdbdb;
+    width: 76px;
+    height: 27px;
+    line-height: 27px;
+    border: 1px solid #f0f0f0;
+    background: #ffffff;
+    display: inline-block;
+    margin-left: 0px;
+  }
+
+
+
+  
+
+	/*<!-------------设备信息 --------------->*/
+	.gatewayDetail-two {
+		border-top: 1px solid #F7F7F7;
+		border-bottom: 1px solid #F7F7F7;
+		justify-content: space-around;
+	}
+	.gatewayDetail-two li div{
+		display: flex;
+		min-width: 121px;
+	}
+	.gatewayDetail-two span {
+		display: inline-block;
+		width: 12px;
+		height: 12px;
+		border-radius: 2px;
+		background: linear-gradient(to bottom right, #ffa985, #ff6685);
+		margin-right: 7px;
+	}
+	.gatewayDetail-two p {
+		color: #333;
+		font-size: 12px;
+		text-align: center;
+		letter-spacing: 2px;
+	}
+	.gatewayDetail-two ul {
+		padding-left: 0px;
+		height: 172.5px;
+	}
+	.gatewayDetail-two li {
+		display: flex;
+		line-height: 12px;
+		justify-content: space-between;
+	}
+
+	.gatewayDetail-two h2 {
+		font-size: 18px;
+		color: #333;
+		margin: 30px 0px;
+		letter-spacing: 2px;
+	}
+	.gatewayDetail-two h3 {
+		font-size: 12px;
+		line-height: 12px;
+		color: #CCCCCC;
+		margin: 0;
+		letter-spacing: 2px;
+	}
+	.gatewayDetail-two-top {
+		float: left;
+		display: flex;
+		display: inline-block;
+		width: 100%;
+	}
+	.gatewayDetail-two-top .box {
+		height: 5px;
+		margin-top: 3px;
+		background-color: #FFFFFF;
+		border-radius: 2.5px;
+	}
+	.gatewayDetail-two-top .box1 {
+		height: 5px;
+		border-radius: 2.5px;
+		background: linear-gradient(to right, #ff6685, #ffa985);
+	}
+	.gatewayDetail-two-bot {
+		float: left;
+		display: flex;
+		display: inline-block;
+		width: 100%;
+		margin-top: 39px;
+		margin-bottom: 39px;
+	}
+	.gatewayDetail-two-bot .big_box {
+		height: 5px;
+		margin-top: 3px;
+		background-color: #e1e7ed;
+		border-radius: 2.5px;
+	}
+	.gatewayDetail-two-bot .small_box {
+		height: 5px;
+		border-radius: 2.5px;
+		background: linear-gradient(to right, #ff6685, #ffa985, #c68cff, #66e8ff);
+	}
+	.gatewayDetail-two-bot span {
+		background: linear-gradient(to bottom right, #ffaf85, #c68cff);
+	}
+	.gatewayDetail-two-bot .p2 {
+		width: 22px;
+	}
+	.gatewayDetail-two .span2 {
+		background: #e7e1ed;
+		margin-right: 0px;
+		margin-left: 11px;
+	}
+	 
+	/*设备薪资按钮*/
+	
+	 .gatewayDetail-one .dataFlowBtn{
+    height: 36px;
+    font-size: 14px;
+    color: #ccc;
+    letter-spacing: 2px;
+    box-shadow: 0 0 15px 2px rgba(204,204,204,0.1);
+    border: solid 1px #ccc;
+    padding: 0px;
+    border-radius: 18px;
+    margin: 45px 0 45px 12.36%;
+    background: #FFFFFF;
+    width: 15.89%;
+    float: left;
+  }
+  .gatewayDetail-one .dataFlowBtn:hover{
+    color:#f5c988;
+    box-shadow:0 0 15px 2px rgba(245,201,136,0.1);
+    border:solid 1px #f5c988;
+    background: rgba(245,201,136,0.02);
+  }
+	 
+
+
+}
+
+@media only screen and (max-width: 1024px) {
+		/*========== 内容版块 =========*/
+	.gatewayDetail {
+		border-radius: 12px;
+		padding: 30px;
+		width: 100%;
+		background-color: #FFFFFF;
+		overflow: hidden;
+	}
+	/*========删除网关黑色遮罩层========*/
+	.gatewayDetail .mask{
+	  position: fixed;
+	  right: 0;
+	  bottom: 0;
+	  background: rgba(0,0,0,0.1);
+	  z-index: 1000;
+	  display: none;
+	  width:100%; 
+	  height:100%;
+	}
+	/*======== 网关详情部分 ========*/
+	.gatewayDetail-one {
+		position: relative;
+	}
+	.gatewayDetail-one-box{
+		display: flex;
+	}
+	/*======== 大号字框 ========*/
+	.gatewayDetail-one-l {
+		width: 135px;
+		height: 112px;
+        margin-right: 30px;
+	  background-color: #f9f8f4;
+}
+		/*======== 大号字 ========*/
+	.gatewayDetail-one-l h1 {
+		font-size: 54px;
+		width: 135px;
+		line-height: 112px;
+    margin: 0 auto;
+    overflow: hidden;
+    color: #f5c887;
+	}
+			/*======== 详情信息の名称 ========*/
+	.gatewayDetail-one-c-top {
+		display: flex;
+        justify-content: space-between;
+	}
+	.gatewayDetail-one-c-top-box{
+		margin-bottom: 24px;
+		display: flex;
+		height: 18px;
+	}
+
+	/*======== 名称 ========*/
+	.gatewayDetail-one-c-top label.nameValue{
+    font-size:16px;
+    line-height: 16px;
+    color: #333;
+    letter-spacing: 2px;
+    max-width: 108px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: left;
+    cursor: text;
+  }
+	/*======== 修改网关名称的按钮 ========*/
+	.gatewayDetail-one button {
+		display: inline-block;
+		font-size: 12px;
+		color: #CCCCCC;
+		line-height: 16px;
+		border-radius: 9px;
+		letter-spacing: 2px;
+		background-color: #FFFFFF;
+		border: 1px solid #F0F0F0;
+		margin-left: 3px;
+		padding: 0 9px 0 12px;
+		cursor: pointer;
+	}
+	
+	
+	
+	
+	
+	
+	/*======== 修改网关名称和确认删除网关 弹窗样式 ========*/
+  .gatewayDetail-one-c .hintArea,
+  .gatewayDetail-one-c .hintArea_delet{
+    width: 450px;
+    position: absolute;
+    left: 29.4%;
+    top:45px;
+    z-index: 1100;
+    padding: 22px 45px ;
+    border-radius: 9px;
+    background: #ffffff;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 0 24px 0 rgba(0,0,0,0.1);
+  }
+  /*========修改网关名称和确认删除网关弹窗上的 【修改/删除网关名称】（当前操作文本说明）========*/
+	.gatewayDetail-one-c .hintArea .modifyContent,
+	.gatewayDetail-one-c .hintArea_delet .modifyContent{
+    font-size: 18px;
+    color: #333;
+    letter-spacing: 2px;
+    margin-bottom: 22px;
+  }
+  /*========修改网关名称和确认删除网关弹窗上的 【输入框内的样式】（输入框）========*/ 
+  .gatewayDetail-one-c .hintArea textarea,
+  .gatewayDetail-one-c .hintArea_delet textarea{
+    width: 359px;
+    height: 102px;
+    background: #F7F7F7;
+    border: 1px solid #f0f0f0;
+    padding: 0px 9px;
+    font-size: 14px;
+    color: #999;
+    letter-spacing: 1px;
+    line-height: 22px;
+    resize: none;
+  }  
+/*======== 修改网关名称的  红色错误提示文本 ========*/
+  .gatewayDetail-one-c .hintArea .warningTips,
+    .gatewayDetail-one-c .hintArea_delet .warningTip{
+    font-size: 12px;
+    line-height: 24px;
+    color: #f1584a;
+    letter-spacing: 2px;
+    text-align: left;
+    margin-bottom: 22px;
+    /*visibility: hidden;*/
+  }  
+  /*======== 确认与取消按钮hover样式 ========*/
+   .gatewayDetail-one-c .clickEvent button:hover{
+    color: #f5c987;
+    border: 1px solid #f5c987;
+  }
+  .gatewayDetail-one-c .clickEvent button {
+    font-size: 14px;
+    color: #dbdbdb;
+    letter-spacing: 4px;
+    padding: 0px 14px 0px 18px;
+    height: 27px;
+    border-radius: 13.5px;
+    margin: 0px 39px 14px 39px;
+    line-height: 24px;
+    border: 1px solid #f0f0f0;
+    background: #ffffff;
+    display: inline-block;
+  }
+  /*======== 确认删除网（用以定位） ========*/
+  .gatewayDetail-one-c .hintArea_delet{
+  	top:120%;
+  }
+  
+  
+  
+
+.gatewayDetail-one-c{
+	width: 100%;
+}
+  /*======== 详细信息 ========*/
+	.gatewayDetail-one-c-bot {
+		display: flex;
+		justify-content: space-between;
+	} 
+ /*======== 每一条详情信息 整体的样式 ========*/
+	.gatewayDetail-one li {
+		display: flex;
+		font-size: 12px;
+		letter-spacing: 2px;
+		color: #CCCCCC;
+		align-items: flex-end;
+		line-height: 18px;
+	}	 
+
+	.gatewayDetail-one-c-bot3 {
+	 	   width: 225px;
+	}
+	.gatewayDetail-one-c-bot4 {
+	 	   width: 225px;
+	}
+ /*======== 每一条详情信息 名称的样式 ========*/
+	.gatewayDetail-one li h3 {
+		font-weight: normal;
+		font-size: 12px;
+	}
+		 /*======== 每一条详情信息 数值的样式 ========*/
+	.gatewayDetail-one li span {
+		display: block;
+		color: #333333;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		word-wrap: break-word;
+	}
+	
+   /*======== 开启关闭网关 描述当前状态的文本颜色 ========*/
+	.gatewayDetail-one-c-bot1 li:nth-of-type(1) span {color: #5ce66a;   width: 46px;}
+  .gatewayDetail-one .gatewayDetail-one-c-bot li .statusToggle {color: #F00000;}
+   /*======== IP数值 的文本 ========*/
+  .gatewayDetail-one-c-bot1 li:nth-of-type(2) span{width: 135px; text-align: left;}
+  /*======== 模板名称内联页面入口 的文本 ========*/
+  .gatewayDetail-one .gatewayDetail-one-c-bot2 li:nth-of-type(1) span a{width: 42px;text-align: left;display: table;}
+  	
+    /*======== 详情信息内部上下间距 ========*/
+	.gatewayDetail-one-c-bot1 li:nth-of-type(2) {
+		margin-top: 10px;
+	}
+	.gatewayDetail-one-c-bot1 li:nth-of-type(3) {
+		margin-top: 10px;
+	}
+	.gatewayDetail-one-c-bot2 li:nth-of-type(2) {
+		margin-top: 10px;
+	}
+	.gatewayDetail-one-c-bot2 li:nth-of-type(3) {
+		margin-top: 10px;
+	}
+	.gatewayDetail-one-c-bot3 li:nth-of-type(3) {
+		margin-top: 28px;
+	}
+	.gatewayDetail-one-c-bot3 li:nth-of-type(4) {
+		margin-top: 10px;
+	}
+	.gatewayDetail-one-c-bot4 li:nth-of-type(2) {
+		margin-top: 4px;
+	}
+/*======== 详情信息 网关端口数值的样式 ========*/
+	.gatewayDetail-one-c-bot1 input {
+		border: none;
+		width: 46px;
+		font-size: 12px;
+		letter-spacing: 2px;
+		line-height: 18px;
+	}
+
+
+	/*======== 第三竖 ========*/
+  .gatewayDetail-one-r{
+  	position: relative;
+  	bottom: 31px;
+  }
+	/*======== 第三竖列详情内部上下间距 ========*/
+	.gatewayDetail-one-r li{
+		margin-top: 10px;
+	}
+  .gatewayDetail-one-r li:nth-of-type(3) {
+		margin-top: 25px;
+	}
+	/*======== 第三竖列第一行数值颜色 ========*/
+  .gatewayDetail-one-r li:nth-of-type(1) span {
+		color: #333333;
+		width: 90px;
+		text-align: left;
+	}
+	/*======== 底部的详情描述文本段落 ========*/
+	.gatewayDetail-one-b {
+    margin-top: 21px;
+    text-align: left;
+    overflow: hidden;
+	}
+	.gatewayDetail-one-b h3 {
+   display: inline-block;
+   font-weight: normal;
+    font-size: 10px;
+    color: #CCCCCC;
+    letter-spacing: 2px;
+	}
+	.gatewayDetail-one .gatewayDetail-one-b span {
+    font-size: 10px;
+    color: #333333;
+    letter-spacing: 2px;
+	}
+	.gatewayDetail-one-btn {
+		display: inline-block;
+		width: 100%;
+	}
+  
+  
+	
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*跳转符合样式*/
+   .gatewayDetail-one-c .clickEvents{
+    margin-top: 60px;
+  }
+  
+  .gatewayDetail-one-c .hintArea_delet .clickEvents{
+  	text-align: left;
+    margin-top: 28px;
+    width: 100%;
+    border-top: 1px solid #efefef;
+  }
+  
+  .hintArea .clickEvent button:hover{
+    color: #f5c987;
+    border: 1px solid #f5c987;
+  }
+  .gatewayDetail-one-c .clickEvents .wordOut:nth-child(1){
+    margin-right: 96px;
+  }
+  
+  .gatewayDetail-one-c .clickEvents .wordOut,
+  .gatewayDetail-one-c .clickEvents .wordIn{
+    font-size: 14px;
+    border-radius: 13.5px;
+    color: #dbdbdb;
+    width: 76px;
+    height: 27px;
+    line-height: 27px;
+    border: 1px solid #f0f0f0;
+    background: #ffffff;
+    display: inline-block;
+    margin-left: 0px;
+  }
+
+
+
+  
+
+	/*<!-------------设备信息 --------------->*/
+	.gatewayDetail-two {
+		border-top: 1px solid #F7F7F7;
+		border-bottom: 1px solid #F7F7F7;
+		justify-content: space-around;
+	}
+	.gatewayDetail-two li div{
+		display: flex;
+		min-width: 121px;
+	}
+	.gatewayDetail-two span {
+		display: inline-block;
+		width: 12px;
+		height: 12px;
+		border-radius: 2px;
+		background: linear-gradient(to bottom right, #ffa985, #ff6685);
+		margin-right: 7px;
+	}
+	.gatewayDetail-two p {
+		color: #333;
+		font-size: 12px;
+		text-align: center;
+		letter-spacing: 2px;
+	}
+	.gatewayDetail-two ul {
+		padding-left: 0px;
+		height: 172.5px;
+	}
+	.gatewayDetail-two li {
+		display: flex;
+		line-height: 12px;
+		justify-content: space-between;
+	}
+
+	.gatewayDetail-two h2 {
+		font-size: 13px;
+		color: #333;
+		margin: 30px 0px;
+		letter-spacing: 3px;
+	}
+	.gatewayDetail-two h3 {
+		font-size: 12px;
+		line-height: 12px;
+		color: #CCCCCC;
+		margin: 0;
+		letter-spacing: 2px;
+	}
+	.gatewayDetail-two-top {
+		float: left;
+		display: flex;
+		display: inline-block;
+		width: 100%;
+	}
+	.gatewayDetail-two-top .box {
+		height: 5px;
+		margin-top: 3px;
+		background-color: #FFFFFF;
+		border-radius: 2.5px;
+	}
+	.gatewayDetail-two-top .box1 {
+		height: 5px;
+		border-radius: 2.5px;
+		background: linear-gradient(to right, #ff6685, #ffa985);
+	}
+	.gatewayDetail-two-bot {
+		float: left;
+		display: flex;
+		display: inline-block;
+		width: 100%;
+		margin-top: 24px;
+		margin-bottom: 24px;
+	}
+	.gatewayDetail-two-bot .big_box {
+		height: 5px;
+		margin-top: 3px;
+		background-color: #e1e7ed;
+		border-radius: 2.5px;
+	}
+	.gatewayDetail-two-bot .small_box {
+		height: 5px;
+		border-radius: 2.5px;
+		background: linear-gradient(to right, #ff6685, #ffa985, #c68cff, #66e8ff);
+	}
+	.gatewayDetail-two-bot span {
+		background: linear-gradient(to bottom right, #ffaf85, #c68cff);
+	}
+	.gatewayDetail-two-bot .p2 {
+		width: 22px;
+	}
+	.gatewayDetail-two .span2 {
+		background: #e7e1ed;
+		margin-right: 0px;
+		margin-left: 11px;
+	}
+	 
+	/*设备薪资按钮*/
+	
+	 .gatewayDetail-one .dataFlowBtn{
+    height: 30px;
+    font-size: 12px;
+    color: #ccc;
+    letter-spacing: 2px;
+    box-shadow: 0 0 15px 2px rgba(204,204,204,0.1);
+    border: solid 1px #ccc;
+    padding: 0px;
+    border-radius: 15px;
+    margin: 24px 0 24px 12.36%;
+    background: #FFFFFF;
+    width: 15.89%;
+    float: left;
+  }
+  .gatewayDetail-one .dataFlowBtn:hover{
+    color:#f5c988;
+    box-shadow:0 0 15px 2px rgba(245,201,136,0.1);
+    border:solid 1px #f5c988;
+    background: rgba(245,201,136,0.02);
+  }
+	 
+
+
+}

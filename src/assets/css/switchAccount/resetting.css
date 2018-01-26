@@ -1,0 +1,442 @@
+	  ::-moz-placeholder{color: #ffffff;}
+		::-webkit-input-placeholder{color: #ffffff;}
+		:-ms-input-placeholder{color: #ffffff;} 
+ 
+@media only screen and (min-width: 1441px) {
+ /*==========重置模块内容区=========*/
+.resetting .accountTemplate-center{
+			border: 1px solid #FFFFFF;
+			margin: 0 auto; 
+		  width: 900px;
+}	
+ /*========== 文本版式框架 =========*/
+.resetting .accountTemplate-center ul li{ 
+        margin-left: 72px;
+		    margin-top: 72px;
+		    display: flex;
+	}
+	/*========== 当前使用场景的文本说明 =========*/
+	.resetting .accountTemplate-center #h1{
+		display: inline-block;
+		font-size: 42px;
+		letter-spacing: 2px;
+		line-height: 42px;
+		color: #FFFFFF;
+		font-family: "Arial","Microsoft YaHei","SimHei","SimSun";
+	}	
+
+	/*========== 第三个<li>，为了不同文本在切换不同状态时位置纹丝不动 =========*/
+	.resetting .accountTemplate-center ul li:nth-of-type(3){
+		margin-top: 62px;
+	}
+ 
+	/*==========账户密码文本=========*/
+	.resetting .accountTemplate-center ul li label{
+		   font-size: 18px;
+		   color: #FFFFFF;
+	    display: flex;
+	    margin-right: 54px;
+	    height: 30px;
+	    margin-bottom: 0px;
+	  cursor: text;
+	}
+	/*==========账户密码文本右边距=========*/
+	.resetting .accountTemplate-center ul li label span{
+		display: inline-block;
+		margin-right: 25px;
+	}
+	/*==========重置模块内容区的输入框=========*/
+	.resetting .accountTemplate-center ul li input{
+		border: none;
+		background-color: rgba(255,255,255,0);
+		color: #FFFFFF;
+		padding: 0px 6px 12px 6px;
+		font-size: 18px;
+		letter-spacing: 4px;
+    width: 300px; 
+		border-bottom: 2px solid rgba(255,255,255,0.3);
+	  height: 30px;
+	}
+
+ 
+/*========== 获取验证码 =========*/
+	.resetting .accountTemplate-center ul li .codeOut{
+		display: inline-block;
+		border: none;
+		font-size: 16px;
+		color: #FFFFFF;
+		line-height: 30px;
+		letter-spacing: 1px;
+		padding: 0px 9px 0px 10px;
+		margin-top: 10px;
+		margin-left: 90px;
+		background-color: rgba(255,255,255,0.2);
+		cursor: pointer;
+	}
+	
+	/*==========重置模块内容区验证码=========*/
+	.resetting .accountTemplate-center ul li #resetCode{
+		margin-left: 90px;
+		margin-top: -32px;
+	}
+	.resetting .accountTemplate-center ul li #resetCode input{
+		display: inline-block;
+		width: 25px;
+		height: 42px;
+		line-height: 42px;
+		margin-right: 12px;
+		font-size: 18px;
+		background-color: rgba(255,255,255,0.2);
+		text-align: center;
+		padding: 0;
+		border-bottom: none;
+		letter-spacing: 0px;
+	} 
+	
+	/*========== 重置按钮 =========*/
+	.resetting .accountTemplate-center ul li .resetIcon{
+		display: block;
+		border: none;
+		font-size: 18px;
+		text-align: center;
+		letter-spacing: 5px;
+		line-height: 36px;
+    padding: 0 27px 0 33px;
+    margin-left: 283px;
+    min-width: 150px;
+		background-color: rgba(255,255,255,0.2);
+	  color: #FFFFFF;
+		cursor: pointer;
+	}
+	.resetting .accountTemplate-center ul li .resetIcon:hover{
+		background-color: rgba(255,255,255,0.3);
+    transition: all 0.2s cubic-bezier(.25,.46,.45,.94) 0s;
+	}
+	
+    /*========== 提示 =========*/
+	.resetting .accountTemplate-center-bottom p{
+		display: block;
+		font-size: 16px;
+		color: #FFFFFF;
+		height: 16px;
+		line-height: 16px;
+		letter-spacing: 4px;
+		margin-top: 36px;
+	  cursor: text;
+	  padding-right: 33px;
+	}
+    /*========== 右下角跳转注册 =========*/
+	.resetting .accountTemplate-center-bottom b{
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 16px;
+    letter-spacing: 2px;
+		text-align: right;
+    display: block;
+    margin: 0px 12px 15px 0px;
+	}   
+ /*========== 右下角跳转注册 覆盖框架样式 =========*/
+	.resetting .accountTemplate-center-bottom button{
+	border: none;
+	background-color: rgba(255,255,255,0);
+	color: #FFFFFF;
+  cursor: pointer;
+	margin-left: 12px;
+  }
+	.resetting .accountTemplate-center-bottom button:hover{
+	text-shadow: 0px 0px 8px rgba(255,255,255,0.9);	
+	}
+}	
+
+
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px){ 
+ /*==========重置模块内容区=========*/
+.resetting .accountTemplate-center{
+			border: 1px solid #FFFFFF;
+			margin: 0 auto; 
+		  width: 675px;
+}	
+ /*========== 文本版式框架 =========*/
+.resetting .accountTemplate-center ul li{ 
+        margin-left: 54px;
+		    margin-top: 54px;
+		    display: flex;
+	}
+/*========== 当前使用场景的文本说明 =========*/
+	.resetting .accountTemplate-center #h1{
+		display: inline-block;
+		font-size: 33px;
+		letter-spacing: 1.5px;
+		line-height: 33px;
+		color: #FFFFFF;
+		font-family: "Arial","Microsoft YaHei","SimHei","SimSun";
+	}	
+
+		/*========== 第三个<li>，为了不同文本在切换不同状态时位置纹丝不动 =========*/
+	.resetting .accountTemplate-center ul li:nth-of-type(3){
+		margin-top: 48px;
+	}
+ 
+	/*==========账户密码文本=========*/
+	.resetting .accountTemplate-center ul li label{
+		   font-size: 16px;
+		   color: #FFFFFF;
+	    display: flex;
+	    margin-right: 24px;
+	    height: 24px;
+	    margin-bottom: 0px;
+	  cursor: text;
+	}
+	/*==========账户密码文本右边距=========*/
+	.resetting .accountTemplate-center ul li label span{
+		display: inline-block;
+		margin-right: 21px;
+	}
+	/*==========重置模块内容区的输入框=========*/
+	.resetting .accountTemplate-center ul li input{
+		border: none;
+		background-color: rgba(255,255,255,0);
+		color: #FFFFFF;
+		padding: 0px 5px 9px 5px;
+		font-size: 16px;
+		letter-spacing: 3px;
+    width: 225px; 
+		border-bottom: 2px solid rgba(255,255,255,0.3);
+	  height: 24px;
+	}
+
+ 
+/*========== 获取验证码 =========*/
+	.resetting .accountTemplate-center ul li .codeOut{
+		display: inline-block;
+		border: none;
+		font-size: 14px;
+		color: #FFFFFF;
+		line-height: 24px;
+		letter-spacing: 1px;
+		padding: 0px 7px 0px 8px;
+		margin-top: 6px;
+		margin-left: 60px;
+		background-color: rgba(255,255,255,0.2);
+		cursor: pointer;
+	}
+	
+	/*==========重置模块内容区验证码=========*/
+	.resetting .accountTemplate-center ul li #resetCode{
+		margin-left: 60px;
+		margin-top: -30px;
+	}
+	.resetting .accountTemplate-center ul li #resetCode input{
+		display: inline-block;
+		width: 21px;
+		height: 36px;
+		line-height: 36px;
+		margin-right: 9px;
+		font-size: 16px;
+		background-color: rgba(255,255,255,0.2);
+		text-align: center;
+		padding: 0;
+		border-bottom: none;
+		letter-spacing: 0px;
+	}
+	
+	/*========== 重置按钮 =========*/
+	.resetting .accountTemplate-center ul li .resetIcon{
+		display: block;
+		border: none;
+		font-size: 16px;
+		text-align: center;
+		letter-spacing: 4px;
+		line-height: 33px;
+    padding: 0 21px 0 24px;
+    margin-left: 229px;
+    min-width: 90px;
+		background-color: rgba(255,255,255,0.2);
+	  color: #FFFFFF;
+		cursor: pointer;
+	}
+	
+    /*========== 提示 =========*/
+	.resetting .accountTemplate-center-bottom p{
+		display: block;
+		font-size: 14px;
+		color: #FFFFFF;
+		height: 14px;
+		line-height: 14px;
+		letter-spacing: 3px;
+		margin-top: 36px;
+	  cursor: text;
+	  padding-right: 15px; 
+	}
+    /*========== 右下角跳转注册 =========*/
+	.resetting .accountTemplate-center-bottom b{
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 14px;
+    letter-spacing: 2px;
+		text-align: right;
+    display: block;
+    margin: 0px 12px 15px 0px;
+	}   
+ /*========== 右下角跳转注册 覆盖框架样式 =========*/
+	.resetting .accountTemplate-center-bottom button{
+	border: none;
+	background-color: rgba(255,255,255,0);
+	color: #FFFFFF;
+  cursor: pointer;
+	margin-left: 12px;
+  }
+	.resetting .accountTemplate-center-bottom button:hover{
+	text-shadow: 0px 0px 7px rgba(255,255,255,0.9);	
+	}
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+ /*==========重置模块内容区=========*/
+.resetting .accountTemplate-center{
+			border: 1px solid #FFFFFF;
+			margin: 0 auto; 
+		  width: 478px;
+}	
+ /*========== 文本版式框架 =========*/
+.resetting .accountTemplate-center ul li{ 
+        margin-left: 38px;
+		    margin-top: 38px;
+		    display: flex;
+	}
+/*========== 当前使用场景的文本说明 =========*/
+	.resetting .accountTemplate-center #h1{
+		display: inline-block;
+		font-size: 24px;
+		letter-spacing: 1px;
+		line-height: 24px;
+		color: #FFFFFF;
+		font-family: "Arial","Microsoft YaHei","SimHei","SimSun";
+	}	
+
+		/*========== 第三个<li>，为了不同文本在切换不同状态时位置纹丝不动 =========*/
+	.resetting .accountTemplate-center ul li:nth-of-type(3){
+		margin-top: 27px;
+	}
+ 
+	/*==========账户密码文本=========*/
+	.resetting .accountTemplate-center ul li label{
+		   font-size: 11px;
+		   color: #FFFFFF;
+	    display: flex;
+	    margin-right: 17px;
+	    height: 17px;
+	    margin-bottom: 0px;
+	  cursor: text;
+	}
+	/*==========账户密码文本右边距=========*/
+	.resetting .accountTemplate-center ul li label span{
+		display: inline-block;
+		margin-right: 15px;
+	}
+	/*==========重置模块内容区的输入框=========*/
+	.resetting .accountTemplate-center ul li input{
+		border: none;
+		background-color: rgba(255,255,255,0);
+		color: #FFFFFF;
+		padding: 0px 3.5px 6px 3.5px;
+		font-size: 11px;
+		letter-spacing: 2px;
+    width: 159px; 
+		border-bottom: 2px solid rgba(255,255,255,0.3);
+	  height: 17px;
+	}
+
+ 
+/*========== 获取验证码 =========*/
+	.resetting .accountTemplate-center ul li .codeOut{
+		display: inline-block;
+		border: none;
+		font-size: 10px;
+		color: #FFFFFF;
+		line-height: 21px;
+		letter-spacing: 1px;
+		padding: 0px 5px 0px 6px;
+		margin-top: 7px;
+		margin-left: 42px;
+		background-color: rgba(255,255,255,0.2);
+		cursor: pointer;
+	}
+	
+	/*==========重置模块内容区验证码=========*/
+	.resetting .accountTemplate-center ul li #resetCode{
+		margin-left: 42px;
+		margin-top: -21px;
+	}
+	.resetting .accountTemplate-center ul li #resetCode input{
+		display: inline-block;
+		width: 14px;
+		height: 24px;
+		line-height: 24px;
+		margin-right: 6px;
+		font-size: 10px;
+		background-color: rgba(255,255,255,0.2);
+		text-align: center;
+		padding: 0;
+		border-bottom: none;
+		letter-spacing: 0px;
+	}
+	
+	/*========== 重置按钮 =========*/
+	.resetting .accountTemplate-center ul li .resetIcon{
+		display: block;
+		border: none;
+		font-size: 11px;
+		text-align: center;
+		letter-spacing: 3px;
+		line-height: 24px;
+    padding: 0 15px 0 17px;
+    margin-left: 159px;
+    min-width: 66px;
+		background-color: rgba(255,255,255,0.2);
+	  color: #FFFFFF;
+		cursor: pointer;
+	}
+	.resetting .accountTemplate-center ul li .resetIcon:hover{
+		background-color: rgba(255,255,255,0.3);
+    transition: all 0.2s cubic-bezier(.25,.46,.45,.94) 0s;
+	}
+	
+    /*========== 提示 =========*/
+	.resetting .accountTemplate-center-bottom p{
+		display: block;
+		font-size: 10px;
+		color: #FFFFFF;
+		height: 10px;
+		line-height: 10px;
+		letter-spacing: 2px;
+		margin-top: 27px;
+	  cursor: text;
+	  padding-right: 15px;
+	}
+    /*========== 右下角跳转注册 =========*/
+	.resetting .accountTemplate-center-bottom b{
+		font-weight: normal;
+		font-size: 10px;
+		line-height: 10px;
+    letter-spacing: 1px;
+		text-align: right;
+    display: block;
+    margin: 0px 9px 10px 0px;
+	}   
+ /*========== 右下角跳转注册 覆盖框架样式 =========*/
+	.resetting .accountTemplate-center-bottom button{
+	border: none;
+	background-color: rgba(255,255,255,0);
+	color: #FFFFFF;
+  cursor: pointer;
+	margin-left: 9px;
+  }
+	.resetting .accountTemplate-center-bottom button:hover{
+	text-shadow: 0px 0px 5px rgba(255,255,255,0.9);	
+	}
+
+}	

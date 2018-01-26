@@ -1,0 +1,266 @@
+.device-detail li{
+  margin: 0;
+  padding: 0;
+}
+.device-detail ol,ul{
+  margin-bottom: 0;
+}
+.device-detail{
+  background:#FFFFFF;
+}
+.device-detail .mask{
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.1);
+  z-index: 1000;
+  display: none;
+  height: 100%;
+  width: 100%;
+}
+@media (min-width:1441px){
+  /*-------------上部分详情样式--------------*/
+  .device-detail{
+    padding-top: 39px;
+    padding-bottom: 60px;
+  }
+  .device-detail .wapper-t{
+    margin-left: 39px;
+    margin-right: 39px;
+  }
+  .device-detail .wapper-t .infoGroup{
+    display: flex;
+    height:158px;
+  }
+  .device-detail .wapper-t .infoGroup .info{
+    width:35%;
+    text-align:left;
+    /*background: hotpink;*/
+  }
+  .device-detail .wapper-t .infoGroup .infos{
+    width: 33%;
+    text-align:left;
+    /*background: gold;*/
+  }
+  .device-detail .wapper-t .infoGroup .infoo{
+    width:32%;
+    text-align:left;
+    /*background: darkkhaki;*/
+  }
+  /*---------------下部分统计信息样式-------------*/
+  .device-detail .total{
+    position:relative;
+  }
+  .device-detail .total .totalName{
+    margin: 45px 39px;
+  }
+  .device-detail .totalName span.totalInfo{
+    font-size: 1.2rem;
+    letter-spacing: 6px;
+  }
+  /*------------悬浮框样式---------------*/
+  .device-detail .total .title{
+    float: right;
+  }
+  .device-detail .total .title ol li{
+    display: inline-block;
+    font-size: 0.8rem;
+    color: #999;
+    letter-spacing:4px;
+    vertical-align: middle;
+  }
+  .device-detail .total .title ol li:nth-child(3){
+    font-size: 2.25rem;
+    color: #b266ff;
+    letter-spacing:11px;
+    margin-right: 48px;
+  }
+  .device-detail .total .title ol li:nth-child(4){
+    border: solid 1px #f7f7f7;
+    padding: 2px 18px;
+    line-height: 45px;
+    cursor: pointer;
+  }
+  .device-detail .total .title ol li .selectType{
+    margin-right: 15px;
+  }
+  .device-detail .total .title ol li:nth-child(4) img{
+    width: 16px;
+    margin-top: -6px;
+  }
+  .device-detail .types{
+    position: absolute;
+    top:40px;
+    left:39px;
+    right:39px;
+  }
+}
+@media (max-width:1440px) and (min-width:1025px) {
+  /*---------------上部分详情样式----------------*/
+  .device-detail {
+    padding-top: 29.25px;
+    padding-bottom: 45px;
+  }
+  .device-detail .wapper-t {
+    margin-left: 29.25px;
+    margin-right: 29.25px;
+  }
+
+  .device-detail .wapper-t .infoGroup {
+    display: flex;
+    height: 120px;
+  }
+
+  .device-detail .wapper-t .infoGroup .info {
+    width: 35%;
+    text-align: left;
+  }
+
+  .device-detail .wapper-t .infoGroup .infos {
+    text-align: left;
+    width: 33%;
+  }
+
+  .device-detail .wapper-t .infoGroup .infoo {
+    text-align: left;
+    width: 32%;
+  }
+
+  /*---------------下部分统计信息样式-------------*/
+  .device-detail .total {
+    position: relative;
+  }
+
+  .device-detail .total .totalName {
+    margin: 34px 29.25px;
+  }
+
+  .device-detail .total .totalName span.totalInfo {
+    font-size: 0.9rem;
+    letter-spacing: 4.5px;
+  }
+
+  /*-------------悬浮框样式---------------*/
+  .device-detail .total .title {
+    float: right;
+  }
+
+  .device-detail .total .title ol li {
+    display: inline-block;
+    font-size: 0.6rem;
+    color: #999;
+    letter-spacing: 3px;
+    vertical-align: middle;
+  }
+
+
+  .device-detail .total .title ol li:nth-child(3) {
+    font-size: 1.67rem;
+    color: #b266ff;
+    letter-spacing: 8.25px;
+    margin-right: 36px;
+  }
+
+  .device-detail .total .title ol li:nth-child(4) {
+    border: 1px solid #f7f7f7;
+    padding: 2px 13.5px;
+    line-height: 34px;
+    cursor: pointer;
+  }
+
+  .device-detail .total .title ol li .selectType {
+    margin-right: 11.25px;
+  }
+
+  .device-detail .total .title ol li:nth-child(4) img {
+    width: 16px;
+    margin-top: -4px;
+  }
+
+  .device-detail .types {
+    position: absolute;
+    top: 26px;
+    left: 29.25px;
+    right: 29.25px;
+  }
+}
+@media (max-width:1024px) {
+  /*-------------上部分详情样式-------------*/
+  .device-detail{
+    padding-top: 20.67px;
+    padding-bottom: 32px;
+  }
+  .device-detail .wapper-t{
+    margin-left: 20.67px;
+    margin-right: 20.67px;
+  }
+  .device-detail .wapper-t .infoGroup{
+    height: 88px;
+    display: flex;
+  }
+  .device-detail .wapper-t .infoGroup .info{
+    width:35%;
+    /*background: goldenrod;*/
+    text-align: left;
+  }
+  .device-detail .wapper-t .infoGroup .infos{
+    width:32%;
+    /*background: goldenrod;*/
+    text-align: left;
+  }
+  .device-detail .wapper-t .infoGroup .infoo{
+    width:33%;
+    /*background: green;*/
+    text-align: left;
+  }
+  /*-------------下部分统计信息样式------------*/
+  .device-detail .total{
+    position:relative;
+  }
+  .device-detail .total .totalName{
+    margin: 23.85px 20.67px;
+  }
+  .device-detail .total .totalName span.totalInfo{
+    font-size: 0.64rem;
+    letter-spacing: 3.18px;
+  }
+  /*---------------悬浮框样式-----------------*/
+  .device-detail .total .title{
+    float: right;
+  }
+  .device-detail .total .title ol li{
+    display: inline-block;
+    font-size: 0.424rem;
+    color: #999;
+    letter-spacing:2.12px;
+    vertical-align: middle;
+  }
+
+  .device-detail .total .title ol li:nth-child(3){
+    font-size: 1.19rem;
+    color: #b266ff;
+    letter-spacing:5.83px;
+    margin-right: 25.44px;
+  }
+  .device-detail .total .title ol li:nth-child(4){
+    border: 1px solid #f7f7f7;
+    padding:0 9.54px;
+    line-height: 23.85px;
+    cursor: pointer;
+  }
+  .device-detail .total .title ol li .selectType{
+    margin-right: 7.95px;
+  }
+  .device-detail .total .title ol li:nth-child(4) img{
+     width: 12px;
+     margin-top: -2px;
+   }
+  .device-detail .types{
+    position: absolute;
+    top:24px;
+    left:20.67px;
+    right:20.67px;
+  }
+}

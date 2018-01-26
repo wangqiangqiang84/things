@@ -1,0 +1,594 @@
+@media only screen and (min-width: 1441px) {
+/*========== 注册设备页面整体框架 =========*/
+.container {
+				position: absolute;
+				top: -147px;
+				z-index: 9999;
+				background-color: #FFFFFF;
+				width: 1903px;
+				text-align: left;
+				left: -25.76%;
+}
+/*========== 注册设备文本 =========*/
+.create-device-header p {
+				padding: 60px 0px 60px 39px ;
+				font-size: 24px;
+				line-height: 24px;
+				letter-spacing: 8px;
+				font-weight: bold;
+				color: #333;
+				padding-left: 39px;
+				text-align: left;
+}
+/*========== 输入框项的框架 =========*/
+.device-name,
+.station-encoding,
+.geographical-position,
+.card-number {
+			 	margin: 0 0 30px 102px;
+}
+/*========== 输入框名称 =========*/
+.leftText {
+	  line-height: 42px;
+    display: inline-block;
+    font-size: 18px;
+    color: #333;
+    letter-spacing: 6px;
+}
+.leftText i {
+	visibility: hidden;
+}
+/*========== 输入框本身 =========*/
+.centerEditor input{
+				font-family: unset;
+				border: none;
+				margin: 0 24px 0 18.45px;
+				padding: 0 24px;
+				font-size: 18px;
+				line-height: 42px;
+				letter-spacing: 6px;
+				outline: none;
+				background: #f5f5f5;
+				color: #AAAAAA;
+				display: inline-block;
+}
+::-moz-placeholder{color: #bdbdbd;}
+::-webkit-input-placeholder{color: #bdbdbd;}
+:-ms-input-placeholder{color: #bdbdbd;}
+
+/*========== 所属网关文本样式 =========*/
+.gateway-name span:first-child {
+  position: absolute;
+  left: 115px;
+}
+/*========== 所属网关整个选项框样式 =========*/
+.gateway-name>.gateway-container {
+  padding: 12px 0 0 233px;
+  max-width: 1745px;
+  font-size: 18px;
+}
+/*========== 所属网关单个选项框样式 =========*/
+.gateway-name>.gateway-container>div>div {
+  display: inline-block;
+  list-style: none;
+  width: 300px;
+  border: 1px solid #f0f0f0;
+  letter-spacing: 6px;
+  color: #999;
+  cursor: pointer;
+  text-align: center;
+  margin: 0 -1px -1px 0;
+}
+/*========== 所属网关单个选项框鼠标浮动样式 =========*/
+.gateway-name>.gateway-container>div>div:hover,
+.gateway-name>.gateway-container>div>div.checkedGateway {
+	position: relative;
+  border: 1px solid #f5c988;
+  background-color: rgba(245,201,136,.02);
+  box-shadow: 0 0 15px  2px rgba(245,201,136,.05);
+}
+/*========== 所属网关单个选项框里面的文本块样式 =========*/
+.gateway-name>.gateway-container div ul {
+  display: inline-block;
+  padding: 27px 0 24px 0;
+}
+/*========== 所属网关单个选项框里面的文本对齐1，2，3行 =========*/
+.gateway-name .gateway-container ul li {
+	text-align: left;
+}
+.gateway-name .gateway-container ul li:nth-child(2) {
+  margin: 16px 0;
+}
+.gateway-name .gateway-container ul li:nth-child(3) {
+  font-weight: bold;
+}
+/*========== 所属网关 选项框 底下的三个选择框 =========*/
+.drop-down-list-container,
+.detetction-information {
+  margin-top: 24px;
+  padding-left: 233px;
+  font-size: 0;
+}
+/*========== 所属网关 选项框 底下的三个选择框 单个样式 =========*/
+.drop-down-list-container>div {
+  position: relative;
+  height: 42px;
+  margin-right: 24px;
+  padding: 0 24px 0 24px;
+  display: inline-block;
+	font-size: 18px;
+  line-height: 42px;
+  color: #ccc;
+  letter-spacing: 5px;
+  border: 1px solid #F0F0F0;
+}
+/*========== 所属网关 选项框 底下的三个选择框 单个样式 文本 =========*/
+.drop-down-list-container>div>span {
+  display: inline-block;
+  width: 162px;
+  height: 42px;
+  line-height: 42px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/*========== 所属网关 选项框 底下的三个选择框 单个样式  图标 =========*/
+.drop-down-list-container>div>b {
+	display: inline-block;
+	width: 10px;
+	height: 9px;
+	position: relative;
+	bottom: 39%;
+	margin-left: 4px;
+	background: url(../../../../../static/device/img/overviewPage/selectBoxDefault.png) no-repeat;
+	background-size: 100% 100%;
+}
+/*========== 错误提示文本 =========*/
+.rightPrompt {
+	font-size: 18px;
+  color: #f1584a;
+	display: inline-block;
+	line-height:42px;
+	letter-spacing: 4px;
+}
+/*========== 错误提示文本2 =========*/
+.detetction-information span {
+	position: absolute;
+  font-size: 18px;
+  color: #d84c31;
+  letter-spacing: 6px;
+  line-height: 42px;
+}
+
+/*========== 提交按钮 整体边距=========*/
+.create-device-footer {
+  padding: 60px 0 120px 0;
+}
+/*========== 提交按钮 整体限宽自居中=========*/
+.create-device-footer>.btn-container {
+  width: 616px;
+  margin: 0 auto;
+}
+/*========== 提交按钮 按钮样式=========*/
+.create-device-footer>.btn-container>span {
+				font-family: helvetica;
+				display: inline-block;
+				font-size: 18px;
+				line-height: 18px;
+				border-radius: 30px;
+				letter-spacing: 6px;
+				padding: 15px 63px 15px 69px;
+				color: #CCCCCC;
+				background-color: #FFF;
+				box-shadow: 0px 0px 15px 2px rgba(204,204,204,0.1);
+				border: solid #ccc 1px;
+				cursor: pointer;
+}
+.btn-container span:first-child {
+  margin-right: 150px;
+}
+/*========== 提交按钮 鼠标浮动 =========*/
+.create-device-footer>.btn-container>span:hover {
+			color: #f5c988;
+			border: solid #f5c988 1px;
+			background-color: rgba(245,201,136,0.02);
+			box-shadow: 0px 0px 15px 2px rgba(245,201,136,0.1);
+}
+}
+
+
+
+
+
+
+@media only screen and (min-width:1025px) and (max-width:1440px) {
+/*========== 注册设备页面整体框架 =========*/
+.container {
+				position: absolute;
+				top: -110px;
+				z-index: 9999;
+				background-color: #FFFFFF;
+				width: 1423px;
+				text-align: left;
+				left: -25.76%;
+}
+/*========== 注册设备文本 =========*/
+.create-device-header p {
+				padding: 45px 0px 45px 30px ;
+				font-size: 18px;
+				line-height: 18px;
+				letter-spacing: 6px;
+				font-weight: bold;
+				color: #333;
+				padding-left: 30px;
+				text-align: left;
+}
+/*========== 输入框项的框架 =========*/
+.device-name,
+.station-encoding,
+.geographical-position,
+.card-number {
+			 	margin: 0 0 22px 75px;
+}
+/*========== 输入框名称 =========*/
+.leftText {
+	  line-height: 31px;
+    display: inline-block;
+    font-size: 14px;
+    color: #333;
+    letter-spacing: 4px;
+}
+.leftText i {
+	visibility: hidden;
+}
+/*========== 输入框本身 =========*/
+.centerEditor input{
+				font-family: unset;
+				border: none;
+				margin: 0 18px 0 13.83px;
+				padding: 0 18px;
+				font-size: 14px;
+				line-height: 31px;
+				letter-spacing: 4px;
+				outline: none;
+				background: #f5f5f5;
+				color: #999;
+				display: inline-block;
+}
+/*========== 所属网关文本样式 =========*/
+.gateway-name span:first-child {
+  position: absolute;
+  left: 88px;
+}
+/*========== 所属网关整个选项框样式 =========*/
+.gateway-name>.gateway-container {
+  padding: 9px 0 0 175px;
+  max-width: 1308px;
+  font-size: 14px;
+}
+/*========== 所属网关单个选项框样式 =========*/
+.gateway-name>.gateway-container>div>div {
+  display: inline-block;
+  list-style: none;
+  width: 225px;
+  border: 1px solid #f0f0f0;
+  letter-spacing: 4px;
+  color: #999;
+  cursor: pointer;
+  text-align: center;
+  margin: 0 -1px -1px 0;
+}
+/*========== 所属网关单个选项框鼠标浮动样式 =========*/
+.gateway-name>.gateway-container>div>div:hover {
+	position: relative;
+  border: 1px solid #f5c988;
+  background-color: rgba(245,201,136,.02);
+  box-shadow: 0 0 14px  2px rgba(245,201,136,.05);
+}
+/*========== 所属网关单个选项框里面的文本块样式 =========*/
+.gateway-name>.gateway-container div ul {
+  display: inline-block;
+  padding: 20px 0 18px 0;
+}
+/*========== 所属网关单个选项框里面的文本对齐1，2，3行 =========*/
+.gateway-name .gateway-container ul li {
+	text-align: left;
+}
+.gateway-name .gateway-container ul li:nth-child(2) {
+  margin: 10px 0;
+}
+.gateway-name .gateway-container ul li:nth-child(3) {
+  font-weight: bold;
+}
+/*========== 所属网关 选项框 底下的三个选择框 =========*/
+.drop-down-list-container,
+.detetction-information {
+  margin-top: 18px;
+  padding-left: 175px;
+  font-size: 0;
+}
+/*========== 所属网关 选项框 底下的三个选择框 单个样式 =========*/
+.drop-down-list-container>div {
+  position: relative;
+  height: 31px;
+  margin-right: 18px;
+  padding: 0 24px 0 18px;
+  display: inline-block;
+	font-size: 14px;
+  line-height: 31px;
+  color: #ccc;
+  letter-spacing: 3px;
+  border: 1px solid #F0F0F0;
+}
+/*========== 所属网关 选项框 底下的三个选择框 单个样式 文本 =========*/
+.drop-down-list-container>div>span {
+  display: inline-block;
+  width: 122px;
+  height: 31px;
+  line-height: 31px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/*========== 所属网关 选项框 底下的三个选择框 单个样式  图标 =========*/
+.drop-down-list-container>div>b {
+	display: inline-block;
+	width: 7.5px;
+	height: 6.75px;
+	position: relative;
+	bottom: 39%;
+	margin-left: 3px;
+	background: url(../../../../../static/device/img/overviewPage/selectBoxDefault.png) no-repeat;
+	background-size: 100% 100%;
+}
+/*========== 错误提示文本 =========*/
+.rightPrompt {
+	font-size: 14px;
+  color: #f1584a;
+	display: inline-block;
+	line-height:31px;
+	letter-spacing: 3px;
+}
+/*========== 错误提示文本2 =========*/
+.detetction-information span {
+	position: absolute;
+  font-size: 14px;
+  color: #d84c31;
+  letter-spacing: 4.5px;
+  line-height: 31px;
+}
+
+/*========== 提交按钮 整体边距=========*/
+.create-device-footer {
+  padding: 45px 0 90px 0;
+}
+/*========== 提交按钮 整体限宽自居中=========*/
+.create-device-footer>.btn-container {
+  width: 462px;
+  margin: 0 auto;
+}
+/*========== 提交按钮 按钮样式=========*/
+.create-device-footer>.btn-container>span {
+				font-family: helvetica;
+				display: inline-block;
+				font-size: 14px;
+				line-height: 14px;
+				border-radius: 19px;
+				letter-spacing: 4px;
+				padding: 11px 47px 11px 51px;
+				color: #CCCCCC;
+				background-color: #FFF;
+				box-shadow: 0px 0px 11px 2px rgba(204,204,204,0.1);
+				border: solid #ccc 1px;
+				cursor: pointer;
+}
+.btn-container span:first-child {
+  margin-right: 112px;
+}
+/*========== 提交按钮 鼠标浮动 =========*/
+.create-device-footer>.btn-container>span:hover {
+			color: #f5c988;
+			border: solid #f5c988 1px;
+			background-color: rgba(245,201,136,0.02);
+			box-shadow: 0px 0px 11px 2px rgba(245,201,136,0.1);
+}
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+/*========== 注册设备页面整体框架 =========*/
+.container {
+				position: absolute;
+				top: -78px;
+				z-index: 9999;
+				background-color: #FFFFFF;
+				max-width: 1007px;
+				min-width: 1007px;
+				text-align: left;
+				left: -25.76%;
+}
+/*========== 注册设备文本 =========*/
+.create-device-header p {
+				padding: 31px 0px 31px 20px ;
+				font-size: 12px;
+				line-height: 12px;
+				letter-spacing: 4px;
+				font-weight: bold;
+				color: #333;
+				padding-left: 20px;
+				text-align: left;
+}
+/*========== 输入框项的框架 =========*/
+.device-name,
+.station-encoding,
+.geographical-position,
+.card-number {
+			 	margin: 0 0 15px 54px;
+}
+/*========== 输入框名称 =========*/
+.leftText {
+	  line-height: 22px;
+    display: inline-block;
+    font-size: 10px;
+    color: #333;
+    letter-spacing: 3px;
+}
+.leftText i {
+	visibility: hidden;
+}
+/*========== 输入框本身 =========*/
+.centerEditor input{
+				font-family: unset;
+				border: none;
+				margin: 0 12px 0 10px;
+				padding: 0 12px;
+				font-size: 10px;
+				line-height: 22px;
+				letter-spacing: 3px;
+				outline: none;
+				background: #f5f5f5;
+				color: #999;
+				display: inline-block;
+}
+/*========== 所属网关文本样式 =========*/
+.gateway-name span:first-child {
+  position: absolute;
+  left: 67px;
+}
+/*========== 所属网关整个选项框样式 =========*/
+.gateway-name>.gateway-container {
+  padding: 6px 0 0 129px;
+  max-width: 930px;
+  font-size: 9px;
+}
+/*========== 所属网关单个选项框样式 =========*/
+.gateway-name>.gateway-container>div>div {
+  display: inline-block;
+  list-style: none;
+  width: 225px;
+  border: 1px solid #f0f0f0;
+  letter-spacing: 4px;
+  color: #999;
+  cursor: pointer;
+  text-align: center;
+  margin: 0 -1px -1px 0;
+}
+/*========== 所属网关单个选项框鼠标浮动样式 =========*/
+.gateway-name>.gateway-container>div>div:hover {
+	position: relative;
+  border: 1px solid #f5c988;
+  background-color: rgba(245,201,136,.02);
+  box-shadow: 0 0 8px  1px rgba(245,201,136,.05);
+}
+/*========== 所属网关单个选项框里面的文本块样式 =========*/
+.gateway-name>.gateway-container div ul {
+  display: inline-block;
+  padding: 14px 0 12px 0;
+}
+/*========== 所属网关单个选项框里面的文本对齐1，2，3行 =========*/
+.gateway-name .gateway-container ul li {
+	text-align: left;
+}
+.gateway-name .gateway-container ul li:nth-child(2) {
+  margin: 8px 0;
+}
+.gateway-name .gateway-container ul li:nth-child(3) {
+  font-weight: bold;
+}
+/*========== 所属网关 选项框 底下的三个选择框 =========*/
+.drop-down-list-container,
+.detetction-information {
+  margin-top: 12px;
+  padding-left: 129px;
+  font-size: 0;
+}
+/*========== 所属网关 选项框 底下的三个选择框 单个样式 =========*/
+.drop-down-list-container>div {
+  position: relative;
+  height: 22px;
+  margin-right: 12px;
+  padding: 0 12px 0 12px;
+  display: inline-block;
+	font-size: 10px;
+  line-height: 22px;
+  color: #ccc;
+  letter-spacing: 3px;
+  border: 1px solid #F0F0F0;
+}
+/*========== 所属网关 选项框 底下的三个选择框 单个样式 文本 =========*/
+.drop-down-list-container>div>span {
+  display: inline-block;
+  width: 87px;
+  height: 22px;
+  line-height: 22px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/*========== 所属网关 选项框 底下的三个选择框 单个样式  图标 =========*/
+.drop-down-list-container>div>b {
+	display: inline-block;
+	width: 5px;
+	height: 4px;
+	position: relative;
+	bottom: 39%;
+	margin-left: 2px;
+	background: url(../../../../../static/device/img/overviewPage/selectBoxDefault.png) no-repeat;
+	background-size: 100% 100%;
+}
+/*========== 错误提示文本 =========*/
+.rightPrompt {
+	font-size: 10px;
+  color: #f1584a;
+	display: inline-block;
+	line-height:22px;
+	letter-spacing: 2px;
+}
+/*========== 错误提示文本2 =========*/
+.detetction-information span {
+	position: absolute;
+  font-size: 10px;
+  color: #d84c31;
+  letter-spacing: 3px;
+  line-height: 22px;
+}
+
+/*========== 提交按钮 整体边距=========*/
+.create-device-footer {
+  padding: 32px 0 63px 0;
+}
+/*========== 提交按钮 整体限宽自居中=========*/
+.create-device-footer>.btn-container {
+  width: 333px;
+  margin: 0 auto;
+}
+/*========== 提交按钮 按钮样式=========*/
+.create-device-footer>.btn-container>span {
+				font-family: helvetica;
+				display: inline-block;
+				font-size: 10px;
+				line-height: 10px;
+				border-radius: 14px;
+				letter-spacing: 3px;
+				padding: 8px 33px 8px 36px;
+				color: #CCCCCC;
+				background-color: #FFF;
+				box-shadow: 0px 0px 8px 1px rgba(204,204,204,0.1);
+				border: solid #ccc 1px;
+				cursor: pointer;
+}
+.btn-container span:first-child {
+  margin-right:  80px;
+}
+/*========== 提交按钮 鼠标浮动 =========*/
+.create-device-footer>.btn-container>span:hover {
+			color: #f5c988;
+			border: solid #f5c988 1px;
+			background-color: rgba(245,201,136,0.02);
+			box-shadow: 0px 0px 8px 1px rgba(245,201,136,0.1);
+}
+}

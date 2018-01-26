@@ -1,0 +1,239 @@
+	@charset "utf-8";
+
+
+	@media only screen and (min-width:1441px) {
+		/*==========左边统计框=========*/
+		.row-left {
+			background: #fff;
+			width: 35.81%;
+			max-width: 521px;
+			float: left;
+			border-radius: 12px;
+			height: 166px;
+		}
+		/*==========右边统计框=========*/
+		.row-right {
+			background: #fff;
+			width: 62.2%;
+			max-width: 904px;
+			float: right;
+			border-radius: 12px;
+			height: 166px;
+		}
+		/*==========左边统计框内的分支块=========*/
+		.row-left .createCapacity {
+			display: inline-table;
+			width: 45%;
+		} 
+		/*==========右边统计框的分支块=========*/
+		.row-right .state {
+			display: inline-table;
+			width: 33.33%;
+			margin: 0 -30px;
+		}
+		/*==========右边统计框的图标=========*/
+		.state .isRightDiv {
+			display: inline-block;
+			width: 18px;
+		}
+		.isRightDiv img {
+			width: 18px;
+			height: 18px;
+		}
+
+		/*==========各数据类型大号数字=========*/
+		.createCapacity .isLft-size,
+		.isLft-seven,
+		.state .isRight-tow,
+		.state .isRight-zero,
+		.state .isRight-one  {
+			padding: 36px 0 ;
+			font-size: 48px;
+			line-height: 40px;
+			text-align: center;
+			font-weight: bold;
+		}
+		.state .isRight-tow,
+		.state .isRight-zero,
+		.state .isRight-one  {
+			padding: 36px 0 36px 18px ;
+		}
+		.createCapacity {color: #333;}
+		.isLft-seven {color: #999;}
+		.state .isRight-tow {color: #3cd689;}
+		.state .isRight-zero {color: #3399ff;}
+		.state .isRight-one {color: #f1584a;}
+			/*==========各数据类型注释说明=========*/
+		.createCapacity .isLft-clor,
+		.createCapacity .isLft-cloro,
+		.state .isRight-twclor,
+		.state .isRight-zeclor,
+		.state .isRight-onclor {
+			letter-spacing: 4px;
+			font-size: 18px;
+		} 
+	    .createCapacity .isLft-clor {color: #333;}	
+	    .createCapacity .isLft-cloro{color: #999;}	
+	    .state .isRight-twclor{color: #3cd689; display: inline-block; position: relative; top:-3px}	
+	    .state .isRight-zeclor{color: #3399ff; display: inline-block; position: relative; top:-3px}	
+	    .state .isRight-onclor {color: #f1584a; display: inline-block; position: relative; top:-3px}	
+}
+	
+	@media only screen and (min-width:1025px) and (max-width:1440px) {
+		/*==========左边统计框=========*/
+		.row-left {
+			background: #fff;
+			width: 35.81%;
+			max-width: 521px;
+			float: left;
+			border-radius: 12px;
+			height: 125px;
+		}
+		/*==========右边统计框=========*/
+		.row-right {
+			background: #fff;
+			width: 62.2%;
+			max-width: 904px;
+			float: right;
+			border-radius: 12px;
+			height: 125px;
+		}
+		/*==========左边统计框内的分支块=========*/
+		.row-left .createCapacity {
+			display: inline-table;
+			width: 45%;
+		}  
+		/*==========右边统计框的分支块=========*/
+		.row-right .state {
+			display: inline-table;
+			width: 33.33%;
+			margin: 0 -22px;
+		}
+		/*==========右边统计框的图标=========*/
+		
+
+		
+		.state .isRightDiv {
+			display: inline-block;
+			width: 14px;
+		} 
+		.isRightDiv img {
+			width: 14px;
+			height: 14px;
+		}
+		/*==========各数据类型大号数字=========*/
+		.createCapacity .isLft-size,
+		.isLft-seven,
+		.state .isRight-tow,
+		.state .isRight-zero,
+		.state .isRight-one  {
+			padding: 27px 0 ;
+			font-size: 36px;
+			line-height: 30px;
+			text-align: center;
+			font-weight: bold;
+		}
+		.state .isRight-tow,
+		.state .isRight-zero,
+		.state .isRight-one  {
+			padding: 27px 0 27px 16px ;
+		}
+		.createCapacity {color: #333;}
+		.isLft-seven {color: #999;}
+		.state .isRight-tow {color: #3cd689;}
+		.state .isRight-zero {color: #3399ff;}
+		.state .isRight-one {color: #f1584a;}
+			/*==========各数据类型注释说明=========*/
+		.createCapacity .isLft-clor,
+		.createCapacity .isLft-cloro,
+		.state .isRight-twclor,
+		.state .isRight-zeclor,
+		.state .isRight-onclor {
+			letter-spacing: 3px;
+			font-size: 16px;
+		} 
+	    .createCapacity .isLft-clor {color: #333;}	
+	    .createCapacity .isLft-cloro{color: #999;}	
+	    .state .isRight-twclor{color: #3cd689; display: inline-block; position: relative; top: -3px;}	
+	    .state .isRight-zeclor{color: #3399ff; display: inline-block; position: relative; top: -3px;}	
+	    .state .isRight-onclor {color: #f1584a; display: inline-block; position: relative; top: -3px;} 	
+}
+
+
+	@media (max-width: 1024px) {
+		/*==========左边统计框=========*/
+		.row-left {
+			background: #fff;
+			width: 35.81%;
+			max-width: 279px;
+			float: left;
+			border-radius: 12px;
+			height: 89px;
+		}
+		/*==========右边统计框=========*/
+		.row-right {
+			background: #fff;
+			width: 62.2%;
+			max-width: 483px;
+			float: right;
+			border-radius: 12px;
+			height: 89px;
+		}
+		/*==========左边统计框内的分支块=========*/
+		.row-left .createCapacity {
+			display: inline-table;
+			width: 45%;
+		}  
+		/*==========右边统计框的分支块=========*/
+		.row-right .state {
+			display: inline-table;
+			width: 33.33%;
+			margin: 0 -16px;
+		}
+		/*==========右边统计框的图标=========*/
+		.state .isRightDiv {
+			display: inline-block;
+			width: 10px;
+		} 
+		.isRightDiv img {
+			width: 10px;
+			height: 10px;
+		}
+		/*==========各数据类型大号数字=========*/
+		.createCapacity .isLft-size,
+		.isLft-seven,
+		.state .isRight-tow,
+		.state .isRight-zero,
+		.state .isRight-one  {
+			padding: 19px 0 ;
+			font-size: 24px;
+			line-height: 22px;
+			text-align: center;
+			font-weight: bold;
+		}
+		.state .isRight-tow,
+		.state .isRight-zero,
+		.state .isRight-one  {
+			padding: 19px 0 19px 9px ;
+		}
+		.createCapacity {color: #333;}
+		.isLft-seven {color: #999;}
+		.state .isRight-tow {color: #3cd689;}
+		.state .isRight-zero {color: #3399ff;}
+		.state .isRight-one {color: #f1584a;}
+			/*==========各数据类型注释说明=========*/
+		.createCapacity .isLft-clor,
+		.createCapacity .isLft-cloro,
+		.state .isRight-twclor,
+		.state .isRight-zeclor,
+		.state .isRight-onclor {
+			letter-spacing: 2px;
+			font-size: 10px;
+		} 
+		.isRigh_Function{position: relative; top:-7px;}
+	    .createCapacity .isLft-clor {color: #333;}	
+	    .createCapacity .isLft-cloro{color: #999;}	
+	    .state .isRight-twclor{color: #3cd689; display: inline-block; position: relative;top:-2px;}	
+	    .state .isRight-zeclor{color: #3399ff; display: inline-block; position: relative; top:-2px;}	
+	    .state .isRight-onclor {color: #f1584a; display: inline-block; position: relative; top:-2px;}	
+}

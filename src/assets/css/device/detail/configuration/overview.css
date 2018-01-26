@@ -1,0 +1,276 @@
+@charset "utf-8";
+/*------云端配置页面整页-------*/
+.configurationContainer{
+  font-size: 10px;
+  background: #ffffff;
+}
+/*-------对云端配置页面p元素进行初始化-----*/
+.configurationContainer p{
+  margin: 0;
+}
+@media (min-width:1441px){
+  /*------云端配置页面整页上下边距-------*/
+  .configurationContainer{
+    padding-bottom: 60px;
+    padding-top: 30px;
+  }
+  /*------云端配置文本父元素----*/
+  .configurationContainer .configurationTop{
+    margin-bottom: 60px;
+  }
+  /*-------云端配置文本样式----*/
+  .configurationContainer .configurationTop span{
+    font-size: 21px;
+    color: #333;
+    letter-spacing:6px;
+  }
+  /*-----云端配置中间部分上传和取消----*/
+  .configurationContainer .configurationCenter{
+    margin-bottom: 57px;
+  }
+  .configurationContainer .configurationCenter div{
+    display: inline-block;
+    margin: 0 30px;
+  }
+  /*-------上传样式文本----*/
+  .configurationContainer .configurationCenter p.upload,p.download{
+    width: 166px;
+    height: 54px;
+    font-size: 18px;
+    color: #999;
+    letter-spacing: 6px;
+    line-height: 54px;
+    border: 1px solid #f0f0f0;
+    background: #fff;
+    margin-bottom: 18px;
+  }
+  .configurationContainer .configurationCenter .download:hover,
+  .configurationContainer .configurationCenter .upload:hover{
+    border: 1px solid #f5c987;
+    color:#f5c987;
+    background: rgba(245,201,135,0.02);
+  }
+  /*------取消上传和导入样式文本----*/
+  .configurationContainer .configurationCenter .cancel,span.import{
+    font-size: 16px;
+    color:#ccc;
+    letter-spacing: 4px;
+  }
+  .configurationContainer .configurationCenter span.import{
+    margin-left: 21px;
+  }
+  .configurationContainer .configurationBot{
+    height: 500px;
+    margin: 0 127px;
+    padding-left: 21px;
+    border: 1px solid #dbdbdb;
+    display: flex;
+  }
+
+  /*------底部文本样式-----*/
+  .configurationContainer .configurationBot .configurationBotMain{
+    text-align: left;
+    font-size: 16px;
+    letter-spacing:4px;
+    color: #dbdbdb;
+    line-height: 37px;
+    margin-top: 21px;
+    margin-bottom: 30px;
+    width: 99%;
+    overflow:hidden
+
+}
+  /*------仿滚动条样式-------*/
+  .configurationContainer .configurationBot .thumb{
+    height: 100%;
+    width:21px ;
+    position: relative;
+  }
+  .configurationContainer .configurationBot .thumb .slider{
+    height: 100px;
+    width: 12px;
+    border-radius: 6px;
+    background: #f0f0f0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
+  }
+}
+@media only screen and (max-width:1440px) and (min-width:1025px){
+  /*------云端配置页面整页上下边距-------*/
+  .configurationContainer{
+    padding-bottom: 45px;
+    padding-top: 22.5px;
+  }
+  /*------云端配置文本父元素----*/
+  .configurationContainer .configurationTop{
+    margin-bottom: 45px;
+  }
+  /*------云端配置文本样式----*/
+  .configurationContainer .configurationTop span{
+    font-size: 16px;
+    color: #333;
+    letter-spacing:4.5px;
+  }
+  /*-----云端配置中间部分上传和取消----*/
+  .configurationContainer .configurationCenter{
+    margin-bottom: 43px;
+  }
+  .configurationContainer .configurationCenter div{
+    display: inline-block;
+    margin: 0 22.5px;
+  }
+  /*-------上传和下载文本样式-----*/
+  .configurationContainer .configurationCenter p.upload,p.download{
+    width: 125px;
+    height: 40px;
+    font-size: 13.5px;
+    color: #999;
+    letter-spacing: 4.5px;
+    line-height: 40px;
+    border: 1px solid #f0f0f0;
+    background: #fff;
+    margin-bottom: 14px;
+  }
+  .configurationContainer .configurationCenter .download:hover,
+  .configurationContainer .configurationCenter .upload:hover{
+    border: 1px solid #f5c987;
+    color:#f5c987;
+    background: rgba(245,201,135,0.02);
+  }
+  /*-------取消和导入文本样式------*/
+  .configurationContainer .configurationCenter .cancel,span.import{
+    font-size: 12px;
+    color:#ccc;
+    letter-spacing: 3px;
+  }
+  .configurationContainer .configurationCenter span.import{
+    margin-left: 16px;
+  }
+  .configurationContainer .configurationBot{
+    height: 375px;
+    margin: 0 95px;
+    padding-left: 16px;
+    border: 1px solid #dbdbdb;
+    display: flex;
+  }
+
+  /*------底部文本样式-----*/
+  .configurationContainer .configurationBot .configurationBotMain{
+    text-align: left;
+    font-size: 12px;
+    letter-spacing:3px;
+    color: #dbdbdb;
+    line-height: 28px;
+    margin-top: 16px;
+    margin-bottom: 22.5px;
+    width: 99%;
+    overflow:hidden
+
+  }
+  /*--------仿滚动条样式-------*/
+  .configurationContainer .configurationBot .thumb{
+    height: 100%;
+    width:16px ;
+    position: relative;
+  }
+  .configurationContainer .configurationBot .thumb .slider{
+    height: 75px;
+    width: 9px;
+    border-radius: 4.5px;
+    background: #f0f0f0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+@media (max-width:1024px){
+  /*--------云端配置页面整页上下边距------*/
+  .configurationContainer{
+    padding-bottom: 32px;
+    padding-top: 16px;
+    /*background: peru;*/
+  }
+  /*------云端配置文本父元素-------*/
+  .configurationContainer .configurationTop{
+    margin-bottom: 32px;
+  }
+  /*---------云端配置文本样式------*/
+  .configurationContainer .configurationTop span{
+    font-size: 12px;
+    color: #333;
+    letter-spacing:3px;
+  }
+  /*--------中部上传和取消部分------*/
+  .configurationContainer .configurationCenter{
+    margin-bottom: 30px;
+  }
+  .configurationContainer .configurationCenter div{
+    display: inline-block;
+    margin: 0 16px;
+  }
+  /*--------上传和下载文本样式-------*/
+  .configurationContainer .configurationCenter p.upload,p.download{
+    width: 95px;
+    height: 29px;
+    font-size: 10px;
+    color: #999;
+    letter-spacing: 3px;
+    line-height: 29px;
+    border: 1px solid #f0f0f0;
+    background: #fff;
+    margin-bottom: 9.5px;
+  }
+  .configurationContainer .configurationCenter .download:hover,
+  .configurationContainer .configurationCenter .upload:hover{
+    border: 1px solid #f5c987;
+    color:#f5c987;
+    background: rgba(245,201,135,0.02);
+  }
+  /*--------取消和导入文本样式--------*/
+  .configurationContainer .configurationCenter .cancel,span.import{
+    font-size: 10px;
+    color:#ccc;
+    letter-spacing: 2px;
+  }
+  .configurationContainer .configurationCenter span.import{
+    margin-left: 11px;
+  }
+
+  .configurationContainer .configurationBot{
+    height: 265px;
+    margin: 0 67px;
+    padding-left: 11px;
+    border: 1px solid #dbdbdb;
+    display: flex;
+  }
+
+  /*------底部文本样式-----*/
+  .configurationContainer .configurationBot .configurationBotMain{
+    text-align: left;
+    font-size: 8.5px;
+    letter-spacing:2px;
+    color: #dbdbdb;
+    line-height: 20px;
+    margin-top: 11px;
+    margin-bottom: 16px;
+    width: 99%;
+    overflow:hidden
+  }
+  /*--------仿滚动条样式------*/
+  .configurationContainer .configurationBot .thumb{
+    height: 100%;
+    width:11px ;
+    position: relative;
+  }
+  .configurationContainer .configurationBot .thumb .slider{
+    height: 53px;
+    width: 7px;
+    border-radius: 3px;
+    background: #f0f0f0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}

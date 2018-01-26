@@ -1,0 +1,368 @@
+.dataFlow img{
+  vertical-align: middle;
+}
+
+.dataFlow h1,h2,h3,h4 {
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+.dataFlow .clear{
+  clear: both;
+}
+.dataFlow p{
+  margin: 0;
+  padding: 0;
+}
+@media (min-width:1441px) {
+  /*---------上部分日期样式------*/
+  .dataFlow .dataFlowBot .dataFlowTwo .date{
+    line-height:75px;
+    color:#ccc;
+    font-size: 18px;
+  }
+  /*----------下部分数据流样式——--*/
+  .dataFlow .dataFlowBot .dataFlowTwo-b{
+    width: 68.25%;
+    display: flex;
+    margin-left: 31.75%;
+  }
+  /*----------右部分平台图标样式-----*/
+  .dataFlow .dataFlowBot .dataFlowTwo-b-r{
+    width: 60px;
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-r-t{
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    background:#f5c987;
+    margin-bottom: 9px;
+    position: relative;
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-r-t .icon{
+    display: inline-block;
+    width: 50px;
+    position:absolute;
+    left:50%;
+    top: 50%;
+    margin-left: -25px;
+    margin-top: -16px;
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-r-b{
+    font-size: 16px;
+    color:#f5c987;
+    letter-spacing: 4px;
+  }
+  /*----------左部分数据流详情样式---------*/
+  .dataFlow .dataFlowBot .dataFlowTwo-b-l{
+    width: 93.69%;
+    position: relative;
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-b-l .icon1{
+    width:20px;
+    height: 24px;
+    position: absolute;
+    right: 17px;
+    top:18px;
+    background: #FFFFFF;
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-b-l .icon2{
+    width: 100%;
+    height: 100%;
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-b-l .dataFlowTwoMain{
+    padding: 30px 22.5px 0;
+    border:1px solid #f5c987;
+    border-radius: 7px;
+    margin-right: 35px;
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-l-t{
+    padding-bottom: 30px;
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-l-t p{
+    float:left;
+    height: 36px;
+    width: 36px;
+    border-radius: 36px;
+    line-height: 36px;
+    margin-right: 9px;
+    font-size: 18px;
+    color:#555;
+    cursor: pointer;
+    text-align: center;
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-l-b{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid #f7eee1;
+    position: relative;
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-l-b div{
+    float:left;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 16px;
+    margin-right: 16px;
+    font-size: 16px;
+    color:#555;
+    letter-spacing: 5px;
+    background: #f7f4f0;
+    border-radius: 16px;
+    margin-top: 16px;
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-b-l .icon3{
+    position: absolute;
+    left:50%;
+    bottom:0;
+    margin-left: -12px;
+    cursor: pointer;
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-b-l .icon3 img{
+    width: 24px;
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-b-l .icon4{
+    position: absolute;
+    left:50%;
+    bottom:0;
+    margin-left: -12px;
+    cursor: pointer;
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-b-l .icon4 img{
+    width: 24px;
+  }
+}
+@media (max-width:1440px) and (min-width:1025px) {
+  /*-----------上部分日期样式--------------*/
+  .dataFlow .dataFlowBot .dataFlowTwo .date{
+    line-height:56.25px;
+    color:#ccc;
+    font-size: 13.5px;
+  }
+  /*-----------下部分数据流样式-----------*/
+  .dataFlow .dataFlowBot .dataFlowTwo-b{
+    width: 68.25%;
+    display: flex;
+    margin-left: 31.75%;
+  }
+  /*---------右部分平台图标样式--------*/
+  .dataFlow .dataFlowBot .dataFlowTwo-b-r{
+    width: 45px;
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-r-t{
+    height: 45px;
+    width: 45px;
+    border-radius: 45px;
+    background:#f5c987;
+    margin-bottom: 6.75px;
+    position: relative;
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-r-t .icon{
+    display: inline-block;
+    width: 37.5px;
+    position:absolute;
+    left:50%;
+    top: 50%;
+    margin-left: -18.75px;
+    margin-top: -12px;
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-r-b{
+    font-size: 12px;
+    color:#f5c987;
+    letter-spacing: 3px;
+  }
+  /*----------左部分数据流详情样式-----------*/
+  .dataFlow .dataFlowBot .dataFlowTwo-b-l{
+    width: 93.69%;
+    position: relative;
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-b-l .icon1{
+    width:15px;
+    height:18px;
+    position: absolute;
+    top: 13.5px;
+    right: 12.5px;
+    background: #FFFFFF;
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-b-l .icon2{
+    width: 100%;
+    height: 100%;
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-b-l .dataFlowTwoMain{
+    padding: 22.5px 22.5px 0;
+    border:1px solid #f5c987;
+    border-radius: 5.25px;
+    margin-right: 26.25px;
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-l-t{
+    padding-bottom: 22.5px;
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-l-t p{
+    float:left;
+    height: 27px;
+    width: 27px;
+    border-radius: 27px;
+    line-height: 27px;
+    margin-right: 7px;
+    font-size: 13.5px;
+    color:#555;
+    cursor: pointer;
+    text-align: center;
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-l-b{
+    padding-top: 22.5px;
+    padding-bottom: 22.5px;
+    border-top: 1px solid #f7eee1;
+    position:relative;
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-l-b div{
+    float:left;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 12px;
+    margin-right: 12px;
+    font-size: 12px;
+    color:#555;
+    letter-spacing: 3.75px;
+    background: #f7f4f0;
+    border-radius: 12px;
+    margin-top: 12px;
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-b-l .icon3{
+    position: absolute;
+    left:50%;
+    bottom:-3px;
+    margin-left: -9px;
+    cursor: pointer;
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-b-l .icon3 img{
+    width: 18px;
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-b-l .icon4{
+    position: absolute;
+    left:50%;
+    bottom:-3px;
+    margin-left: -9px;
+    cursor: pointer;
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-b-l .icon4 img{
+    width: 18px;
+  }
+}
+@media (max-width:1024px) {
+  /*---------上部分日期样式-------*/
+  .dataFlow .dataFlowBot .dataFlowTwo .date{
+    line-height:39.75px;
+    color:#ccc;
+    font-size: 9.54px;
+  }
+  /*-----------下部分数据流样式--------*/
+  .dataFlow .dataFlowBot .dataFlowTwo-b{
+    width: 68.25%;
+    display: flex;
+    margin-left: 31.75%;
+  }
+  /*-------右部分平台图标样式--------*/
+  .dataFlow .dataFlowBot .dataFlowTwo-b-r{
+    width: 32px;
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-r-t{
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    background:#f5c987;
+    margin-bottom: 4.77px;
+    position: relative;
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-r-t .icon{
+    display: inline-block;
+    width: 27px;
+    position:absolute;
+    left:50%;
+    top: 50%;
+    margin-left: -13.5px;
+    margin-top: -8.5px;
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-r-b{
+    font-size: 8.48px;
+    color:#f5c987;
+    letter-spacing: 2.12px;
+  }
+  /*--------左部分数据流详情样式--------*/
+  .dataFlow .dataFlowBot .dataFlowTwo-b-l{
+    width: 93.69%;
+    position: relative;
+
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-b-l .icon1{
+    width:11px;
+    height: 13px;
+    position: absolute;
+    right:9px;
+    top:9.5px;
+    background: #FFFFFF;
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-b-l .icon2{
+    width: 100%;
+    height: 100%;
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-b-l .dataFlowTwoMain{
+    border:1px solid #f5c987;
+    border-radius: 3.71px;
+    padding:16px 16px 0;
+    margin-right: 19px;
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-l-t{
+    padding-bottom: 16px;
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-l-t p{
+    float:left;
+    height: 19px;
+    width: 19px;
+    border-radius: 19px;
+    line-height: 19px;
+    margin-right: 4.77px;
+    font-size: 9.54px;
+    color:#555;
+    cursor: pointer;
+    text-align: center;
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-l-b{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-top: 1px solid #f7eee1;
+    position:relative;
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-l-b div{
+    float:left;
+    height: 17px;
+    line-height: 17px;
+    padding: 0 8.48px;
+    margin-right: 8.48px;
+    font-size: 8.48px;
+    color:#555;
+    letter-spacing: 2.65px;
+    background: #f7f4f0;
+    border-radius: 8.5px;
+    margin-top: 8.48px;
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-b-l .icon3{
+    position: absolute;
+    left:50%;
+    bottom:-3px;
+    margin-left: -6.5px;
+    cursor: pointer;
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-b-l .icon3 img{
+    width: 13px;
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-b-l .icon4{
+    position: absolute;
+    left:50%;
+    bottom:-3px;
+    margin-left: -6.5px;
+    cursor: pointer;
+  }
+  .dataFlow .dataFlowBot .dataFlowTwo-b-l .icon4 img{
+    width: 13px;
+  }
+}

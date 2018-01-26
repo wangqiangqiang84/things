@@ -1,0 +1,697 @@
+@charset "utf-8";
+
+/*========== 大框边线+阴影高亮样式 =========*/
+ .gat_hintCorlor {border: 1px solid #f5c988 !important;
+			   box-shadow: 2px 5px 0px 0px rgba(245,201,136,0.2) !important;}
+/*========== 大框标题文本底色以及下方的边线 =========*/
+ .gat_hints {
+				background-color: rgba(245,201,136,0.02) !important;
+				border-bottom: 1px solid #f5c988 !important;
+				}	
+/*========== 大框内第一个小框的右边的边线 =========*/
+.template_ones	{
+				border-right: 1px solid #f5c988 !important;
+				}
+/*========== 大框内第三个小框的左边的边线 =========*/
+.cityOnes { 
+			border-left: 1px solid #f5c988 !important;
+		}
+/*========== 大框内第四个小框的左边的边线 =========*/
+.cityOne_ones{
+			border-left: 1px solid #f5c988 !important;
+		}
+
+/*========== 厂商 硬件 版本 选中底色(选中状态时) =========*/
+.clickBackgroundColors{
+				background-color: rgba(245,201,136,0.15) !important;}
+/*========== 厂商 硬件 版本 选中底色(灰色状态时) =========*/
+.clickBackgroundColor {
+	background-color: #F5F5F5 ;}
+/*========== 厂商 鼠标悬浮(选中状态时) =========*/
+.template_tow ul li:hover	{
+				background-color: rgba(245,201,136,0.15) !important;}
+/*========== 厂商 鼠标悬浮(灰色状态时) =========*/
+.template_tow ul li:hover{
+	background-color: #F5F5F5;}	
+/*========== 硬件 鼠标悬浮(选中状态时) =========*/
+.model_dl li:hover{ 
+				background-color: rgba(245,201,136,0.15) !important;}
+/*========== 硬件 鼠标悬浮(灰色状态时) =========*/
+.model_dl li:hover{
+	background-color: #F5F5F5;}	
+/*========== 版本 鼠标悬浮(选中状态时) =========*/
+.firmware li:hover{
+				background-color: rgba(245,201,136,0.15) !important;}
+/*========== 版本 鼠标悬浮(灰色状态时) =========*/
+.firmware li:hover{
+	background-color: #F5F5F5;}	
+	
+
+
+
+@media only screen and (min-width: 1441px) {
+/*========== 网关模板文本 =========*/
+
+    .informationed{margin-bottom: -63px;}
+		.informationed >p {
+		 		margin-bottom: 30px;
+		 		font-size: 24px;
+		 		line-height: 24px;
+		 		letter-spacing: 8px;
+		 		font-weight: bold;
+		 		color: #333;
+		 		padding-left: 39px;
+		 		text-align: left;
+		}
+/*========== 网关模板详细项=========*/
+		.gat_template {
+			margin-left: 102px;
+		}
+/*========== 网关模板详细项 - 框 =========*/
+		.gat_hint {
+			clear: both;
+			margin-bottom: 84px;
+			height: 409px;
+			max-width: 1752px;
+			border: 1px solid #f0f0f0;
+			box-shadow: 2px 5px 0px 0px rgba(230,230,230,0.2) ;
+		}
+/*========== 网关模板详细项 - 框标题 =========*/
+		.gat_hint>p {
+			text-align: left;
+			font-size: 18px;
+			color: #999;
+			letter-spacing: 4px;
+			line-height: 45px;
+			padding-left: 24px;
+			background-color: #FCFCFC;
+			border-bottom: 1px solid #f0f0f0;
+		}
+/*========== 网关模板详细项 - 框标重点词 =========*/
+		.gat_hint p>span {
+			color: #333;
+		font-family: "Arial","Microsoft YaHei","SimHei","SimSun";
+		} 
+/*========== 网关模板详细项 - 框选中图标状态 =========*/
+		.gat_hint p>i span{
+			display: inline-block;
+			margin: 7px 27px 0px 0px;
+			cursor: pointer;
+			float: right;
+			width: 30px;
+			height: 30px;
+		  background: url(../../../../static/gateway/img/default.png) no-repeat 0 0;
+		  background-size:30px 30px ;
+		   
+		}
+		.gat_hint p>i> .classB{
+		  background: url(../../../../static/gateway/img/selected.png) no-repeat 0 0;
+		  background-size:30px 30px ;
+		}
+/*========== 网关模板详细项 - 清单详情整块 =========*/
+		.template_name {
+			height: 360px;
+			float: left;
+			display: flex;
+		}
+
+/*========== 网关模板详细项 - 清单详情 1 =========*/
+		.template_one {
+			width: 438px;
+			float: left;
+			border-right: 1px solid #f0f0f0;
+		}
+
+		.template_one li {
+			display: flex;
+			padding: 30px 24px 0px 24px;
+		}
+		.template_one li b {
+		font-family: "Arial","Microsoft YaHei","SimHei","SimSun";
+		    font-weight: normal;
+			color: #333;
+			font-size: 18px;
+			line-height: 18px;
+			padding-right: 7px;
+			letter-spacing: 2px;
+			text-align: left;
+		}
+	
+		.template_one li span{
+			font-size: 18px;
+			color: #999999; 
+			padding-left: 9px;
+			text-align: left;
+			letter-spacing: 2px;
+		}
+	
+		.template_one li:nth-child(3) .span{
+			font-size: 18px;
+			width: 291px;
+			height: 231px;
+			color: #999999;
+            display:inline-block;
+			margin-top: -8px;
+			padding-left: 9px;
+			text-align: left;
+			letter-spacing: 2px;
+			line-height: 36px;
+			overflow-y: auto;
+		}
+/*========== 网关模板详细项 - 清单详情 2 =========*/	
+		.template_name div>p {
+		font-family: "Arial","Microsoft YaHei","SimHei","SimSun";
+			color: #333;
+			font-size: 18px;
+			line-height: 18px;
+			padding: 30px 9px  0px 24px; 
+			letter-spacing: 2px;
+			text-align: left;
+		}
+		.template_tow { 
+			display: flex; 
+		}
+		.template_tow ul {
+			height: 360px;
+			width: 311px;
+			text-align: left;
+			padding-top: 24px;
+			display: inline-block;
+			overflow: auto;
+		}
+		.template_tow ul li,
+		.cityOne ul li {
+			font-size: 18px;
+			color: #999999;
+			line-height: 36px;
+			letter-spacing: 5px;
+			text-align: left;
+			margin-bottom: 15px;
+			padding-left: 9px;
+			cursor: pointer;
+		}
+/*========== 网关模板详细项 - 清单详情 3 =========*/	
+		.cityOne {
+			display: flex;
+			border-left: 1px solid #F0F0F0;
+		}
+		.cityOne ul {
+			height: 360px;
+			width: 308px;
+			text-align: left;
+			padding-top: 24px;
+			display: inline-block;
+		}
+/*========== 网关模板详细项 - 清单详情 4 =========*/	
+		.cityOne_one {
+			float: left;
+			display: flex;
+			border-left: 1px solid #F0F0F0;
+		}
+		.cityOne_one ul{
+			padding-top: 18px;
+		}
+		.cityOne_one ul li {
+			padding: 6px 15px;
+			display: inline-block;
+		}
+/*========== 网关模板提示文本 =========*/	 
+.reminder {
+        	color: #f1584a;
+			font-size: 18px;
+			letter-spacing: 4px;
+			text-align: left;
+        }
+ /*========== 模板下的提示文本 =========*/	 
+ 	.reminder{
+ 		margin-left: 102px; height: 1px; text-align: left;
+ 	}
+ 	
+  .reminder span{
+    font-size: 18px;
+    letter-spacing: 6px;
+  	color: #d84c31; visibility: hidden;
+  }
+/*========== 提交按钮 =========*/	 
+	    .template_btn {
+			margin-bottom: 120px;
+			margin-top: 60px;
+		}
+	    .btnn {
+		  margin-right: 150px;
+	    }
+		.template_btn button {
+			font-family: helvetica;
+			display: inline-block;
+			font-size: 18px;
+			line-height: 18px;
+			border-radius: 30px;
+			letter-spacing: 6px;
+			padding: 15px 63px 15px 69px;
+			color: #CCCCCC;
+			background-color: #FFF;
+			box-shadow: 0px 0px 15px 2px rgba(204,204,204,0.1);
+			border: solid #ccc 1px;  
+      cursor: pointer;
+		}
+		.template_btn button:hover{
+			color: #f5c988;
+			border: solid #f5c988 1px;
+			background-color: rgba(245,201,136,0.02);
+			box-shadow: 0px 0px 15px 2px rgba(245,201,136,0.1);
+		}		
+
+
+
+}
+	
+	
+	
+	@media only screen and (min-width:1025px) and (max-width:1440px) { 
+/*========== 网关模板文本 =========*/
+
+    .informationed{margin-bottom: -48px;}
+		.informationed >p {
+		 		margin-bottom: 22px;
+		 		font-size: 18px;
+		 		line-height: 18px;
+		 		letter-spacing: 4px;
+		 		font-weight: bold;
+		 		color: #333;
+		 		padding-left: 30px;
+		 		text-align: left;
+		}
+/*========== 网关模板详细项=========*/
+		.gat_template {
+			margin-left: 75px;
+		}
+/*========== 网关模板详细项 - 框 =========*/
+		.gat_hint {
+			clear: both;
+			margin-bottom: 63px;
+			height: 306px;
+			max-width: 1317px;
+			border: 1px solid #f0f0f0;
+			box-shadow: 2px 5px 0px 0px rgba(230,230,230,0.2) ;
+		}
+/*========== 网关模板详细项 - 框标题 =========*/
+		.gat_hint>p {
+			text-align: left;
+			font-size: 14px;
+			color: #999;
+			letter-spacing: 2px;
+			line-height: 33px;
+			padding-left: 18px;
+			background-color: #FCFCFC;
+			border-bottom: 1px solid #f0f0f0;
+		}
+/*========== 网关模板详细项 - 框标重点词 =========*/
+		.gat_hint p>span {
+			color: #333;
+		font-family: "Arial","Microsoft YaHei","SimHei","SimSun";
+		} 
+/*========== 网关模板详细项 - 框选中图标状态 =========*/
+		.gat_hint p>i span{
+			display: inline-block;
+			margin: 6px 21px 0px 0px;
+			cursor: pointer;
+			float: right;
+			width: 22px;
+			height: 22px;
+		   background: url(../../../../static/gateway/img/default.png) no-repeat 0 0;
+		  background-size:22px 22px ;
+		}
+		.gat_hint p>i> .classB{
+		  background: url(../../../../static/gateway/img/selected.png) no-repeat 0 0;
+		  background-size:22px 22px ;
+		}
+/*========== 网关模板详细项 - 清单详情整块 =========*/
+		.template_name {
+			height: 270px;
+			float: left;
+			display: flex;
+		}
+
+/*========== 网关模板详细项 - 清单详情 1 =========*/
+		.template_one {
+			width: 328px;
+			float: left;
+			border-right: 1px solid #f0f0f0;
+		}
+
+		.template_one li {
+			display: flex;
+			padding: 22px 18px 0px 18px;
+		}
+		.template_one li b {
+		font-family: "Arial","Microsoft YaHei","SimHei","SimSun";
+		    font-weight: normal;
+			color: #333;
+			font-size: 14px;
+			line-height: 14px;
+			padding-right: 7px;
+			letter-spacing: 2px;
+			text-align: left;
+		}
+	
+		.template_one li span{
+			font-size: 14px;
+			color: #999999; 
+			padding-left: 7px;
+			text-align: left;
+			letter-spacing: 2px;
+		}
+	
+		.template_one li:nth-child(3) .span{
+			font-size: 14px;
+			width: 210px;
+			height: 173px;
+			color: #999999;
+            display:inline-block;
+			margin-top: -6px;
+			padding-left: 7px;
+			text-align: left;
+			letter-spacing: 2px;
+			line-height: 27px;
+			overflow-y: auto;
+		}
+/*========== 网关模板详细项 - 清单详情 2 =========*/	
+		.template_name div>p {
+		font-family: "Arial","Microsoft YaHei","SimHei","SimSun";
+			color: #333;
+			font-size: 14px;
+			line-height: 14px;
+			padding: 22px 5px  0px 18px; 
+			letter-spacing: 2px;
+			text-align: left;
+		}
+		.template_tow { 
+			display: flex; 
+		}
+		.template_tow ul {
+			height: 264px;
+			width: 233px;
+			text-align: left;
+			padding-top: 18px;
+			display: inline-block;
+			overflow: auto;
+		}
+		.template_tow ul li,
+		.cityOne ul li {
+			font-size: 14px;
+			color: #999999;
+			line-height: 27px;
+			letter-spacing: 4px;
+			text-align: left;
+			margin-bottom: 12px;
+			padding-left: 7px;
+			cursor: pointer;
+		}
+/*========== 网关模板详细项 - 清单详情 3 =========*/	
+		.cityOne {
+			display: flex;
+			border-left: 1px solid #F0F0F0;
+		}
+		.cityOne ul {
+			height: 270px;
+			width: 231px;
+			text-align: left;
+			padding-top: 18px;
+			display: inline-block;
+		}
+/*========== 网关模板详细项 - 清单详情 4 =========*/	
+		.cityOne_one {
+			float: left;
+			display: flex;
+			border-left: 1px solid #F0F0F0;
+		}
+		.cityOne_one ul{
+			padding-top: 14px;
+		}
+		.cityOne_one ul li {
+			padding: 4px 12px;
+			display: inline-block;
+		}
+/*========== 网关模板提示文本 =========*/	 
+.reminder {
+        	color: #f1584a;
+			font-size: 14px;
+			letter-spacing: 2px;
+			text-align: left;
+        } 
+/*========== 模板下的提示文本 =========*/	 
+ 	.reminder{
+ 		margin-left: 75px; height: 1px; text-align: left;
+ 	}
+ 	
+  .reminder span{
+    font-size: 14px;
+    letter-spacing: 4px;
+  	color: #d84c31; visibility: hidden;
+  }
+/*========== 提交按钮 =========*/	 
+	    .template_btn {
+			margin-bottom: 90px;
+			margin-top: 45px;
+		}
+	    .btnn {
+		  margin-right: 113px;
+	    }
+		.template_btn button {
+			font-family: helvetica;
+			display: inline-block;
+			font-size: 14px;
+			line-height: 14px;
+			border-radius: 20px;
+			letter-spacing: 4px;
+			padding: 12px 48px 12px 51px;
+			color: #CCCCCC;
+			background-color: #FFF;
+			box-shadow: 0px 0px 15px 2px rgba(204,204,204,0.1);
+			border: solid #ccc 1px;  
+            cursor: pointer;
+		}
+		.template_btn button:hover{
+			color: #f5c988;
+			border: solid #f5c988 1px;
+			background-color: rgba(245,201,136,0.02);
+			box-shadow: 0px 0px 15px 2px rgba(245,201,136,0.1);
+		}
+	}
+	
+	
+	
+	@media only screen and (max-width: 1024px) { 
+	/*========== 网关模板文本 =========*/
+
+    .informationed{margin-bottom: -30px;}
+		.informationed >p {
+		 		margin-bottom: 16px;
+		 		font-size: 12px;
+		 		line-height: 12px;
+		 		letter-spacing: 3px;
+		 		font-weight: bold;
+		 		color: #333;
+		 		padding-left: 21px;
+		 		text-align: left;
+		}
+/*========== 网关模板详细项=========*/
+		.gat_template {
+			margin-left: 54px;
+		}
+/*========== 网关模板详细项 - 框 =========*/
+		.gat_hint {
+			clear: both;
+			margin-bottom: 45px;
+			height: 218px;
+			max-width: 934px;
+			border: 1px solid #f0f0f0;
+			box-shadow: 2px 5px 0px 0px rgba(230,230,230,0.2) ;
+		}
+/*========== 网关模板详细项 - 框标题 =========*/
+		.gat_hint>p {
+			text-align: left;
+			font-size: 10px;
+			color: #999;
+			letter-spacing: 2px;
+			line-height: 24px;
+			padding-left: 12px;
+			background-color: #FCFCFC;
+			border-bottom: 1px solid #f0f0f0;
+		}
+/*========== 网关模板详细项 - 框标重点词 =========*/
+		.gat_hint p>span {
+			color: #333;
+		font-family: "Arial","Microsoft YaHei","SimHei","SimSun";
+		} 
+/*========== 网关模板详细项 - 框选中图标状态 =========*/
+		.gat_hint p>i span{
+			display: inline-block;
+			margin: 4px 14px 0px 0px;
+			cursor: pointer;
+			float: right;
+			width: 16px;
+			height: 16px;
+		  background: url(../../../../static/gateway/img/default.png) no-repeat 0 0;
+		  background-size:16px 16px ;
+		   
+		}
+		.gat_hint p>i> .classB{
+		  background: url(../../../../static/gateway/img/selected.png) no-repeat 0 0;
+		  background-size:16px 16px ;
+		}
+/*========== 网关模板详细项 - 清单详情整块 =========*/
+		.template_name {
+			height: 192px;
+			float: left;
+			display: flex;
+		}
+
+/*========== 网关模板详细项 - 清单详情 1 =========*/
+		.template_one {
+			width: 234px;
+			float: left;
+			border-right: 1px solid #f0f0f0;
+		}
+
+		.template_one li {
+			display: flex;
+			padding: 16px 12px 0px 12px;
+		}
+		.template_one li b {
+		font-family: "Arial","Microsoft YaHei","SimHei","SimSun";
+		    font-weight: normal;
+			color: #333;
+			font-size: 10px;
+			line-height: 10px;
+			padding-right: 5px;
+			letter-spacing: 2px;
+			text-align: left;
+		}
+	
+		.template_one li span{
+			font-size: 10px;
+			color: #999999; 
+			padding-left: 5px;
+			text-align: left;
+			letter-spacing: 2px;
+		}
+	
+		.template_one li:nth-child(3) .span{
+			font-size: 10px;
+			width: 130px;
+			height: 123px;
+			color: #999999;
+            display:inline-block;
+			margin-top: -3px;
+			padding-left: 5px;
+			text-align: left;
+			letter-spacing: 2px;
+			line-height: 19px;
+			overflow-y: auto;
+		}
+/*========== 网关模板详细项 - 清单详情 2 =========*/	
+		.template_name div>p {
+		font-family: "Arial","Microsoft YaHei","SimHei","SimSun";
+			color: #333;
+			font-size: 10px;
+			line-height: 10px;
+			padding: 16px 5px  0px 12px; 
+			letter-spacing: 2px;
+			text-align: left;
+		}
+		.template_tow { 
+			display: flex; 
+		}
+		.template_tow ul {
+			height: 192px;
+			width: 165px;
+			text-align: left;
+			padding-top: 12px;
+			display: inline-block;
+			overflow: auto;
+		}
+		.template_tow ul li,
+		.cityOne ul li {
+			font-size: 10px;
+			color: #999999;
+			line-height: 19px;
+			letter-spacing: 2px;
+			text-align: left;
+			margin-bottom: 8px;
+			padding-left: 5px;
+			cursor: pointer;
+		}
+/*========== 网关模板详细项 - 清单详情 3 =========*/	
+		.cityOne {
+			display: flex;
+			border-left: 1px solid #F0F0F0;
+		}
+		.cityOne ul {
+			height: 192px;
+			width: 160px;
+			text-align: left;
+			padding-top: 12px;
+			display: inline-block;
+		}
+/*========== 网关模板详细项 - 清单详情 4 =========*/	
+		.cityOne_one {
+			float: left;
+			display: flex;
+			border-left: 1px solid #F0F0F0;
+		}
+		.cityOne_one ul{
+			padding-top: 10px;
+		}
+		.cityOne_one ul li {
+			padding: 3px 12px;
+			display: inline-block;
+		}
+/*========== 网关模板提示文本 =========*/	 
+.reminder {
+        	color: #f1584a;
+			font-size: 10px;
+			letter-spacing: 2px;
+			text-align: left;
+        }
+ /*========== 模板下的提示文本 =========*/	 
+ 	.reminder{
+ 		margin-left: 54px; height: 1px; text-align: left;
+ 	}
+ 	
+  .reminder span{
+    font-size: 10px;
+    letter-spacing: 3px;
+  	color: #d84c31; visibility: hidden;
+  }
+/*========== 提交按钮 =========*/	 
+	    .template_btn {
+			margin-bottom: 63px;
+			margin-top: 23px;
+		}
+	    .btnn {
+		  margin-right: 81px;
+	    }
+		.template_btn button {
+			font-family: helvetica;
+			display: inline-block;
+			font-size: 10px;
+			line-height: 10px;
+			border-radius: 18px;
+			letter-spacing: 3px;
+			padding: 12px 33px 12px 36px;
+			color: #CCCCCC;
+			background-color: #FFF;
+			box-shadow: 0px 0px 15px 2px rgba(204,204,204,0.1);
+			border: solid #ccc 1px;  
+            cursor: pointer;
+		}
+		.template_btn button:hover{
+			color: #f5c988;
+			border: solid #f5c988 1px;
+			background-color: rgba(245,201,136,0.02);
+			box-shadow: 0px 0px 15px 2px rgba(245,201,136,0.1);
+		}			
+	}
+	
+	

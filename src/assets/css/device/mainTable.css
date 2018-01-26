@@ -1,0 +1,640 @@
+@media only screen and (min-width: 1441px ){
+/*========== 数据列表区域 =========*/
+.device-main-table {
+  padding: 0px 57px 39px 57px;
+  border-radius: 0px 0px 12px 12px;
+  background-color: #fff;
+}
+/*========== 数据列表  =========*/
+.device-main-table .table-bordered {
+  border: 0;
+  border-collapse: collapse;
+  font-size: 16px;
+  letter-spacing: 4px;
+}
+/*========== 数据列表菜单 =========*/
+.device-main-table .table-bordered>thead>tr>th {
+  text-align: center;
+  font-weight: normal;
+  color: #555;
+  border: 0;
+  background-color: #fcfcfc;
+  border-bottom: 3px solid #f7f7f7;
+  height: 81px;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+/*========== 数据列表菜单 =========*/
+.table-bordered>thead>tr>th:nth-child(2),
+.table-bordered>thead>tr>th:nth-child(3),
+.table-bordered>thead>tr>th:nth-child(4),
+.table-bordered>thead>tr>th:nth-child(6) {
+	padding: 0 !important;
+	cursor: pointer
+}
+/*========== 数据列表菜单文本 =========*/
+.table-bordered>thead>tr>th>span {
+	padding-right: 12px;
+}
+/*========== 数据列表菜单箭头图标  三种状态=========*/
+.sort-default {
+	background: url(../../../../static/device/img/overviewPage/deviceSortDefault.png) right center no-repeat;
+}
+.sort-clockwise {
+	background: url(../../../../static/device/img/overviewPage/deviceSortClockwise.png) right center no-repeat;
+}
+.sort-anticlockwise {
+	background: url(../../../../static/device/img/overviewPage/deviceSortAnticlockwise.png) right center no-repeat;
+}
+.sort-default,
+.sort-clockwise,
+.sort-anticlockwise {background-size: 11px 9px;}
+
+/*========== 数据列表灰色行 =========*/
+.device-main-table .table-bordered>thead>tr {
+  background-color: #fcfcfc;
+}
+/*========== 数据列表白色行 =========*/
+.device-main-table .table-bordered tr:nth-child(odd) td {
+  background-color: #fff;
+}
+
+.device-main-table .table-bordered tr:nth-child(even) td,
+.device-main-table .table-bordered tr:nth-child(even) {
+  background-color: #fcfcfc;
+}
+
+.device-main-table .table-bordered>thead>tr>th:nth-child(1) {
+  width: 143px;
+}
+
+.device-main-table .table-bordered>thead>tr>th:nth-child(2) {
+  width: 181px;
+}
+
+.device-main-table .table-bordered>thead>tr>th:nth-child(3) {
+  width: 84px;
+}
+
+.device-main-table .table-bordered>thead>tr>th:nth-child(4) {
+  width: 124px;
+}
+
+.device-main-table .table-bordered>thead>tr>th:nth-child(5) {
+  width: 194px;
+}
+
+.device-main-table .table-bordered>thead>tr>th:nth-child(6) {
+  width: 186px;
+}
+
+.device-main-table .table-bordered>thead>tr>th:nth-child(7) {
+  width: 163px;
+}
+
+.device-main-table .table-bordered>thead>tr>th:nth-child(8) {
+  width: 266px;
+}
+
+.dataList .dataList_one span:nth-child(1) {
+    display: inline-block;
+  width: 143px;
+}
+.dataList .dataList_one span:nth-child(2) {
+  display: inline-block;
+  width: 181px;
+}
+.dataList .dataList_one span:nth-child(3) {
+  display: inline-block;
+  width: 84px;
+}
+.dataList .dataList_one span:nth-child(4) {
+  display: inline-block;
+  width: 124px;
+}
+.dataList .dataList_tow span:nth-child(1) {
+    display: inline-block;
+  width: 110px;
+}
+.dataList .dataList_tow span:nth-child(2) {
+  display: inline-block;
+  width: 186px;
+}
+.dataList .dataList_tow span:nth-child(3) {
+  display: inline-block;
+  width: 163px;
+}
+.dataList .dataList_tow span:nth-child(4) {
+  display: inline-block;
+  width: 266px;
+}
+
+/*========== 数据列表行文本 =========*/
+.dataList .dataList_one,
+.dataList .dataList_tow {
+	float: left;
+}
+.dataList .dataList_one li{
+  color: #999;
+  text-align: center;
+  border: 0;
+  min-height: 81px;
+  box-sizing: border-box;
+  padding: 32px 20px;
+  vertical-align: middle;
+  line-height: 25px;
+}
+.dataList .dataList_tow li {
+	color: #999;
+  text-align: center;
+  border: 0;
+  min-height: 81px;
+  box-sizing: border-box;
+  padding: 32px 20px;
+  vertical-align: middle;
+  line-height: 25px;
+}
+
+/*========== 新的添加 =========*/
+.device-main-table .tbody {
+	display: inline-block;
+	width: 100%;
+}
+.device-main-table .tbody .addEquipment {
+  text-align: center;
+  color: #88abda;
+  cursor: pointer;
+  padding: 31px 0;
+  font-size: 16px;
+  letter-spacing: 4px;
+}
+.device-main-table .tbody .addEquipment:hover {
+  color: #66a8ff;
+}
+
+.tbody .addEquipment .dataList {
+	display: inline-block; width: 100%;
+}
+
+/*========== 行的框，透明，占位？ =========*/
+.tbody .dataList ul>li {
+  border: 1px inset transparent;
+  border-collapse: collapse;
+}
+.tbody .dataList ul>li span{
+	font-size: 16px;
+	display: inline-block;
+	letter-spacing: 4px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.dataList ul li span:hover:not(:nth-child(0)) {
+	text-overflow:inherit;
+	/*overflow:visible;*/
+}
+/*========== 行的框鼠标悬浮样式 =========*/
+.tbody .dataList .dataList_one li:hover:not(:nth-child(0)) {
+  border: 1px solid #f5c988;
+  box-shadow: 0 0 15px 2px rgba(245,201,136,.05);
+}
+
+.scroll-top {
+	position: fixed;
+	right: 78px;
+	bottom: 125px;
+	cursor: pointer;
+	width: 63px;
+	height: 42px;
+	background: url(../../../../static/device/img/overviewPage/top.png) no-repeat;
+	background-size: 100% 100%;
+}
+}
+
+
+
+
+
+
+@media only screen and (min-width: 1025px ) and (max-width: 1440px ) {
+	
+/*========== 数据列表区域 =========*/
+.device-main-table {
+  padding: 0px 42px 30px 42px;
+  border-radius: 0px 0px 12px 12px;
+  background-color: #fff;
+}
+/*========== 数据列表  =========*/
+.device-main-table .table-bordered {
+  border: 0;
+  border-collapse: collapse;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+/*========== 数据列表菜单 =========*/
+.device-main-table .table-bordered>thead>tr>th {
+  text-align: center;
+  font-weight: normal;
+  color: #555;
+  border: 0;
+  background-color: #fcfcfc;
+  border-bottom: 3px solid #f7f7f7;
+  height: 61px;
+  box-sizing: border-box;
+  padding: 0 15px;
+}
+/*========== 数据列表菜单 =========*/
+.table-bordered>thead>tr>th:nth-child(2),
+.table-bordered>thead>tr>th:nth-child(3),
+.table-bordered>thead>tr>th:nth-child(4),
+.table-bordered>thead>tr>th:nth-child(6) {
+	padding: 0 !important;
+	cursor: pointer
+}
+/*========== 数据列表菜单文本 =========*/
+.table-bordered>thead>tr>th>span {
+	padding-right: 9px;
+}
+/*========== 数据列表菜单箭头图标  三种状态=========*/
+.sort-default {
+	background: url(../../../../static/device/img/overviewPage/deviceSortDefault.png) right center no-repeat;
+}
+.sort-clockwise {
+	background: url(../../../../static/device/img/overviewPage/deviceSortClockwise.png) right center no-repeat;
+}
+.sort-anticlockwise {
+	background: url(../../../../static/device/img/overviewPage/deviceSortAnticlockwise.png) right center no-repeat;
+}
+.sort-default,
+.sort-clockwise,
+.sort-anticlockwise {background-size: 8px 7px;}
+
+/*========== 数据列表灰色行 =========*/
+.device-main-table .table-bordered>thead>tr {
+  background-color: #fcfcfc;
+}
+/*========== 数据列表白色行 =========*/
+.device-main-table .table-bordered tr:nth-child(odd) td {
+  background-color: #fff;
+}
+
+.device-main-table .table-bordered tr:nth-child(even) td,
+.device-main-table .table-bordered tr:nth-child(even) {
+  background-color: #fcfcfc;
+}
+
+.device-main-table .table-bordered>thead>tr>th:nth-child(1) {
+  width: 107px;
+}
+
+.device-main-table .table-bordered>thead>tr>th:nth-child(2) {
+  width: 136px;
+}
+
+.device-main-table .table-bordered>thead>tr>th:nth-child(3) {
+  width: 63px;
+}
+
+.device-main-table .table-bordered>thead>tr>th:nth-child(4) {
+  width: 93px;
+}
+
+.device-main-table .table-bordered>thead>tr>th:nth-child(5) {
+  width: 145px;
+}
+
+.device-main-table .table-bordered>thead>tr>th:nth-child(6) {
+  width: 139px;
+}
+
+.device-main-table .table-bordered>thead>tr>th:nth-child(7) {
+  width: 122px;
+}
+
+.device-main-table .table-bordered>thead>tr>th:nth-child(8) {
+  width: 199px;
+}
+
+
+.dataList .dataList_one span:nth-child(1) {
+    display: inline-block;
+  width: 107px;
+}
+.dataList .dataList_one span:nth-child(2) {
+  display: inline-block;
+  width: 136px;
+}
+.dataList .dataList_one span:nth-child(3) {
+  display: inline-block;
+  width: 33px;
+}
+.dataList .dataList_one span:nth-child(4) {
+  display: inline-block;
+  width: 93px;
+}
+.dataList .dataList_tow span:nth-child(1) {
+    display: inline-block;
+  width: 100px;
+}
+.dataList .dataList_tow span:nth-child(2) {
+  display: inline-block;
+  width: 139px;
+}
+.dataList .dataList_tow span:nth-child(3) {
+  display: inline-block;
+  width: 122px;
+}
+.dataList .dataList_tow span:nth-child(4) {
+  display: inline-block;
+  width: 199px;
+}
+
+
+/*========== 数据列表行文本 =========*/
+.dataList .dataList_one,
+.dataList .dataList_tow {
+	float: left;
+}
+
+.dataList .dataList_one li,
+.dataList .dataList_tow li {
+  color: #999;
+  text-align: center;
+  background-color: #fff;
+  border: 0;
+  min-height: 61px;
+  box-sizing: border-box;
+  padding: 24px 15px;
+  vertical-align: middle;
+  line-height: 18px;
+}
+/*========== 新的添加 =========*/
+.device-main-table .tbody {
+	display: inline-block;
+	width: 100%;
+}
+
+.device-main-table .tbody .addEquipment {
+  text-align: center;
+  color: #88abda;
+  cursor: pointer;
+  padding: 23px 0;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+.device-main-table .tbody .addEquipment:hover  {
+  color: #66a8ff;
+}
+.tbody .addEquipment .dataList {
+	display: inline-block; width: 100%;
+}
+/*========== 行的框，透明，占位？ =========*/
+.tbody .dataList ul>li {
+  border: 1px inset transparent;
+  border-collapse: collapse;
+}
+.tbody .dataList ul>li span{
+	font-size: 12px;
+	display: inline-block;
+	letter-spacing: 3px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.dataList ul li span:hover:not(:nth-child(0)) {
+	text-overflow:inherit;
+	/*overflow:visible;*/
+}
+/*========== 行的框鼠标悬浮样式 =========*/
+.tbody .dataList .dataList_one li:hover:not(:nth-child(0)) {
+  border: 1px solid #f5c988;
+  box-shadow: 0 0 15px 2px rgba(245,201,136,.05);
+}
+
+.scroll-top {
+	position: fixed;
+	right: 58px;
+	bottom: 93px;
+	cursor: pointer;
+	width: 48px;
+	height: 31px;
+	background: url(../../../../static/device/img/overviewPage/top.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+/*========== 数据列表区域 =========*/
+.device-main-table {
+  padding: 0px 30px 21px 30px;
+  border-radius: 0px 0px 12px 12px;
+  background-color: #fff;
+}
+/*========== 数据列表  =========*/
+.device-main-table .table-bordered {
+  border: 0;
+  border-collapse: collapse;
+  font-size: 9px;
+  letter-spacing: 2px;
+}
+/*========== 数据列表菜单 =========*/
+.device-main-table .table-bordered>thead>tr>th {
+  text-align: center;
+  font-weight: normal;
+  color: #555;
+  border: 0;
+  background-color: #fcfcfc;
+  border-bottom: 3px solid #f7f7f7;
+  height: 43px;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+/*========== 数据列表菜单 =========*/
+.table-bordered>thead>tr>th:nth-child(2),
+.table-bordered>thead>tr>th:nth-child(3),
+.table-bordered>thead>tr>th:nth-child(4),
+.table-bordered>thead>tr>th:nth-child(6) {
+	padding: 0 !important;
+	cursor: pointer
+}
+/*========== 数据列表菜单文本 =========*/
+.table-bordered>thead>tr>th>span {
+	padding-right: 6px;
+}
+/*========== 数据列表菜单箭头图标  三种状态=========*/
+.sort-default {
+	background: url(../../../../static/device/img/overviewPage/deviceSortDefault.png) right center no-repeat;
+}
+.sort-clockwise {
+	background: url(../../../../static/device/img/overviewPage/deviceSortClockwise.png) right center no-repeat;
+}
+.sort-anticlockwise {
+	background: url(../../../../static/device/img/overviewPage/deviceSortAnticlockwise.png) right center no-repeat;
+}
+.sort-default,
+.sort-clockwise,
+.sort-anticlockwise {background-size: 6px 5px;}
+
+/*========== 数据列表灰色行 =========*/
+.device-main-table .table-bordered>thead>tr {
+  background-color: #fcfcfc;
+}
+/*========== 数据列表白色行 =========*/
+.device-main-table .table-bordered tr:nth-child(odd) td {
+  background-color: #fff;
+}
+
+.device-main-table .table-bordered tr:nth-child(even) td,
+.device-main-table .table-bordered tr:nth-child(even) {
+  background-color: #fcfcfc;
+}
+
+.device-main-table .table-bordered>thead>tr>th:nth-child(1) {
+  width: 76px;
+}
+
+.device-main-table .table-bordered>thead>tr>th:nth-child(2) {
+  width: 96px;
+}
+
+.device-main-table .table-bordered>thead>tr>th:nth-child(3) {
+  width: 45px;
+}
+
+.device-main-table .table-bordered>thead>tr>th:nth-child(4) {
+  width: 66px;
+}
+
+.device-main-table .table-bordered>thead>tr>th:nth-child(5) {
+  width: 103px;
+}
+
+.device-main-table .table-bordered>thead>tr>th:nth-child(6) {
+  width: 99px;
+}
+
+.device-main-table .table-bordered>thead>tr>th:nth-child(7) {
+  width: 87px;
+}
+
+.device-main-table .table-bordered>thead>tr>th:nth-child(8) {
+  width: 142px;
+}
+.dataList .dataList_one span:nth-child(1) {
+	display: inline-block;
+  width: 76px;
+}
+
+.dataList .dataList_one span:nth-child(2) {
+	display: inline-block;
+  width: 96px;
+}
+
+.dataList .dataList_one span:nth-child(3) {
+	display: inline-block;
+  width: 45px;
+}
+
+.dataList .dataList_one span:nth-child(4) {
+	display: inline-block;
+  width: 66px;
+}
+
+.dataList .dataList_tow span:nth-child(1) {
+	display: inline-block;
+  width: 58px;
+}
+
+.dataList .dataList_tow span:nth-child(2) {
+	display: inline-block;
+  width: 99px;
+}
+
+.dataList .dataList_tow span:nth-child(3) {
+	display: inline-block;
+  width: 87px;
+}
+
+.dataList .dataList_tow span:nth-child(4) {
+	display: inline-block;
+  width: 142px;
+}
+
+/*========== 数据列表行文本 =========*/
+.dataList .dataList_one,
+.dataList .dataList_tow {
+	float: left;
+}
+.dataList .dataList_one li,
+.dataList .dataList_tow li {
+  color: #999;
+  text-align: center;
+  border: 0;
+  min-height: 43px;
+  box-sizing: border-box;
+  padding: 17px 10px;
+  vertical-align: middle;
+  line-height: 14px;
+}
+/*========== 新的添加 =========*/
+.device-main-table .tbody {
+	display: inline-block;
+	width: 100%;
+}
+
+.device-main-table .tbody .addEquipment  {
+  text-align: center;
+  color: #88abda;
+  cursor: pointer;
+  padding: 16px 0;
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+.device-main-table .tbody .addEquipment:hover {
+  color: #66a8ff;
+}
+
+.tbody .addEquipment .dataList {
+	display: inline-block; width: 100%;
+}
+/*========== 行的框，透明，占位？ =========*/
+.tbody .dataList ul>li {
+  border: 1px inset transparent;
+  border-collapse: collapse;
+}
+
+.tbody .dataList ul>li span{
+	font-size: 10px;
+	display: inline-block;
+	letter-spacing: 2px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.dataList ul li span:hover:not(:nth-child(0)) {
+	text-overflow:inherit;
+	/*overflow:visible;*/
+}
+
+/*========== 行的框鼠标悬浮样式 =========*/
+.tbody .dataList .dataList_one li:hover:not(:nth-child(1)) {
+  border: 1px solid #f5c988;
+  box-shadow: 0 0 7px 2px rgba(245,201,136,.05);
+}
+
+.scroll-top {
+	position: fixed;
+	right: 42px;
+	bottom: 66px;
+	cursor: pointer;
+	width: 33px;
+	height: 22px;
+	background: url(../../../../static/device/img/overviewPage/top.png) no-repeat;
+	background-size: 100% 100%;
+}
+}
